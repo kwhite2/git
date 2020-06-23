@@ -38,7 +38,7 @@ Forthcoming.
 
 ### Ethical Considerations
 
-- 
+- Within the nebulous open-source ecosystem, GitHub is an important place for storing and finding code. What if your open source code was used by an entity or for a purpose that did not agree with your ethics? For example, the platform received backlash from employees of GitHub and users of the platform when it was revealed that they held a contract with ICE. In this case, neither wanted code their code shared and used by ICE in detaining and deporting immigrants. [Read more here.](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/)
 
 ## Resources (optional)
 
