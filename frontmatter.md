@@ -45,16 +45,13 @@ Forthcoming.
 
 - Within the nebulous open-source ecosystem, GitHub is an important place for storing and finding code. What if your open source code was used by an entity or for a purpose that did not agree with your ethics? For example, the platform received backlash from employees of GitHub and users of the platform when it was revealed that they held a contract with ICE. In this case, neither group wanted their code shared and used by ICE in detaining and deporting immigrants. [Read more here.](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/)
 
-## Resources (optional)
+## Resources
 
 - Download a plain text editor: [We recommend VS Code](https://code.visualstudio.com/Download).
 - [Create a GitHub account](https://github.com/join). 
 - [GitHub Cheatsheet](git-cheat-sheet.pdf)
+- [How Digital Humanists Use GitHub](https://digitalscholarship.wordpress.com/2016/07/20/presentation-on-how-digital-humanists-use-github/): A presentation from Lisa Spiro and Sean Morey-Smith on their study of how Digital Humanists use GitHub.
 
 ## Acknowledgements
 - Current author: Kristen Hackett
-- Patrick Sweeney
-- Jojo Karlin
-- Jennifer Tang
-- Stephen Zweibel
-- Mary Catherine McKinniburgh
+- Past Contributors include: Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh
