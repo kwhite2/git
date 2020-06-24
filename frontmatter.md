@@ -36,10 +36,12 @@ Forthcoming.
 
 ### Projects that use these skills
 
-- Leaflet, an open-source Javascript library for building mobile-friendly interactive maps [has been built out in a repo that lives on GitHub](https://github.com/Leaflet/Leaflet). 
 - [GCDI's digital research institute](https://github.com/DHRI-Curriculum) has been improved and built out over time using GitHub to store and track multiple projects that use the same base of repositories, and new versions.
 - F-ing Algorithm project uses Git and GitHub to create multiple versions of their project in different languages - ([Chinese](https://github.com/labuladong/fucking-algorithm) and [English](https://github.com/labuladong/fucking-algorithm/tree/english)), and to create a [GitBook](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming) for sharing their work. 
 - Here are two examples of using Git and GitHub for teaching - [a syllabus using a GitHub repo](https://github.com/quinnanya/dlcl204) and [a syllabus using a repo and GitPages](https://digitalhistory.github.io/).
+- [Fake New Corpus](https://github.com/several27/FakeNewsCorpus), an open source dataset composed of millions of news articles mainly intended for use in training deep learning algorithms for purpose of fake news recognition. The dataset is still work in progress and for now, the public version includes only 9,408,908 articles.
+- [C+=](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality), a feminist programming language, created by The Feminist Software Foundation to smash the toxic Patriarchy that is inherent in and that permeates all current computer programming languages.
+- [Leaflet](https://github.com/Leaflet/Leaflet), an open-source Javascript library for building mobile-friendly interactive maps.
 
 ### Ethical Considerations
 
