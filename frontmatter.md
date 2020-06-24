@@ -55,5 +55,6 @@ Forthcoming.
 - [How Digital Humanists Use GitHub](https://digitalscholarship.wordpress.com/2016/07/20/presentation-on-how-digital-humanists-use-github/): A presentation from Lisa Spiro and Sean Morey-Smith on their study of how Digital Humanists use GitHub.
 
 ## Acknowledgements
+
 - Current author: Kristen Hackett
 - Past Contributors include: Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh
