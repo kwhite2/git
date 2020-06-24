@@ -47,12 +47,12 @@ Forthcoming.
 
 ## Resources (optional)
 
-- For this workshop, you'll need a plain text editor. We recommend VS Code.
-- If you want to use GitHub and complete that portion of the workshop, you'll need to [create an account](https://github.com/join). 
-- Check out and use this [Cheatsheet](git-cheat-sheet.pdf) before and during the workshop.
+- Download a plain text editor: [We recommend VS Code](https://code.visualstudio.com/Download).
+- [Create a GitHub account](https://github.com/join). 
+- [GitHub Cheatsheet](git-cheat-sheet.pdf)
 
 ## Acknowledgements
-
+- Current author: Kristen Hackett
 - Patrick Sweeney
 - Jojo Karlin
 - Jennifer Tang
