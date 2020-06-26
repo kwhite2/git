@@ -52,7 +52,8 @@ Forthcoming.
 
 - Download a plain text editor: [We recommend VS Code](https://code.visualstudio.com/Download).
 - [Create a GitHub account](https://github.com/join). 
-- [GitHub Cheatsheet](git-cheat-sheet.pdf)
+- [Git/GitHub Cheatsheet](git-cheat-sheet.pdf)
+- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Acknowledgements
 

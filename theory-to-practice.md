@@ -24,7 +24,6 @@
 
 - [An intro to Git: What it is and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
 - [Getting Started with GitHub](https://help.github.com/en/github/getting-started-with-github)
-- [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Projects or Challenges to Try
 
