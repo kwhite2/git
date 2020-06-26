@@ -33,6 +33,7 @@
 
 ## Discussion Questions
 
+- What does your current version control workflow look like and what are the challenges it poses; or how could it be improved?
 - How can git support the work you are already doing? 
-- Do(es) git and/or GitHub create additional opportunities for your teaching, research or other scholarly work? 
+- What additional opportunities does git and/or GitHub and/or Markdown create for your teaching, research or other scholarly work? 
 - What are the potential benefits and pitfalls of working in the open on the web via a platform like GitHub? 
