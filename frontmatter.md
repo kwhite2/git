@@ -11,11 +11,11 @@ In this session, we'll learn what makes Git such a powerful tool for both collab
 - Learn what Git, GitHub and Markdown are, how do they differ, and how they can be integrated to support your scholarly work.
 - Learn what version control is and why it can be useful
 - Review basic Command line functions 
-- Install and configure Git on your local machine - ('git--version'), ('git--config')
+- Install and configure Git on your local machine - (`git--version`), (`git--config`)
 - Practice using basic Markdown by Creating a Syllabus using a plain text editor (including headers, lists, bold, and emphasize)
-- Stage and committ changes using Git - ('git status'), ('git add'), ('git commit -m'), and ('git log')
-- Pushing repo with Git and files to GitHub ('git push origin master')
-- Cloning an existing repo on GitHub to your local machine so you can work with it - ('git clone')
+- Stage and committ changes using Git - (`git status`), (`git add`), (`git commit -m`), and (`git log`)
+- Pushing repo with Git and files to GitHub (`git push origin master`)
+- Cloning an existing repo on GitHub to your local machine so you can work with it - (`git clone`)
 
 ## Estimated time
 
