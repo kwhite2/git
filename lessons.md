@@ -68,20 +68,23 @@ As you can see across these sessions, we use GitHub to host workshop curricula. 
 
 #### Case One: This Session
 
-If you look just under the workshop title, `DHRI-Curriculum/git` at the top of this page, you can see it is `forked from pswee001/Git_DRI_Jan_2018`. That line shows that this particular repository is building on ("forked from") the curriculum for a session I presented at our January 2018 Institute. If you then look at that repository, you will see that it is in turn forked from previous sessions that were developed by other GC Digital Fellows for workshops in past years. 
+If you look just under the workshop title, `DHRI-Curriculum/git` at the top of this page, you can see it is `forked from pswee001/Git_DRI_Jan_2018`. That line shows that this particular repository is building on ("forked from"*) the curriculum for a session I presented at our January 2018 Institute. If you then look at that repository, you will see that it is in turn forked from previous sessions that were developed by other GC Digital Fellows for workshops in past years. 
+
+*Forking* is a proper function of GitHub. It supports collaboration by maintaining a trail of attribution and derivation.
 
 ### Collaborative Writing
 
-Some of us use Git to track changes (*version control* in Git parlance) in writing projects, and find it to be a cleaner, more elegant solution than the Track Changes functionality in Microsoft Word.
+Git is also used to track changes (*version control* in Git parlance) in writing projects, especially when there are multiple authors working asynchronously. It can be an alternative to using track changes in Microsoft Word, or comments and edits in a Google Doc.
 
 #### Case Two: Coauthored Publications
 
-I personally have had Word crash and sections of an article lost, when I was collaborating on a large writing project with co-authors who were using different versions of Word. If we had tracked our revisions using Git, the previous versions of the paper would always be saved and changes documented in case we wanted to return to an idea from an earlier draft, or a section that reviewer 3 *really* wants to see included in the discussion but was cut for space.
+Git and GitHub - together or independently - support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the master project. These are the process of creating branches, and merging. Git and GitHub also help with attribution by tracking individual contributions throughout. Additional branches could be created by a singular author as well, allowing the writer to explore different ways forward. The version control feature also allows authors to easily return to and compare older drafts or retrieve sections previoulsy discarded. 
 
 ### Versions Across Time
 
-Have you ever had a folder full of multiple and conflicting versions of documents that looked like this?
+How do you come by and develop your syllabi over time? Many of us borrow and adapt from each other, and most of us probably update our syllabi each semester, even if only a little bit.
 
+Put your hand up if you have  a folder somewhere that looks something like this. Or even multiple folders. 
 
 ```
 |
@@ -95,12 +98,10 @@ Have you ever had a folder full of multiple and conflicting versions of document
    --syllabus?.doc 
 ```
 
-Many of us borrow and adapt from syllabi that colleagues have shared with us. For example, when I first taught, I was offered syllabi by colleagues who had taught the course before. I used some of their work as a base to build my particular course, and after developing my own syllabi, I happily emailed them to other graduate students teaching for the first time. 
-
-This common and collegial practice has some challenges, however. As my colleagues and I emailed around Word documents, it became difficult to identify who had created which assignments or language, and we rarely got to see how others developed innovative approaches that would be useful in our own classes. 
+Put your other hand up if you can't remember who you initially got this syllabus from. Do you know if there were other contributors befor them? 
 
 #### Case Three: Syllabi
 
-If my colleagues and I had instead forked our syllabi from each other's repositories on GitHub, our individual work would be attributed, and we could follow each other's revisions and additions to better revise our own. I could also easily trace forked repositories back to syllabi from previous semesters and dig up that classic or obscure reading that I wanted to reincorporate into the course.
+Increasingly we see that faculty are sharing their syllabi on GitHub. Some are even using GitPages that apply a user-friendly interface to their repository to make it easier to access and navigate for their students. Using Git and GitHub, you could fork that syllabi to your account, and download - or clone as Git calls is - it to your local machine to edit. After making changes to the files and pushing them to your repo on GitHub, someone else could compare the changes you made, and fork your version, or return to the original and fork from there. Both Git and GitHub help with attribution here; tracking who changes and adds what is a key feature of both tools.
 
-Later in this workshop, you will create your own syllabus, track different versions of it, and replicate ("push") your local version to GitHub. With luck, this will give you a sense of how some of the above workflows might work in practice.
+Even if you were only working with your own self-created syllabus, like we'll do later in this workshop, Git and GitHub can be useful for tracking your changes without the hassle of multiple files. From one file, you can use Git to compare your current version with older versions; you can also compare and share these different versions on GitHub.
