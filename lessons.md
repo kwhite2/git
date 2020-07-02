@@ -28,6 +28,16 @@ Compare that with this, showing the source code for the GitHub page, written in 
 
 It's also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an epub with one command entered into your terminal.
 
+## Highlighting Distinctions
+
+As we move forward its important to make sure we're firm on the distinctions between the three different tools outlined above. 
+
+**Git** is a software that you use on your laptop, or your local computer/machine. The repository with your project's files is stored on your harddrive. You also edit the text files on your local machine using a plain text editor, which is another software on your local machine like VS Code. 
+
+**GitHub** is a cloud-based platform that you access through your internet browser. Even though you physically are still in the same place, working on your laptop, you are no longer working on your local machine, you are on the Internet. This is a fundamentally different location than when you're working with your Git repository and editing and creating files in your plain text editor. With GitHub, you are uploading your repository - as described above - to this platform to be shared more broadly. You can also create private repositories if you want to use GitHub to backup a project.  
+
+**Markdown** is the language used to format the plain text files in your Git-enabled repository. GitHub reads this language so your markups to the file are rendered when you view your file on the platform (i.e. #headers appears as headers, links are inserted).
+
 # What You Can Do with Git and GitHub
 
 A [study of how Digital Humanists use GitHub](https://digitalscholarship.files.wordpress.com/2016/07/spirosmithdh2016githubpresentationfinal.pdf), conducted by Lisa Spiro and Sean Morey Smith, found that a wide range of users, including professors, research staff, graduate students, IT staff, and librarians commonly used the site in their DH work. They used GitHub for a diverse range of activities, such as:
