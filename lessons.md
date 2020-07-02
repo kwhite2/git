@@ -553,6 +553,8 @@ For example, go to [the repository for this workshop](https://github.com/DHRI-Cu
 
 Your local machine would come into play when you want to **clone** that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account. 
 
+You might use this method is you were going to teach your own Git & GitHub workshop. You might want to use our repository as a base for getting started, but maybe you want to add more examples or changes some language, clarify something further, or create a connection to another workshop you are giving, etc. This allows us to continue to use the workshop as we have it as well. Or maybe at a later time, we want to merge some of your changes with ours. We can do that too by revisiting your version history. 
+
 ## Challenge
 
 As we're the end of this lesson, here's a challenge that tests how much you've learned through this introduction. 
