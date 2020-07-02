@@ -178,3 +178,33 @@ Enter the new `git` folder with
 At this point, when you type `pwd`, your folder structure should look like this:
 
 	/home/<username>/Desktop/projects/git-practice
+
+# Setting Up Git
+
+Our first step in working with Git is configuring it with your own name and information.
+
+## Check Your Install
+
+Let's make sure Git has been successfully installed. In your terminal, type
+
+	git --version
+
+If you see a version number, you're all set. If not, click [here](http://git-scm.com/downloads) and install as you would any other software on your system.
+
+## Configuring Git on Your Computer
+
+Before we get started, we'll want to configure git so that it can identify who we are. This information is useful because it connects identifying information with the changes you make in your repository. 
+
+Type the following into your command line, filling in the sections—below labelled "John Doe"—for your name and email. This does not necessarily need to be the name and email you used to sign up for GitHub.
+
+	git config --global user.name "John Doe"
+	git config --global user.email johndoe@example.com
+
+To check your set-up, use:
+
+	git config --list
+
+You'll get something that looks like this:
+
+	user.name=Superstar Git User
+	user.email=gitsuperstar@gmail.com
