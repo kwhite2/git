@@ -223,7 +223,9 @@ You should see output like this:
 
 	Initialized empty Git repository in /home/patrick/projects/git/.git/
 	
-Now Git is tracking our directory. But before that's useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a course syllabus—we'll create that next.
+Now Git is tracking our directory. Importantly, it has not done any versioning yet. There is no history of changes as of yet: 1) because there are no files and we haven't made any changes, 2) becuase we have to tell Git when to take a snapshot, which we go through in the next section. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tel it to.
+
+Before version control useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a course syllabus—we'll create that next.
 
 ### Creating a Syllabus in Markdown
 
@@ -239,43 +241,45 @@ to open a `syllabus.md` file in VS Code. You should see a window appear that loo
 
 If VS Code does not open when you use the `code` command in your terminal, open it using the Start Menu on Windows or Spotlight Search on Mac OS as you would any other software. Then click `File > Open File` and use the dialog to navigate to the `/Users/<your-name>/Desktop/projects/git` folder and create a `syllabus.md` file there.
 
-We'll be typing our markdown into this VS Code window. At any time, you can save your file by hitting `Control-s` on Windows or `⌘-s` on Mac OS. Alternatively, you can click the `File` menu on the top right, then select `Save` from the dropdown menu.
+We'll be typing our markdown into this file in the VS Code window. At any time, you can save your file by hitting `Control-s` on Windows or `⌘-s` on Mac OS. Alternatively, you can click the `File` menu on the top right, then select `Save` from the dropdown menu.
+
+Saving frequently is advised. When we get to the version contol functionality of Git, only changes that are saved will be preserved when a version is created. 
 
 ## Using Markdown
 
-We'll be using markdown to create a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.
+We'll be using markdown to write a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.
 
 In markdown, we insert headings with a single hash mark like this:
-
+```
 	# My Syllabus Heading
-	
+```	
 A sub-heading (H2) heading uses two hash marks like this:
-
+```
 	## Readings
-	
+```	
 To provide emphasis, place asterisks around some text:
-
+```
 	*This text will appear italicized.*
 	**This text will appear bold.**
-
-For emphasis, you need to mark where it should start and where it should end, so you need astrisks at the beginning and end of whatever text is being emphasized. 	
+```
+For emphasis, you need to mark where it should start and where it should end, so you need astrisks at the beginning and end of whatever text is being emphasized.
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
-
+```
 	- Reading one
 	- Reading two
 	- Reading three
-	
+```	
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
-
+```
 	I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
-	
+```	
 Paragraphs of text are denoted by putting a blank line between them:
-
+```
 > This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the \<p> tag. That means that there is a little space before and after the paragraph when it is rendered.
 > 
 > This is a second paragraph in markdown, which I'll use to tell you what I like about markdown. I like markdown because it looks pretty good, if minimal, whether you're looking at the rendered or unrendered version. It's like tidy HTML.
-
+```
 
 Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one `#`), then subheadings for, at least, course info and readings. Use emphasis (`*`) for book titles and try to get a list in there somewhere.
 
@@ -292,3 +296,128 @@ You'll get two side-by-side panels. Your markdown file will be on the left, and 
 ![Side by side markdown and preview in VS Code](../images/vscode4.png)
 
 Remember to save your work with `Control-s` on Windows or `⌘-s` on Mac OS.
+
+# Staging and Committing Changes
+
+Git's primary function is version control, or to track a project as it exists at different points in time. Now that we have a file to track—our markdown syllabus—let's use Git to save the current state of the repository as it exists now.
+
+## A Metaphor for Adding and Committing
+
+In Git, a **commit** is a snapshot of a repository that is entered into its permanent history. To commit a change to a repository, we take two steps:
+
+1. Adding files to a "staging area," meaning that we intend to commit them. 
+2. Finalizing the commit.
+
+Staging a file or files is you telling Git, "hey! pay attention these files and the changes in them". 
+Making a commit is a lot like taking a photo. First, you have to decide who will be in the photo and arrange your friends or family in front of the camera (the staging process). Once everyone is present and ready, you take the picture, entering that moment into the permanent record (the commit process).
+
+## Staging Changes with the Add Command
+
+First, let's see what state Git is currently in. It's a good idea to use this command before and after doing anything in Git so you can always be on the same page as the computer.
+
+Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
+```
+	git status
+```	
+You should see output like this:
+
+```
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	syllabus.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+This means we've initialized our repository, but haven't made any commits yet. If you're instead getting a message that begins with the word `fatal` when you use `git status`, you may be in the wrong directory or perhaps you haven't run the `git init` command on your directory yet.
+
+Let's follow the recommendation in the status message above and use the `add` command to stage files, making them ready to be committed.
+
+Type this command:
+
+	git add syllabus.md
+	
+You should see no output from the command line, meaning that the above command succeeded. Let's run `git status` again to check if things have changed. You should see output like this:
+
+```
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   syllabus.md
+```
+
+The `new file:   syllabus.md` should be highlighted in green to show that it's ready for commit. This is Git telling you, "Ok, I see the file(s) you're talking about." 
+
+## Committing Changes
+
+Now that our files have been staged, let's commit them, making them part of the permanent record of the repository. Type:
+
+	git commit -m "Initial commit of syllabus file"
+	
+The `-m` flag provides a message along with the commit that will tell others—or remind a future version of yourself—what the commit was all about. Try not to type `git commit` without the `-m` flag for now—there's a note about this below.
+
+After running the command, you should see output like this:
+
+```
+[master (root-commit) 8bb8306] Initial commit of syllabus file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 syllabus.md
+```
+
+This means you have successfully made your first commit in the repository—congratulations!
+
+Let's check the state of our repository after the commit with `git status`:
+
+```
+On branch master
+nothing to commit, working tree clean
+```
+
+This means that everything in the repository is successfully committed and up-to-date. If you edit your syllabus file or create a new file in the repository, the message you get with `git status` will instead list files that have uncommitted changes.
+
+Let's run one other command to see the effect our commit has had. Enter this command:
+
+	git log
+	
+You should see output similar to this:
+
+```
+commit 8bb8306c1392eed52d4407eb16867a49b49a46ac (HEAD -> master)
+Author: Patrick Smyth <patricksmyth01@gmail.com>
+Date:   Sun May 20 16:03:39 2018 -0400
+
+    Initial commit of syllabus file
+```
+
+This is the log of commits, comprising a history of your repository. There's only one commit here now, though. If you don't see a prompt (the `$`) after running `git log`, you may need to press the `q` key (just the `q` key by itself) to return to the command line.
+
+## Why Do We Need to Use the -m Flag?
+
+The -m flag is useful for human purposes and technical purposes. For human purposes, the -m flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes - your notes to self are limited, so to make the clear you might make commits after specific tasks are completed, such as: update readings for week 1 - X Author added.This can also make it easier to reverse a specific change in the future. 
+
+Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message. Unfortunately, the default text editor, `vi`, requires some knowledge to use, and we don't teach it as part of our sessions.
+
+If you find yourself stuck in an unfamiliar screen in the command line after running `git commit`, you're probably in `vi`. Type this to leave that environment and return to the `$` prompt:
+
+	:q
+	
+If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt:
+
+```
+Control-c
+Control-d
+q
+:q
+```
+
+`Control-c` attempts to abort the current task and restore user control. `Control-d` escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is used to escape from specific utilities like `less`. `:q` first changes the mode in `vi`, allowing you to enter the `q` key to quit, so it's a command specific to `vi`.
+
