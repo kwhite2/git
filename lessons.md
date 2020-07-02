@@ -108,9 +108,14 @@ Even if you were only working with your own self-created syllabus, like we'll do
 
 # Review of the Command Line
 
-In this session, we'll be using the command line (terminal, bash) from the Command Line workshop. We'll also use your text editor and your browser. We'll be moving between these three spaces throughout the workshop. You may want to use (command + tab) or (ctrl + tab) to move quickly between the three windows on your desktop.
+During this workshop, you'll be communicating with GitHub from our local machine via the command line (terminal, bash). It will be useful if you've taken [the Command Line Workshop](https://github.com/DHRI-Curriculum/command-line) before continuing. This section reviews some of the basic commands that will also be used in this workshop.  
 
-To begin with, we'll review some command line basics, including navigation. For more on the command line, review the [materials for the command line session](https://github.com/DHRI-Curriculum/command-line).
+In addition to the command line, you'll be using your text editor and your browser. Before continuing, its important that we clearly distinguish between these three different spaces or environments:
+- your plain text editor where you'll be writing your syllabus in markdown, which will be saved in the git-enabled repository on your local machine,
+- your browser, where you'll be uploading your repository to GitHub
+- your terminal where you'll be communicating with GitHub to send the repository and project files back and forth between the web to your hard drive. 
+
+Because you'll be moving between these three spaces throughout the workshop, you may want to use (command + tab) or (ctrl + tab) to move quickly between the three windows on your desktop.
 
 ## Accessing the Terminal
 
