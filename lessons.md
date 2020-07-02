@@ -495,18 +495,26 @@ Challenge yourself by going the process a few more times by adding additional re
 
 Also try creating a new file and adding an assignment. Rewrite the assignment using Markdown, or edit and add in the markers. Go through the process of staging and commiting that file, and pushing it to your repository on GitHub. 
 
-# Cloning
+# Cloning & Forking
 
-**Cloning** a repository means making a copy to work on locally. When you clone a repository from GitHub, information about where it was cloned from will automatically be added to your local version. This means that commands like `git push` will work without adding additional information.
+GitHub was built for sharing and collaborating on projects. A key advantage of that platform is that you can find lots of bits of software that do many different things - such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the say.
 
-	git clone <repository-url>
+Cloning and forking are the basic functions of this capability. Each are first explained below, and followed by an example and activity to further explain. 
 
-For practice, let's clone the repository for this session about Git and GitHub.
+## Cloning
+
+**Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally - on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
+```
+git clone <repository-url>
+```
+When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin master` will work. 
+
+For practice, let's clone the repository for this workshop about Git and GitHub.
 
 First, let's navigate back to your Desktop folder.
 
 	cd ~/Desktop
-	
+
 Remember that the ~ refers to your home directory. Now let's find the URL we need to clone the lesson.
 
 First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
@@ -532,3 +540,23 @@ If the command is successful, the full Git lesson will be replicated on your loc
 	cd git
 	
 to enter the lesson folder, since the lesson repository is simply called `git`. Use the `ls` command to take a look at the various files in the lesson folder.
+
+Cloning can be especially useful when you're joining a group project that is hosted on GitHub, and you want your changes to eventually be pushed and shared with that same repository. 
+
+Forking is a step you migth take before closing, if you want to establish a separate home for the future changes you make to the repository on your GitHub account rather than push to an existing folder owned by someone else on GitHub. 
+
+## Forking
+
+**Forking** a repository means making a copy of someone else's repository on GitHub, and saving it to your account on GitHub. This function happens within GitHub, and has nothing to do with what is happening on your local machine. 
+
+For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you could fork, or copy, this repository to your account. In the upper left hand corner, it would say your account name instead of `DHRI-Curriculum`, instead it will reference our account below after `forked from`. 
+
+Your local machine would come into play when you want to **clone** that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account. 
+
+## Challenge
+
+As we're the end of this lesson, here's a challenge that tests how much you've learned through this introduction. 
+
+1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you working when completing these two different tasks.
+2. Make changes to the files on your local machine. Remember to save them!
+3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub. 
