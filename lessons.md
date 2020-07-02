@@ -472,6 +472,29 @@ To github.com:<repo-name>/git.git
 
 If you see output like this, go back to your new repository page in the browser and click the `Refresh` button. You should see your `syllabus.md` file on GitHub!
 
+## Review
+We have covered the basic steps of creating a file and tracking changes within a file on your local machine and on GitHub. 
+
+This have involved coordinating across three different environments, so let's go through that one more time. Note that this process is very slightly different. I'll highlight it when it comes up. 
+
+To start, let's add something to our syllabus. Another week of materials or a new reading. 
+
+Save that file. 
+
+Use `git add` via the command line to stage the file - tell Git what document you want it to pay attention to. 
+
+Use `git commit` via the command line to save the changes you've just made as a snapshot or new version of you file. Remember to heed to -m and include a message about the change you just made. 
+
+So far, we have not done anything with GitHub or on the Internet. We have used Git, installed on our local machine, to save a version of file as it stands how. We could stop here if we only had an interest in using Git for version control. But if we also wanted to use GitHub to back up our files, or to share our project with a team or publicly, we want to upload, or push, that repository to GitHub, which is accessible view the Internet. 
+
+Use `git push origin master` to push that file to your repository on GitHub. After refreshing the webpage, your file should appear online. The difference I noted above appears here. Note the absense of the `-u` flag from the command. That flag established the connection between the repository on your local machine and on GitHub. After that, it knows where to push so it doesn't need that indication.   
+
+## Challenge 
+
+Challenge yourself by going the process a few more times by adding additional readings and weeks of course material. 
+
+Also try creating a new file and adding an assignment. Rewrite the assignment using Markdown, or edit and add in the markers. Go through the process of staging and commiting that file, and pushing it to your repository on GitHub. 
+
 # Cloning
 
 **Cloning** a repository means making a copy to work on locally. When you clone a repository from GitHub, information about where it was cloned from will automatically be added to your local version. This means that commands like `git push` will work without adding additional information.
