@@ -2,11 +2,11 @@
 
 ## What is Git? 
 
-**Git** is software used for version control—that is, tracking the state of files. Git can be enabled in a folder, and then used to save the state of the contents in that folder at different points in the future designated by you. In the language of Git, a folder is called a *repository*; in the context of this workshop, it refers to anfolder that is being tracked by Git. Using Git, you can view a log of the changes you've made to the files in a repository and compare changes over time. You can also revert back to previous versions, and create branches of a projects to explore different futures. Git is also useful for collaboration, as a repository can be shared across computers, and its contents can be asynchonously developed and eventually, and maybe partially merged with the main project. 
+**Git** is software used for version control—that is, tracking the state of files and changes you make to them over time. Git can be enabled in a folder, and then used to save the state of the contents in that folder at different points in the future, as designated by you. In the language of Git, a folder is called a *repository*. In the context of this workshop, it refers to a folder that is being tracked by Git. Using Git, you can view a log of the changes you've made to the files in a repository and compare changes over time. You can also revert back to previous versions, and create branches of a project to explore different futures. Git is also useful for collaboration, as a repository can be shared across computers, and its contents can be asynchonously developed and eventually merged with the main project. 
 
 ## What is GitHub?
 
-**GitHub** is a online platform for hosting Git repositories.It functions for some, predominantly programmers, as a social network for sharing and collaborating on code-based projects. Users can share their own projects, as well as search for others, which they could then also work on and contribute to in many instances. Digital Humanists, Librarians, and other academics are also finding ways Git and GitHub are useful in writing projects and teaching. GitHub also serves as a web-hosting platform, allowing users to create websites from their repositories.
+**GitHub** is a online platform for hosting Git repositories. It functions for some, predominantly programmers, as a social network for sharing and collaborating on code-based projects. Users can share their own projects, as well as search for others, which they can then often work on and contribute to. Digital Humanists, librarians, and other academics are also finding ways Git and GitHub are useful in writing projects and teaching. GitHub also serves as a web-hosting platform, allowing users to create websites from their repositories.
 
 ## What is Markdown?
 
@@ -16,27 +16,27 @@ Markdown is a markup language for formatting text. Like HTML, you add markers to
 In HTML: 
 <h1> Heading 1 </h1>
 
-In Markdown
+In Markdown:
 # Heading 1
 ```
 
 Whereas you use HTML and CSS with WordPress, you use Markdown with GitHub. Markdown has fewer options for marking text than HTML. It was designed to be human-readable, meaning easy to write and edit. 
 
-You'll notice this file is written in markdown—[here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/concept.md) is what it looks like in its raw, unrendered form.
+This file you are reading is written in markdown—[here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/concept.md) is what it looks like in its raw, unrendered form.
 
-Compare that with this, showing the source code for the GitHub page, written in HTML: view-source:https://github.com/DHRI-Curriculum/git
+Compare that with this - the source code for the GitHub page, written in HTML: view-source:https://github.com/DHRI-Curriculum/git
 
-It's also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an epub with one command entered into your terminal.
+Markdown is also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use of Markdown is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an epub with one command entered into your terminal.
 
 ## Highlighting Distinctions
 
 As we move forward its important to make sure we're firm on the distinctions between the three different tools outlined above. 
 
-**Git** is a software that you use on your laptop, or your local computer/machine. The repository with your project's files is stored on your harddrive. You also edit the text files on your local machine using a plain text editor, which is another software on your local machine like VS Code. 
+**Git** is a software that you use on your laptop, or your local computer/machine. The repository with your project's files is stored on your hard drive. You also edit the text files on your local machine using a plain text editor, which is another software on your local machine like VS Code. 
 
-**GitHub** is a cloud-based platform that you access through your internet browser. Even though you physically are still in the same place, working on your laptop, you are no longer working on your local machine, you are on the Internet. This is a fundamentally different location than when you're working with your Git repository and editing and creating files in your plain text editor. With GitHub, you are uploading your repository - as described above - to this platform to be shared more broadly. You can also create private repositories if you want to use GitHub to backup a project.  
+**GitHub** is a cloud-based platform that you access through your internet browser. Even though you physically are still in the same place, working on your laptop, you are no longer working on your local machine, you are on the Internet. This is a fundamentally different location than when you're working with your Git repository and editing and creating files in your plain text editor. With GitHub, you are uploading your repository - as described above - from your local machine to this platform on the Internet to be shared more broadly. You can also create private repositories if you want to use GitHub to backup a project.  
 
-**Markdown** is the language used to format the plain text files in your Git-enabled repository. GitHub reads this language so your markups to the file are rendered when you view your file on the platform (i.e. #headers appears as headers, links are inserted).
+**Markdown** is the language used to format the plain text files in your Git-enabled repository. GitHub reads this language so that the markups made to the file are rendered when you view your file on the platform (i.e. #headers appears as headers, links are inserted).
 
 # What You Can Do with Git and GitHub
 
@@ -68,9 +68,9 @@ As you can see across these sessions, we use GitHub to host workshop curricula. 
 
 #### Case One: This Session
 
-If you look just under the workshop title, `DHRI-Curriculum/git` at the top of this page, you can see it is `forked from pswee001/Git_DRI_Jan_2018`. That line shows that this particular repository is building on ("forked from"*) the curriculum for a session I presented at our January 2018 Institute. If you then look at that repository, you will see that it is in turn forked from previous sessions that were developed by other GC Digital Fellows for workshops in past years. 
+If you look just under the workshop title, `DHRI-Curriculum/git` at the top of this page, you can see it is `forked from pswee001/Git_DRI_Jan_2018`. That line shows that this particular repository is building on (*"forked from"*) the curriculum for a session I presented at our January 2018 Institute. If you then look at that repository, you will see that it is in turn forked from previous sessions that were developed by other GC Digital Fellows for workshops in past years. 
 
-*Forking* is a proper function of GitHub. It supports collaboration by maintaining a trail of attribution and derivation.
+**Forking** is a proper function of the GitHub platform. It supports collaboration by allowing you to copy someone else's repository to your own account on GitHub while maintaining a trail of attribution and derivation. This function is described in further detail in the final lesson of this workshop.
 
 ### Collaborative Writing
 
@@ -78,13 +78,17 @@ Git is also used to track changes (*version control* in Git parlance) in writing
 
 #### Case Two: Coauthored Publications
 
-Git and GitHub - together or independently - support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the master project. These are the process of creating branches, and merging. Git and GitHub also help with attribution by tracking individual contributions throughout. Additional branches could be created by a singular author as well, allowing the writer to explore different ways forward. The version control feature also allows authors to easily return to and compare older drafts or retrieve sections previoulsy discarded. 
+Git and GitHub - together or independently - support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the master project. This entails the process of creating *branches* and *merging*.
+
+Git and GitHub also help with attribution by tracking individual contributions throughout. Additional branches could be created by a singular author as well, allowing the writer to explore different ways forward. The version control feature also allows authors to easily return to and compare older drafts or retrieve sections previoulsy discarded. 
+
+**Branches** and **merging** are important functionalities when using Git to collaborate, but they are also advanced and thus beyond the scope of this workshop. See the *Resources* section at the end of the workshop for more information.
 
 ### Versions Across Time
 
-How do you come by and develop your syllabi over time? Many of us borrow and adapt from each other, and most of us probably update our syllabi each semester, even if only a little bit.
+How did you initially come by the syllabus you use for your class, and did you develop it over time? Many professors borrow and adapt from each other, and most of us probably update our syllabi each semester, even if only a little bit.
 
-Put your hand up if you have  a folder somewhere that looks something like this. Or even multiple folders. 
+Put your hand up if you have a folder somewhere that looks something like this. Or even multiple folders. 
 
 ```
 |
@@ -97,23 +101,33 @@ Put your hand up if you have  a folder somewhere that looks something like this.
    --syllabusFINAL.doc 
    --syllabus?.doc 
 ```
+Ok, hands down. 
 
-Put your other hand up if you can't remember who you initially got this syllabus from. Do you know if there were other contributors befor them? 
+**Consider the following questions as well:**
+- Can you remember who you initially got this syllabus from?
+- Do you know if there were other contributors along with or before them? 
+- Do you acknowledge prior contributors somewhere on your syllabus? 
+- Can you or others see what changes have been made to the syllabus over time? 
 
 #### Case Three: Syllabi
 
-Increasingly we see that faculty are sharing their syllabi on GitHub. Some are even using GitPages that apply a user-friendly interface to their repository to make it easier to access and navigate for their students. Using Git and GitHub, you could fork that syllabi to your account, and download - or clone as Git calls is - it to your local machine to edit. After making changes to the files and pushing them to your repo on GitHub, someone else could compare the changes you made, and fork your version, or return to the original and fork from there. Both Git and GitHub help with attribution here; tracking who changes and adds what is a key feature of both tools.
+Increasingly we see that faculty are sharing their syllabi on GitHub. Some are even using GitPages that apply a user-friendly interface to their repository to make it easier to access and navigate for their students. This is because Git and GitHub make it easy to make contributors and changes to documents over time visible. 
+
+Using Git and GitHub, you could fork that syllabi to your account, and download - or *clone* as Git calls it - it to your local machine to edit. After making changes to the files and and reuploading them or *pushing* them to the repo (short for repository) on GitHub, someone else could compare the changes you made and see who the original or additional contributors were. They could also decide to continue the chain by copying or forking your version, or decide to return to the original repo and fork that version. Both Git and GitHub help with attribution here; tracking who changes and adds what is a key feature of both tools.
 
 Even if you were only working with your own self-created syllabus, like we'll do later in this workshop, Git and GitHub can be useful for tracking your changes without the hassle of multiple files. From one file, you can use Git to compare your current version with older versions; you can also compare and share these different versions on GitHub.
+
+**Cloning** and **pushing** are proper functionalities of GitHub that describe how you communicate and share files between your local machine and the Internet. These are covered more in-depth in a later lesson in this workshop.
 
 # Review of the Command Line
 
 During this workshop, you'll be communicating with GitHub from our local machine via the command line (terminal, bash). It will be useful if you've taken [the Command Line Workshop](https://github.com/DHRI-Curriculum/command-line) before continuing. This section reviews some of the basic commands that will also be used in this workshop.  
 
 In addition to the command line, you'll be using your text editor and your browser. Before continuing, its important that we clearly distinguish between these three different spaces or environments:
-- your plain text editor where you'll be writing your syllabus in markdown, which will be saved in the git-enabled repository on your local machine,
-- your browser, where you'll be uploading your repository to GitHub
-- your terminal where you'll be communicating with GitHub to send the repository and project files back and forth between the web to your hard drive. 
+- Your plain text editor where you'll be writing your syllabus in Markdown is on your local machine. 
+- That syllabus is intiailly saved in a git-enabled repository on your local machine.
+- Your browser is where you'll be uploading your repository to GitHub.
+- Your terminal is where you'll be communicating with GitHub to send the repository and project files back and forth between the web and your hard drive. 
 
 Because you'll be moving between these three spaces throughout the workshop, you may want to use (command + tab) or (ctrl + tab) to move quickly between the three windows on your desktop.
 
@@ -130,27 +144,27 @@ Press the Windows button on your keyboard. When the search menu pops up, type `g
 ## Practice Navigating the Command Line
 
 In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder
-
+```
 	cd <directory-name> 
-	
+```	
 will let you navigate inside a directory of your choosing.
 
 Type 
-
+```
 	cd Desktop
-	
+```	
 and hit `Enter`. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 To check your current directory, type
-
+```
 	pwd
-	
+```	
 Try this now to make sure you're in your Desktop directory.
 
 Now, use 
-
+```
 	cd ..
-	
+```	
 to go up one directory. In this case, this will take you back to your home directory.
 
 Practice going back and forth between your Desktop and your home directory.
@@ -160,25 +174,25 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 ## Making a Git Project Folder
 
 If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it with
-
+```
 	cd projects
-	
+```	
 If you don't have a projects folder on your desktop, create one with
-
+```
 	mkdir projects
-
+```
 From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the below command:
-
+```
 	mkdir git-practice
-
+```
 Enter the new `git` folder with
-
+```
 	cd git-practice
-
+```
 At this point, when you type `pwd`, your folder structure should look like this:
-
+```
 	/home/<username>/Desktop/projects/git-practice
-
+```
 # Setting Up Git
 
 Our first step in working with Git is letting the software know who we are so it can track our work and attribute our contributions. Through this section, you'll be checking your installation and configuring Git with your own name and information.
