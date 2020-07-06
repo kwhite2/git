@@ -145,25 +145,25 @@ Press the Windows button on your keyboard. When the search menu pops up, type `g
 
 In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder
 ```
-	cd <directory-name> 
+cd <directory-name> 
 ```	
 will let you navigate inside a directory of your choosing.
 
 Type 
 ```
-	cd Desktop
+cd Desktop
 ```	
 and hit `Enter`. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 To check your current directory, type
 ```
-	pwd
+pwd
 ```	
 Try this now to make sure you're in your Desktop directory.
 
 Now, use 
 ```
-	cd ..
+cd ..
 ```	
 to go up one directory. In this case, this will take you back to your home directory.
 
@@ -175,23 +175,23 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 
 If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it with
 ```
-	cd projects
+cd projects
 ```	
 If you don't have a projects folder on your desktop, create one with
 ```
-	mkdir projects
+mkdir projects
 ```
 From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the below command:
 ```
-	mkdir git-practice
+mkdir git-practice
 ```
 Enter the new `git` folder with
 ```
-	cd git-practice
+cd git-practice
 ```
 At this point, when you type `pwd`, your folder structure should look like this:
 ```
-	/home/<username>/Desktop/projects/git-practice
+/home/<username>/Desktop/projects/git-practice
 ```
 # Setting Up Git
 
@@ -200,29 +200,29 @@ Our first step in working with Git is letting the software know who we are so it
 ## Check Your Install
 
 Let's make sure Git has been successfully installed. In your terminal, type
-
-	git --version
-
+```
+git --version
+```
 If you see a version number, you're all set. If not, click [here](http://git-scm.com/downloads) and install as you would any other software on your system.
 
 ## Configuring Git on Your Computer
 
 Next, let's configure git so that it can identify who we are. This information is useful because it connects identifying information with the changes you make in your repository. 
 
-Type the following into your command line, filling in the sections—below labelled "John Doe"—for your name and email (use quotations where you see them). This does not necessarily need to be the name and email you used to sign up for GitHub. Remember, these are different spaces and softwares.
-
-	git config --global user.name "John Doe"
-	git config --global user.email johndoe@example.com
-
+Type the following into your command line, filling in the sections—below labeled "John Doe"—for your name and email (use quotations where you see them). This does not necessarily need to be the name and email you used to sign up for GitHub. Remember, these are different spaces and softwares.
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
 To check your set-up, use:
-
-	git config --list
-
+```
+git config --list
+```
 You'll get something that looks like this:
-
-	user.name=Superstar Git User
-	user.email=gitsuperstar@gmail.com
-
+```
+user.name=Superstar Git User
+user.email=gitsuperstar@gmail.com
+```
 # Creating a Syllabus with Markdown
 
 Using `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
