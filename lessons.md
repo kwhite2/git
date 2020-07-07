@@ -12,11 +12,15 @@
 
 Markdown is a markup language for formatting text. Like HTML, you add markers to plain text to style and organize the text of a document.
 
-```
 In HTML: 
+
+```html
 <h1> Heading 1 </h1>
+```
 
 In Markdown:
+
+```
 # Heading 1
 ```
 
