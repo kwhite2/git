@@ -225,30 +225,32 @@ user.email=gitsuperstar@gmail.com
 ```
 # Creating a Syllabus with Markdown
 
-Using `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
+The next step is to **initialize** the project folder that we want Git to track. When we initialize a folder, we are telling Git to pay attention to it. This only needs to happen once because what is actually happening through this process is Git is adding a hidden subfolder within your folder that houses the internal data structure required for version control. 
+
+First, use `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
 
 	cd Desktop/projects/git-practice
 
-Now we're going to **initialize** our repository, which means telling Git to pay attention to it:
-
-	git init
-
+Next we're going to **initialize** our repository using the following command:
+```
+git init
+```
 You should see output like this:
+```
+Initialized empty Git repository in /home/patrick/projects/git/.git/
+```	
+Now Git is tracking our directory. Importantly, it has not done any versioning yet. There is no history of changes as of yet: 1) because there are no files and we haven't made any changes, 2) becuase we have to tell Git when to take a snapshot, which we go through in the next section. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tell it to.
 
-	Initialized empty Git repository in /home/patrick/projects/git/.git/
-	
-Now Git is tracking our directory. Importantly, it has not done any versioning yet. There is no history of changes as of yet: 1) because there are no files and we haven't made any changes, 2) becuase we have to tell Git when to take a snapshot, which we go through in the next section. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tel it to.
-
-Before version control useful, we'll have to create a text file for Git to track. For this session, the file we'll track will be a course syllabus—we'll create that next.
+Before version control is useful, we'll have to create a text file for Git to track. For this session, the file we will track will be a course syllabus—we'll create that next.
 
 ### Creating a Syllabus in Markdown
 
 To create a plain text file, we're going to switch to our text editor, VS Code, to create and edit a file named `syllabus.md` and save it to our 'git-practice' folder. If you have not installed VS Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md).
 
 In terminal, check to make sure you are in your `git-practice` folder. (HINT: use 'pwd' to see what directory you are currently in) Next, type:
-
-	code syllabus.md
-	
+```
+code syllabus.md
+```	
 to open a `syllabus.md` file in VS Code. You should see a window appear that looks similar to this:
 
 ![Image of what VS Code looks like when opening the syllabus.md file](../images/vscode1.png)
@@ -265,37 +267,38 @@ We'll be using markdown to write a syllabus, and then using Git to track any cha
 
 In markdown, we insert headings with a single hash mark like this:
 ```
-	# My Syllabus Heading
+# My Syllabus Heading
 ```	
 A sub-heading (H2) heading uses two hash marks like this:
 ```
-	## Readings
+## Readings
 ```	
 To provide emphasis, place asterisks around some text:
 ```
-	*This text will appear italicized.*
-	**This text will appear bold.**
+*This text will appear italicized.*
+**This text will appear bold.**
 ```
 For emphasis, you need to mark where it should start and where it should end, so you need astrisks at the beginning and end of whatever text is being emphasized.
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
 ```
-	- Reading one
-	- Reading two
-	- Reading three
+- Reading one
+- Reading two
+- Reading three
 ```	
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 ```
-	I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
+I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
 ```	
 Paragraphs of text are denoted by putting a blank line between them:
 ```
-> This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the \<p> tag. That means that there is a little space before and after the paragraph when it is rendered.
-> 
-> This is a second paragraph in markdown, which I'll use to tell you what I like about markdown. I like markdown because it looks pretty good, if minimal, whether you're looking at the rendered or unrendered version. It's like tidy HTML.
+This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the \<p> tag. That means that there is a little space before and after the paragraph when it is rendered.
+
+This is a second paragraph in markdown, which I'll use to tell you what I like about markdown. I like markdown because it looks pretty good, if minimal, whether you're looking at the rendered or unrendered version. It's like tidy HTML.
 ```
 
-Try using these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one `#`), then subheadings for, at least, course info and readings. Use emphasis (`*`) for book titles and try to get a list in there somewhere.
+## Challenge
+Use these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one `#`), then subheadings for, at least, course info and readings. Use emphasis (`*`) for book titles and try to get a list in there somewhere.
 
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md). When editing the markdown file in VS Code, it might look like this:
 
@@ -322,7 +325,8 @@ In Git, a **commit** is a snapshot of a repository that is entered into its perm
 1. Adding files to a "staging area," meaning that we intend to commit them. 
 2. Finalizing the commit.
 
-Staging a file or files is you telling Git, "hey! pay attention these files and the changes in them". 
+Staging a file or files is you telling Git, "Hey! Pay attention these files and the changes in them".
+
 Making a commit is a lot like taking a photo. First, you have to decide who will be in the photo and arrange your friends or family in front of the camera (the staging process). Once everyone is present and ready, you take the picture, entering that moment into the permanent record (the commit process).
 
 ## Staging Changes with the Add Command
@@ -331,7 +335,7 @@ First, let's see what state Git is currently in. It's a good idea to use this co
 
 Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
 ```
-	git status
+git status
 ```	
 You should see output like this:
 
@@ -353,9 +357,9 @@ This means we've initialized our repository, but haven't made any commits yet. I
 Let's follow the recommendation in the status message above and use the `add` command to stage files, making them ready to be committed.
 
 Type this command:
-
-	git add syllabus.md
-	
+```
+git add syllabus.md
+```	
 You should see no output from the command line, meaning that the above command succeeded. Let's run `git status` again to check if things have changed. You should see output like this:
 
 ```
@@ -369,15 +373,17 @@ Changes to be committed:
 	new file:   syllabus.md
 ```
 
-The `new file:   syllabus.md` should be highlighted in green to show that it's ready for commit. This is Git telling you, "Ok, I see the file(s) you're talking about." 
+The `new file:   syllabus.md` should be highlighted in green to show that it's ready for commit. 
+
+This is Git telling you, "Ok, I see the file(s) you're talking about." 
 
 ## Committing Changes
 
 Now that our files have been staged, let's commit them, making them part of the permanent record of the repository. Type:
-
-	git commit -m "Initial commit of syllabus file"
-	
-The `-m` flag provides a message along with the commit that will tell others—or remind a future version of yourself—what the commit was all about. Try not to type `git commit` without the `-m` flag for now—there's a note about this below.
+```
+git commit -m "Initial commit of syllabus file"
+```	
+The `-m` flag provides a message along with the commit that will tell others—or remind a future version of yourself—what the commit was all about. Try not to type `git commit` without the `-m` flag—there's a note about this below.
 
 After running the command, you should see output like this:
 
@@ -399,9 +405,9 @@ nothing to commit, working tree clean
 This means that everything in the repository is successfully committed and up-to-date. If you edit your syllabus file or create a new file in the repository, the message you get with `git status` will instead list files that have uncommitted changes.
 
 Let's run one other command to see the effect our commit has had. Enter this command:
-
-	git log
-	
+```
+git log
+```	
 You should see output similar to this:
 
 ```
@@ -416,14 +422,14 @@ This is the log of commits, comprising a history of your repository. There's onl
 
 ## Why Do We Need to Use the -m Flag?
 
-The -m flag is useful for human purposes and technical purposes. For human purposes, the -m flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes - your notes to self are limited, so to make the clear you might make commits after specific tasks are completed, such as: update readings for week 1 - X Author added.This can also make it easier to reverse a specific change in the future. 
+The -m flag is useful for human purposes and technical purposes. For human purposes, the -m flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes - your notes to self are limited, so to make them clear you might make commits after specific tasks are completed, such as update readings for week 1 or added S.Noble reading. This can also make it easier to reverse a specific change in the future. 
 
 Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message. Unfortunately, the default text editor, `vi`, requires some knowledge to use, and we don't teach it as part of our sessions.
 
 If you find yourself stuck in an unfamiliar screen in the command line after running `git commit`, you're probably in `vi`. Type this to leave that environment and return to the `$` prompt:
-
-	:q
-	
+```
+:q
+```	
 If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt:
 
 ```
@@ -439,7 +445,7 @@ q
 
 Now, you may want to backup or share that file on the Internet. Let's connect the directory you made on your local machine to GitHub, on the web. 
 
-Remember, GitHub is a service that allows us to host files, collaborate, and find the work of others. Once our syllabus is on GitHub, it will be publicly visible.
+Remember, GitHub is a service that allows you to host files, collaborate, and find the work of others. Once our syllabus is on GitHub, it will be publicly visible. Note that repositories on GitHub can also be private.
 
 Go to GitHub in your browser and click the plus sign in the upper right hand corner.
 
@@ -466,15 +472,15 @@ The instructions we want consist of two lines underneath the heading `...or push
 ![The commands you need to copy from the new repo page on GitHub](../images/connect-repo.png)
 
 Copy out the first command and paste it in your terminal. It should look something like this:
-
-	git remote add origin git@github.com:<username>/<repository-name>.git
-	
+```
+git remote add origin git@github.com:<username>/<repository-name>.git
+```	
 You'll need the command copied from your new repo, since it will contain the correct URL.
 
 Next, paste the second command. It will look exactly like this:
-
-	git push -u origin master
-
+```
+git push -u origin master
+```
 After running this command, you should see output that looks like this:
 
 ```
@@ -489,7 +495,7 @@ If you see output like this, go back to your new repository page in the browser 
 ## Review
 We have covered the basic steps of creating a file and tracking changes within a file on your local machine and on GitHub. 
 
-This have involved coordinating across three different environments, so let's go through that one more time. Note that this process is very slightly different. I'll highlight it when it comes up. 
+This has involved coordinating across three different environments, so let's go through that one more time. Note that this process is very slightly different. I'll highlight it when it comes up. 
 
 To start, let's add something to our syllabus. Another week of materials or a new reading. 
 
@@ -497,21 +503,26 @@ Save that file.
 
 Use `git add` via the command line to stage the file - tell Git what document you want it to pay attention to. 
 
-Use `git commit` via the command line to save the changes you've just made as a snapshot or new version of you file. Remember to heed to -m and include a message about the change you just made. 
+Use `git commit` via the command line to save the changes you've just made as a snapshot or new version of you file. Remember to use the -m flag and include a message about the change you just made. 
 
-So far, we have not done anything with GitHub or on the Internet. We have used Git, installed on our local machine, to save a version of file as it stands how. We could stop here if we only had an interest in using Git for version control. But if we also wanted to use GitHub to back up our files, or to share our project with a team or publicly, we want to upload, or push, that repository to GitHub, which is accessible view the Internet. 
+So far, we have not done anything with GitHub or on the Internet. We have used Git, installed on our local machine, to save a version of file as it stands now. We could stop here if we only had an interest in using Git for version control. But if we also wanted to use GitHub to back up our files, or to share our project with a team or publicly, we want to upload, or push, that repository to GitHub on the Internet. 
 
-Use `git push origin master` to push that file to your repository on GitHub. After refreshing the webpage, your file should appear online. The difference I noted above appears here. Note the absense of the `-u` flag from the command. That flag established the connection between the repository on your local machine and on GitHub. After that, it knows where to push so it doesn't need that indication.   
+Use `git push origin master` to push that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.   
 
 ## Challenge 
 
-Challenge yourself by going the process a few more times by adding additional readings and weeks of course material. 
+Go through the process a few more times by adding additional readings and weeks of course material. Remember to commit changes intentionally so your commit messages make sense. Use `git log` to review your changes. 
 
 Also try creating a new file and adding an assignment. Rewrite the assignment using Markdown, or edit and add in the markers. Go through the process of staging and commiting that file, and pushing it to your repository on GitHub. 
 
+**Test your understanding by thinking through the following questions:** 
+- Do you need to push the file to GitHub each time you commit changes to the file, or can you make several commits to a file and push them all to GitHub at once? 
+- Do you need to use `git init` after after adding an assignment file to your folder? 
+- What about the -u flag in the git push origin master? Does this flag need to be used to add the assignment to your repository on GitHub?
+
 # Cloning & Forking
 
-GitHub was built for sharing and collaborating on projects. A key advantage of that platform is that you can find lots of bits of software that do many different things - such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the say.
+GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things - such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your loca machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
 
 Cloning and forking are the basic functions of this capability. Each are first explained below, and followed by an example and activity to further explain. 
 
@@ -521,14 +532,14 @@ Cloning and forking are the basic functions of this capability. Each are first e
 ```
 git clone <repository-url>
 ```
-When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin master` will work. 
+When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin master` will work (no -u flag needed). 
 
 For practice, let's clone the repository for this workshop about Git and GitHub.
 
 First, let's navigate back to your Desktop folder.
-
-	cd ~/Desktop
-
+```
+cd ~/Desktop
+```
 Remember that the ~ refers to your home directory. Now let's find the URL we need to clone the lesson.
 
 First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
@@ -546,32 +557,40 @@ Now copy out the text in the box:
 Now that you have the text copied, go back to your terminal. Remember, you should be on the desktop.
 
 Type
-
-	git clone <copied-url>
-	
+```
+git clone <copied-url>
+```	
 If the command is successful, the full Git lesson will be replicated on your local machine. You can type
-
-	cd git
-	
+```
+cd git
+```	
 to enter the lesson folder, since the lesson repository is simply called `git`. Use the `ls` command to take a look at the various files in the lesson folder.
 
 Cloning can be especially useful when you're joining a group project that is hosted on GitHub, and you want your changes to eventually be pushed and shared with that same repository. 
 
-Forking is a step you migth take before closing, if you want to establish a separate home for the future changes you make to the repository on your GitHub account rather than push to an existing folder owned by someone else on GitHub. 
+But maybe that is not possible or ideal. Maybe you don't want to contribute your changes to someone else's repository. Maybe you want to make a derivative of their folder for yourself, on your GitHub account, and make changes there.
+
+Forking is the step you could take before cloning to do this.
 
 ## Forking
 
 **Forking** a repository means making a copy of someone else's repository on GitHub, and saving it to your account on GitHub. This function happens within GitHub, and has nothing to do with what is happening on your local machine. 
 
-For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you could fork, or copy, this repository to your account. In the upper left hand corner, it would say your account name instead of `DHRI-Curriculum`, instead it will reference our account below after `forked from`. 
+For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner.
+
+**ADD SCREENSHOT.**
+
+By clicking that button copying, or forking, this repository to your account. In the upper left hand corner, it would say your account name instead of `DHRI-Curriculum`, instead it will reference our account below after `forked from`. 
+
+**ADD SCREENSHOT**
 
 Your local machine would come into play when you want to **clone** that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account. 
 
-You might use this method is you were going to teach your own Git & GitHub workshop. You might want to use our repository as a base for getting started, but maybe you want to add more examples or changes some language, clarify something further, or create a connection to another workshop you are giving, etc. This allows us to continue to use the workshop as we have it as well. Or maybe at a later time, we want to merge some of your changes with ours. We can do that too by revisiting your version history. 
+You might use this method if you were going to teach your own Git & GitHub workshop. You could use our repository as a base for getting started, and add more examples or change some language, clarify something further, or create a connection to another workshop you are giving, etc. This allows us to continue to use the workshop as we have it as well. Also, maybe at a later time, we want to merge some of your changes with ours. We can do that too by revisiting your version history. 
 
 ## Challenge
 
-As we're the end of this lesson, here's a challenge that tests how much you've learned through this introduction. 
+You made it to the end of this workshop-congratulations! Now, practice your new skills:
 
 1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
