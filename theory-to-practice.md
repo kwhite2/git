@@ -3,19 +3,18 @@
 ## Suggested Further Readings
 
 ### Git & GitHub
-- Perez-Riverol, Y. and colleagues. (2016) Ten Simple Rules for Taking Advantage of Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). PLOS Computational Biology. https://doi.org/10.1371/journal.pcbi.1004947
+- Perez-Riverol, Y. and colleagues. (2016) _[Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi.org/10.1371/journal.pcbi.1004947)._ PLOS Computational Biology.
 - Chacon, S. and Straub, B. [Pro Git](https://git-scm.com/book/en/v2). Published by Apress.
 - Pe-Than, E.P.P., Dabbish, L. and Herbsleb, J.D. (2019). [Collaborative Writing at Scale: A Case Study of Two Open-Text Projects Done on GitHub](https://ci.acm.org/2019/assets/proceedings/CI_2019_paper_65.pdf).Collective Intelligence.
 - Miyake, K. (2016). [Create Your (FREE) Website Using Github and Jekyll](https://digitalfellows.commons.gc.cuny.edu/2016/03/21/create-your-free-website-using-github-and-jekyll/). Tagging the Tower blog.
 - Visconti, A. (2016). [Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages). Programming Historian.
 
 ### Markdown
-- Coll, S. Markdown for the Humanities: An article by Simon Coll on how academics can use Markdown in their writing process.
-- Coll, S. (2017). (Markdown for Students and Academics)[https://www.simondcoll.com/markdown-students-academics/].
+- Coll, S. (2017). [Markdown for Students and Academics](https://www.simondcoll.com/markdown-students-academics/).
 - Ovadia, S. (2014). [Internet Connection: Markdown for Librarians and Academics](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1006&context=lg_pubs)
 
 ### Open Licensing on the Web
-- Official site for [Creative Commons](https://creativecommons.org/).
+- [Official site for Creative Commons](https://creativecommons.org/).
 - [Open Licensing with Creative Commons: The Creative Commons Licenses](https://uri.libguides.com/creativecommons/licenses). The University of Rhode Island.
 - [Creative Commons Wiki](https://wiki.creativecommons.org/wiki/Main_Page)
 - Dingwall, JR. [Creative Commons: An Educator's Course Guide to Creative Commons (Book)](https://openpress.usask.ca/creativecommons/).
