@@ -29,8 +29,8 @@ Forthcoming.
 
 ### Pre-reading suggestions
 
-- Bryan, J. (2017). Excuse me, do you have a moment to talk about version control? PeerJ Preprints.
-- Ovadia, S. (2014). Markdown for Librarians and Academics. Behavioral and Social Sciences Librarian, 33, 120-124. 
+- Bryan, J. (2017). _[Excuse me, do you have a moment to talk about version control?](https://doi.org/10.7287/peerj.preprints.3159v2)_ PeerJ Preprints.
+- Ovadia, S. (2014). _[Markdown for Librarians and Academics](https://academicworks.cuny.edu/lg_pubs/7/)._ Behavioral and Social Sciences Librarian, 33, 120-124. 
 - Shaffer, K. (June 4, 2013). [GitHub for Academics: the open-source way to host, create and curate knowledge](https://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/) LSE Blog.
 - Begemann, O. (2016). [Collaborative Writing on GitHub](https://oleb.net/blog/2016/02/collaborative-writing-on-github/).
 - [How Digital Humanists Use GitHub](https://digitalscholarship.wordpress.com/2016/07/20/presentation-on-how-digital-humanists-use-github/): A presentation from Lisa Spiro and Sean Morey-Smith on their study of how Digital Humanists use GitHub.
