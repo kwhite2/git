@@ -199,7 +199,7 @@ Our first step in working with Git is letting the software know who we are so it
 
 ## Check Your Install
 
-Let's make sure Git has been successfully installed. In your terminal, type
+Let's make sure Git has been successfully installed. In your terminal, type the following command:
 ```
 git --version
 ```
@@ -209,16 +209,16 @@ If you see a version number, you're all set. If not, click [here](http://git-scm
 
 Next, let's configure git so that it can identify who we are. This information is useful because it connects identifying information with the changes you make in your repository. 
 
-Type the following into your command line, filling in the sections—below labeled "John Doe"—for your name and email (use quotations where you see them). This does not necessarily need to be the name and email you used to sign up for GitHub. Remember, these are different spaces and softwares.
+Type the following into your command line, replacing the "John Doe" and johndoe@example.com with your name and email (use quotations where you see them). This does not necessarily need to be the name and email you used to sign up for GitHub. Remember, these are different spaces and different softwares.
 ```
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
-To check your set-up, use:
+To check your set-up, type the following command into your terminal:
 ```
 git config --list
 ```
-You'll get something that looks like this:
+You should get something that looks like this except with whatever information you entered previously:
 ```
 user.name=Superstar Git User
 user.email=gitsuperstar@gmail.com
