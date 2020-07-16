@@ -82,13 +82,13 @@ Git and GitHub - together or independently - support multi-author publishing. Li
 
 Git and GitHub also help with attribution by tracking individual contributions throughout. Additional branches could be created by a singular author as well, allowing the writer to explore different ways forward. The version control feature also allows authors to easily return to and compare older drafts or retrieve sections previoulsy discarded. 
 
-**Branches** and **merging** are important functionalities when using Git to collaborate, but they are also advanced and thus beyond the scope of this workshop. See the *Resources* section at the end of the workshop for more information.
+**Branches** and **merging** are important functions when using Git to collaborate, but they are also advanced and thus beyond the scope of this workshop. See the *Resources* section at the end of the workshop for more information.
 
 ### Versions Across Time
 
-How did you initially come by the syllabus you use for your class, and did you develop it over time? Many professors borrow and adapt from each other, and most of us probably update our syllabi each semester, even if only a little bit.
+How did you initially come by the syllabus you use for your class(es), and did you develop it over time? Many professors borrow and adapt from each other, and most of us probably update our syllabi each semester, even if only a little bit.
 
-Put your hand up if you have a folder somewhere that looks something like this. Or even multiple folders. 
+Through this process, many of us end up with a set of files that looks something like this:  
 
 ```
 |
@@ -101,13 +101,12 @@ Put your hand up if you have a folder somewhere that looks something like this. 
    --syllabusFINAL.doc 
    --syllabus?.doc 
 ```
-Ok, hands down. 
 
-**Consider the following questions as well:**
-- Can you remember who you initially got this syllabus from?
-- Do you know if there were other contributors along with or before them? 
-- Do you acknowledge prior contributors somewhere on your syllabus? 
-- Can you or others see what changes have been made to the syllabus over time? 
+While I can tell which version is the "final" one, I can not see what was changed along the way or how the different versions vary from each other. 
+
+With Git, you would save these multiple versions over time as one file, and each version you save includes a note about what has changed so you can easily revert back to an older version if needed. 
+
+By looking at the file list, you also can not tell who the syllabus originally came from, or if there were contributions from many individuals. Git and GitHub can help make attribution clear, and maintain it over time as a the syllabus travels between hands.  
 
 #### Case Three: Syllabi
 
