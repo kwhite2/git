@@ -576,13 +576,13 @@ Forking is the step you could take before cloning to do this.
 
 **Forking** a repository means making a copy of someone else's repository on GitHub, and saving it to your account on GitHub. This function happens within GitHub, and has nothing to do with what is happening on your local machine. 
 
-For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner.
+For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account. 
 
-**ADD SCREENSHOT.**
+![Image showing where the button to fork a repo is located](.../images/fork-button.jpeg)
 
-By clicking that button copying, or forking, this repository to your account. In the upper left hand corner, it would say your account name instead of `DHRI-Curriculum`, instead it will reference our account below after `forked from`. 
+Doing so would also adjust the attribution information in the upper left hand corner. Your username would replace `DHRI-Curriculum`, showing that you are looking at a copy of the repository on your account now. Additionally, it will reference the origin account, in this case, `DHRI-Curriculum` below after `forked from`.
 
-**ADD SCREENSHOT**
+![Image showing the changes in attribution that happen when a repo is forked](.../images/forking-attrib-chng.jpeg)
 
 Your local machine would come into play when you want to **clone** that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account. 
 
