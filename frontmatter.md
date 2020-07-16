@@ -58,4 +58,8 @@ Forthcoming.
 ## Acknowledgements
 
 - Current author: Kristen Hackett
-- Past Contributors include: Patrick Sweeney, Jojo Karlin, Jennifer Tang, Stephen Zweibel, and Mary Catherine McKinniburgh
+- Past Contributor: Patrick Sweeney
+- Past Contributor: Jojo Karlin
+- Past Contributor: Jennifer Tang
+- Past Contributor: Stephen Zweibel
+- Past Contributor: Mary Catherine McKinniburgh
