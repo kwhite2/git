@@ -227,10 +227,10 @@ user.email=gitsuperstar@gmail.com
 
 The next step is to **initialize** the project folder that we want Git to track. When we initialize a folder, we are telling Git to pay attention to it. This only needs to happen once because what is actually happening through this process is Git is adding a hidden subfolder within your folder that houses the internal data structure required for version control. 
 
-First, use `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type:
-
-	cd Desktop/projects/git-practice
-
+First, use `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type the following command into your terminal:
+```
+cd Desktop/projects/git-practice
+```
 Next we're going to **initialize** our repository using the following command:
 ```
 git init
@@ -239,13 +239,15 @@ You should see output like this:
 ```
 Initialized empty Git repository in /home/patrick/projects/git/.git/
 ```	
-Now Git is tracking our directory. Importantly, it has not done any versioning yet. There is no history of changes as of yet: 1) because there are no files and we haven't made any changes, 2) becuase we have to tell Git when to take a snapshot, which we go through in the next section. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tell it to.
+Now Git is tracking our directory. However, it has not done any versioning yet. This is because 1) we haven't told Git to take a snapshot yet, and 2) there are no files in the folder to take a snapshot of. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tell it to.
 
 Before version control is useful, we'll have to create a text file for Git to track. For this session, the file we will track will be a course syllabus—we'll create that next.
 
 ### Creating a Syllabus in Markdown
 
-To create a plain text file, we're going to switch to our text editor, VS Code, to create and edit a file named `syllabus.md` and save it to our 'git-practice' folder. If you have not installed VS Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md).
+To create a plain text file, we're going to switch to our text editor, VS Code, to create and edit a file named `syllabus.md` and save it to our 'git-practice' folder. 
+
+If you have not installed VS Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md).
 
 In terminal, check to make sure you are in your `git-practice` folder. (HINT: use 'pwd' to see what directory you are currently in) Next, type:
 ```
