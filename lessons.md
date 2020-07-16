@@ -142,29 +142,30 @@ Press the Windows button on your keyboard. When the search menu pops up, type `g
 
 ## Practice Navigating the Command Line
 
-In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder
+In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder.
+
+You can create the folder anywhere on your hard drive by typing the following into your terminal and hitting `Enter`.  
 ```
 cd <directory-name> 
 ```	
-will let you navigate inside a directory of your choosing.
-
-Type 
+Let's practice this command by using it to take us to our Desktop. Type the following command into your terminal and hit `Enter`. 
 ```
 cd Desktop
 ```	
-and hit `Enter`. This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
+This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
-To check your current directory, type
+Check your current directory by typing the following command into your terminal and hit enter:
 ```
 pwd
 ```	
-Try this now to make sure you're in your Desktop directory.
-
-Now, use 
+Now, use the following command to go up one directory:
 ```
 cd ..
 ```	
-to go up one directory. In this case, this will take you back to your home directory.
+Check your current directory again using the following command. You should be back in your home directory:
+```
+pwd
+```
 
 Practice going back and forth between your Desktop and your home directory.
 
@@ -172,19 +173,19 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 
 ## Making a Git Project Folder
 
-If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it with
+If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it using the following command: 
 ```
 cd projects
 ```	
-If you don't have a projects folder on your desktop, create one with
+If you don't have a projects folder on your desktop, create one using the following command: 
 ```
 mkdir projects
 ```
-From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the below command:
+From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the following command:
 ```
 mkdir git-practice
 ```
-Enter the new `git` folder with
+Navigate into the new `git` folder using the following command: 
 ```
 cd git-practice
 ```
