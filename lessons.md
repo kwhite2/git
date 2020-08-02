@@ -120,7 +120,7 @@ Even if you were only working with your own self-created syllabus, like we'll do
 
 # Review of the Command Line
 
-During this workshop, you'll be communicating with GitHub from our local machine via the command line (terminal, bash). It will be useful if you've taken [the Command Line Workshop](https://github.com/DHRI-Curriculum/command-line) before continuing. This section reviews some of the basic commands that will also be used in this workshop.  
+During this workshop, you'll be communicating with GitHub from our local machine via the command line (terminal, bash). This section reviews some of the basic commands that will also be used in this workshop.  
 
 In addition to the command line, you'll be using your text editor and your browser. Before continuing, its important that we clearly distinguish between these three different spaces or environments:
 - Your plain text editor where you'll be writing your syllabus in Markdown is on your local machine. 
@@ -564,7 +564,7 @@ To start, let's add something to our syllabus. Another week of materials or a ne
 
 Save that file. 
 
-Use `git add` via the command line to stage the file - tell Git what document you want it to pay attention to. 
+Use `git add` via the command line to stage the file--tell Git what document you want it to pay attention to. 
 
 Use `git commit` via the command line to save the changes you've just made as a snapshot or new version of you file. Remember to use the -m flag and include a message about the change you just made. 
 
@@ -585,13 +585,13 @@ Also try creating a new file and adding an assignment. Rewrite the assignment us
 
 # Cloning & Forking
 
-GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things - such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your loca machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
+GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things--such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your loca machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
 
 Cloning and forking are the basic functions of this capability. Each are first explained below, and followed by an example and activity to further explain. 
 
 ## Cloning
 
-**Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally - on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
+**Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally--on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
 
 ```sh
 $ git clone <repository-url>
@@ -661,7 +661,7 @@ You might use this method if you were going to teach your own Git & GitHub works
 
 ## Challenge
 
-You made it to the end of this workshop-congratulations! Now, practice your new skills:
+You made it to the end of this workshop--congratulations! Now, practice your new skills:
 
 1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
