@@ -56,6 +56,8 @@ Forthcoming.
 ## Acknowledgements
 
 - Current author: Kristen Hackett
+- Reviewer: Param Ajmera
+- Reviewer: Rafael Davis Portela
 - Past Contributor: Patrick Sweeney
 - Past Contributor: Jojo Karlin
 - Past Contributor: Jennifer Tang
