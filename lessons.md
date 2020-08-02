@@ -145,26 +145,35 @@ Press the Windows button on your keyboard. When the search menu pops up, type `g
 In this session, we will be making a syllabus and using Git to keep track of our revisions. Let's create a Git project folder.
 
 You can create the folder anywhere on your hard drive by typing the following into your terminal and hitting `Enter`.  
+
+```sh
+$ cd <directory-name> 
 ```
-cd <directory-name> 
-```	
+
 Let's practice this command by using it to take us to our Desktop. Type the following command into your terminal and hit `Enter`. 
+
+```sh
+$ cd Desktop
 ```
-cd Desktop
-```	
+
 This will change your current working directory from `/Users/<your-name>` to `/Users/<your-name>/Desktop`.
 
 Check your current directory by typing the following command into your terminal and hit enter:
-```
-pwd
+
+```sh
+$ pwd
 ```	
+
 Now, use the following command to go up one directory:
-```
-cd ..
+
+```sh
+$ cd ..
 ```	
+
 Check your current directory again using the following command. You should be back in your home directory:
-```
-pwd
+
+```sh
+$ pwd
 ```
 
 Practice going back and forth between your Desktop and your home directory.
@@ -174,25 +183,35 @@ When finished, go to your Desktop folder and check that you're there with `pwd`.
 ## Making a Git Project Folder
 
 If you've worked through the command line session, you should see a `projects` folder on your desktop. Navigate into it using the following command: 
+
+```sh
+$ cd projects
 ```
-cd projects
-```	
+
 If you don't have a projects folder on your desktop, create one using the following command: 
+
+```sh
+$ mkdir projects
 ```
-mkdir projects
-```
+
 From `Desktop`, navigate into your `projects` folder. Then create a `git-practice` folder with the following command:
+
+```sh
+$ mkdir git-practice
 ```
-mkdir git-practice
-```
+
 Navigate into the new `git` folder using the following command: 
+
+```sh
+$ cd git-practice
 ```
-cd git-practice
-```
+
 At this point, when you type `pwd`, your folder structure should look like this:
+
 ```
 /home/<username>/Desktop/projects/git-practice
 ```
+
 # Setting Up Git
 
 Our first step in working with Git is letting the software know who we are so it can track our work and attribute our contributions. Through this section, you'll be checking your installation and configuring Git with your own name and information.
@@ -200,9 +219,11 @@ Our first step in working with Git is letting the software know who we are so it
 ## Check Your Install
 
 Let's make sure Git has been successfully installed. In your terminal, type the following command:
+
+```sh
+$ git --version
 ```
-git --version
-```
+
 If you see a version number, you're all set. If not, click [here](http://git-scm.com/downloads) and install as you would any other software on your system.
 
 ## Configuring Git on Your Computer
@@ -210,35 +231,47 @@ If you see a version number, you're all set. If not, click [here](http://git-scm
 Next, let's configure git so that it can identify who we are. This information is useful because it connects identifying information with the changes you make in your repository. 
 
 Type the following into your command line, replacing the "John Doe" and johndoe@example.com with your name and email (use quotations where you see them). This does not necessarily need to be the name and email you used to sign up for GitHub. Remember, these are different spaces and different softwares.
+
+```sh
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 ```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
+
 To check your set-up, type the following command into your terminal:
+
+```sh
+$ git config --list
 ```
-git config --list
-```
+
 You should get something that looks like this except with whatever information you entered previously:
+
 ```
 user.name=Superstar Git User
 user.email=gitsuperstar@gmail.com
 ```
+
 # Creating a Syllabus with Markdown
 
 The next step is to **initialize** the project folder that we want Git to track. When we initialize a folder, we are telling Git to pay attention to it. This only needs to happen once because what is actually happening through this process is Git is adding a hidden subfolder within your folder that houses the internal data structure required for version control. 
 
 First, use `cd`, navigate to the `git-practice` folder inside `projects`. From your home directory, type the following command into your terminal:
+
+```sh
+$ cd Desktop/projects/git-practice
 ```
-cd Desktop/projects/git-practice
-```
+
 Next we're going to **initialize** our repository using the following command:
+
+```sh
+$ git init
 ```
-git init
-```
+
 You should see output like this:
+
 ```
 Initialized empty Git repository in /home/patrick/projects/git/.git/
-```	
+```
+
 Now Git is tracking our directory. However, it has not done any versioning yet. This is because 1) we haven't told Git to take a snapshot yet, and 2) there are no files in the folder to take a snapshot of. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tell it to.
 
 Before version control is useful, we'll have to create a text file for Git to track. For this session, the file we will track will be a course syllabus—we'll create that next.
@@ -250,9 +283,11 @@ To create a plain text file, we're going to switch to our text editor, VS Code, 
 If you have not installed VS Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md).
 
 In terminal, check to make sure you are in your `git-practice` folder. (HINT: use 'pwd' to see what directory you are currently in) Next, type:
+
+```sh
+$ code syllabus.md
 ```
-code syllabus.md
-```	
+
 to open a `syllabus.md` file in VS Code. You should see a window appear that looks similar to this:
 
 ![Image of what VS Code looks like when opening the syllabus.md file](../images/vscode1.png)
@@ -268,31 +303,42 @@ Saving frequently is advised. When we get to the version contol functionality of
 We'll be using markdown to write a syllabus, and then using Git to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.
 
 In markdown, we insert headings with a single hash mark like this:
-```
+
+```md
 # My Syllabus Heading
-```	
+```
+
 A sub-heading (H2) heading uses two hash marks like this:
-```
+
+```md
 ## Readings
-```	
-To provide emphasis, place asterisks around some text:
 ```
+
+To provide emphasis, place asterisks around some text:
+
+```md
 *This text will appear italicized.*
 **This text will appear bold.**
 ```
+
 For emphasis, you need to mark where it should start and where it should end, so you need astrisks at the beginning and end of whatever text is being emphasized.
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
-```
+
+```md
 - Reading one
 - Reading two
 - Reading three
-```	
-To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 ```
+
+To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
+
+```md
 I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
-```	
+```
+
 Paragraphs of text are denoted by putting a blank line between them:
+
 ```
 This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the \<p> tag. That means that there is a little space before and after the paragraph when it is rendered.
 
@@ -336,9 +382,11 @@ Making a commit is a lot like taking a photo. First, you have to decide who will
 First, let's see what state Git is currently in. It's a good idea to use this command before and after doing anything in Git so you can always be on the same page as the computer.
 
 Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
+
+```sh
+$ git status
 ```
-git status
-```	
+
 You should see output like this:
 
 ```
@@ -359,9 +407,11 @@ This means we've initialized our repository, but haven't made any commits yet. I
 Let's follow the recommendation in the status message above and use the `add` command to stage files, making them ready to be committed.
 
 Type this command:
+
+```sh
+$ git add syllabus.md
 ```
-git add syllabus.md
-```	
+
 You should see no output from the command line, meaning that the above command succeeded. Let's run `git status` again to check if things have changed. You should see output like this:
 
 ```
@@ -382,9 +432,11 @@ This is Git telling you, "Ok, I see the file(s) you're talking about."
 ## Committing Changes
 
 Now that our files have been staged, let's commit them, making them part of the permanent record of the repository. Type:
+
+```sh
+$ git commit -m "Initial commit of syllabus file"
 ```
-git commit -m "Initial commit of syllabus file"
-```	
+
 The `-m` flag provides a message along with the commit that will tell others—or remind a future version of yourself—what the commit was all about. Try not to type `git commit` without the `-m` flag—there's a note about this below.
 
 After running the command, you should see output like this:
@@ -407,9 +459,11 @@ nothing to commit, working tree clean
 This means that everything in the repository is successfully committed and up-to-date. If you edit your syllabus file or create a new file in the repository, the message you get with `git status` will instead list files that have uncommitted changes.
 
 Let's run one other command to see the effect our commit has had. Enter this command:
+
+```sh
+$ git log
 ```
-git log
-```	
+
 You should see output similar to this:
 
 ```
@@ -429,9 +483,11 @@ The -m flag is useful for human purposes and technical purposes. For human purpo
 Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message. Unfortunately, the default text editor, `vi`, requires some knowledge to use, and we don't teach it as part of our sessions.
 
 If you find yourself stuck in an unfamiliar screen in the command line after running `git commit`, you're probably in `vi`. Type this to leave that environment and return to the `$` prompt:
+
 ```
 :q
-```	
+```
+
 If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt:
 
 ```
@@ -474,15 +530,19 @@ The instructions we want consist of two lines underneath the heading `...or push
 ![The commands you need to copy from the new repo page on GitHub](../images/connect-repo.png)
 
 Copy out the first command and paste it in your terminal. It should look something like this:
+
+```sh
+$ git remote add origin git@github.com:<username>/<repository-name>.git
 ```
-git remote add origin git@github.com:<username>/<repository-name>.git
-```	
+
 You'll need the command copied from your new repo, since it will contain the correct URL.
 
 Next, paste the second command. It will look exactly like this:
+
+```sh
+$ git push -u origin master
 ```
-git push -u origin master
-```
+
 After running this command, you should see output that looks like this:
 
 ```
@@ -495,6 +555,7 @@ To github.com:<repo-name>/git.git
 If you see output like this, go back to your new repository page in the browser and click the `Refresh` button. You should see your `syllabus.md` file on GitHub!
 
 ## Review
+
 We have covered the basic steps of creating a file and tracking changes within a file on your local machine and on GitHub. 
 
 This has involved coordinating across three different environments, so let's go through that one more time. Note that this process is very slightly different. I'll highlight it when it comes up. 
@@ -531,17 +592,21 @@ Cloning and forking are the basic functions of this capability. Each are first e
 ## Cloning
 
 **Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally - on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
+
+```sh
+$ git clone <repository-url>
 ```
-git clone <repository-url>
-```
+
 When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin master` will work (no -u flag needed). 
 
 For practice, let's clone the repository for this workshop about Git and GitHub.
 
 First, let's navigate back to your Desktop folder.
+
+```sh
+$ cd ~/Desktop
 ```
-cd ~/Desktop
-```
+
 Remember that the ~ refers to your home directory. Now let's find the URL we need to clone the lesson.
 
 First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
@@ -559,13 +624,17 @@ Now copy out the text in the box:
 Now that you have the text copied, go back to your terminal. Remember, you should be on the desktop.
 
 Type
+
+```sh
+$ git clone <copied-url>
 ```
-git clone <copied-url>
-```	
+
 If the command is successful, the full Git lesson will be replicated on your local machine. You can type
+
+```sh
+$ cd git
 ```
-cd git
-```	
+
 to enter the lesson folder, since the lesson repository is simply called `git`. Use the `ls` command to take a look at the various files in the lesson folder.
 
 Cloning can be especially useful when you're joining a group project that is hosted on GitHub, and you want your changes to eventually be pushed and shared with that same repository. 
