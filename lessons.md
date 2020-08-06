@@ -112,11 +112,15 @@ By looking at the file list, you also can not tell who the syllabus originally c
 
 #### Case Three: Syllabi
 
-Increasingly we see that faculty are sharing their syllabi on GitHub. Some are even using GitPages that apply a user-friendly interface to their repository to make it easier to access and navigate for their students. This is because Git and GitHub make it easy to make contributors and changes to documents over time visible. 
+Increasingly we see that faculty are sharing their syllabi on GitHub (example: [DLCL 204: Digital Humanities Across Borders](https://github.com/quinnanya/dlcl204)). Some are even using GitPages that apply a user-friendly interface to their repository to make it easier to access and navigate for their students (example: [Digital History](https://digitalhistory.github.io/)). 
 
-Using Git and GitHub, you could fork that syllabi to your account, and download - or *clone* as Git calls it - it to your local machine to edit. After making changes to the files and and reuploading them or *pushing* them to the repo (short for repository) on GitHub, someone else could compare the changes you made and see who the original or additional contributors were. They could also decide to continue the chain by copying or forking your version, or decide to return to the original repo and fork that version. Both Git and GitHub help with attribution here; tracking who changes and adds what is a key feature of both tools.
+GitHub offers a way of making a course publicly avaiable on the web, and sometimes easier or more intuitive to users than some learning management systems. Git helps track the changes over time. 
 
-Even if you were only working with your own self-created syllabus, like we'll do later in this workshop, Git and GitHub can be useful for tracking your changes without the hassle of multiple files. From one file, you can use Git to compare your current version with older versions; you can also compare and share these different versions on GitHub.
+When the softwares are used together, Git and GitHub also support a collaborative appraoch to syllabi development. Copying another's project and modifying and remixing the content to meet your needs is a seamless and transparent process. Attribution of specific changes over time is a foundational function of how Git operates; GitHub explicitly renders attribution, making it easy to see who(s) did what. This is one of the attractions of using the platform. 
+
+In a practical sense, you could search other syllabi on GitHub, and share yours so it could be searched by others. If someone finds a syllabus that includes parts they want to use, they could fork that syllabi to their GitHub account, and download - or *clone* as Git calls it - the files to your local machine and edit it there. Any changes could then be *pushed* back to the repository on GitHub, thereby sharing your amendments publicly. On GitHub, attribution of who contributed what are transparent. Meanwhile, your amended version would be available for others to fork and clone and amend and re-share. 
+
+Even if you were only working with your own self-created syllabus, like we'll do later in this workshop, Git and GitHub can be useful for tracking your changes without the hassle of multiple files. From one file, you can use Git to compare your current version with older versions; you can also compare and share these different versions on GitHub if you wanted.
 
 **Cloning** and **pushing** are proper functionalities of GitHub that describe how you communicate and share files between your local machine and the Internet. These are covered more in-depth in a later lesson in this workshop.
 
