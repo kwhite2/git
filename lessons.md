@@ -20,7 +20,7 @@ In Markdown:
 # Heading 1
 ```
 
-Whereas you use HTML and CSS with WordPress, you use Markdown with GitHub. Markdown has fewer options for marking text than HTML. It was designed to be human-readable, meaning easy to write and edit. 
+Whereas you use HTML and CSS with WordPress, you use Markdown with Git and GitHub. Markdown has fewer options for marking text than HTML. It was designed to be human-readable, meaning easy to write and edit. 
 
 This file you are reading is written in markdown—[here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/concept.md) is what it looks like in its raw, unrendered form.
 
