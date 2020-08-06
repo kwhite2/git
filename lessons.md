@@ -354,11 +354,15 @@ This is a second paragraph in markdown, which I'll use to tell you what I like a
 ## Challenge
 Use these five elements—headings, emphasis, lists, links, and paragraphs—to create a syllabus. Have a main heading that gives the course title (one `#`), then subheadings for, at least, course info and readings. Use emphasis (`*`) for book titles and try to get a list in there somewhere.
 
+## Example
+
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md). When editing the markdown file in VS Code, it might look like this:
 
 ![What your markdown might look like when typed into VS Code](../images/vscode2.png)
 
-VS Code also has a preview feature for your markdown. Hit the preview button on the top right while editing your markdown file:
+## Tips:
+
+**1)** VS Code also has a preview feature for your markdown. Hit the preview button on the top right while editing your markdown file:
 
 ![Button to hit to get a preview in VS Code](../images/vscode3.png)
 
@@ -366,7 +370,7 @@ You'll get two side-by-side panels. Your markdown file will be on the left, and 
 
 ![Side by side markdown and preview in VS Code](../images/vscode4.png)
 
-Remember to save your work with `Control-s` on Windows or `⌘-s` on Mac OS.
+**2)** Remember to save your work with `Control-s` on Windows or `⌘-s` on Mac OS.
 
 # Staging and Committing Changes
 
@@ -578,16 +582,23 @@ So far, we have not done anything with GitHub or on the Internet. We have used G
 
 Use `git push origin master` to push that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.   
 
-## Challenge 
+## Challenges 
 
-Go through the process a few more times by adding additional readings and weeks of course material. Remember to commit changes intentionally so your commit messages make sense. Use `git log` to review your changes. 
+**1)** Go through the process a few more times by adding additional readings and weeks of course material. Remember to commit changes intentionally so your commit messages make sense. Use `git log` to review your changes. 
 
-Also try creating a new file and adding an assignment. Rewrite the assignment using Markdown, or edit and add in the markers. Go through the process of staging and commiting that file, and pushing it to your repository on GitHub. 
+**2)** Also try creating a new file and adding an assignment. Rewrite the assignment using Markdown, or edit and add in the markers. Go through the process of staging and commiting that file, and pushing it to your repository on GitHub. 
 
-**Test your understanding by thinking through the following questions:** 
+**3** Test your understanding by thinking through the following questions:
 - Do you need to push the file to GitHub each time you commit changes to the file, or can you make several commits to a file and push them all to GitHub at once? 
-- Do you need to use `git init` after after adding an assignment file to your folder? 
+- Do you need to use `git init` after after adding a new assignment file to your folder? 
 - What about the -u flag in the git push origin master? Does this flag need to be used to add the assignment to your repository on GitHub?
+
+## Solution
+
+In response to **Challenge 3**: 
+- No, you don't need to push to GitHub every time, or at all even, if you didn't want to share your changes publicly. Git is the software that tracks the changes, and you review them on your local machine using Git as well. 
+- No, you don't need to initialize the folder after adding a new file for an assignment or otherwise. In this case, we've already initialized the process; Git is tracking the folder. After the file is added, we just need to notify Git to take a snapshot of the additions and changes using the `git add`, `git commit` sequence. We can also use `git push` to share those changes on GitHub. 
+- No, the -u fly does not need to be used again. This flag is only necessary when setting up the original connection between the folder on your local machine and the folder on GitHub. 
 
 # Cloning & Forking
 
@@ -669,6 +680,6 @@ You might use this method if you were going to teach your own Git & GitHub works
 
 You made it to the end of this workshop--congratulations! Now, practice your new skills:
 
-1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you working when completing these two different tasks.
+1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you are working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
 3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub. 
