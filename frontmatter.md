@@ -17,7 +17,7 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Estimated time
 
-Forthcoming.
+4 hours
 
 ## Prerequisites
 
