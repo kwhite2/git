@@ -1,5 +1,11 @@
 # Theory to Practice
 
+You made it to the end of this workshop--congratulations! You now know a little more about why using Git and GitHub in your scholarly practice might be advantageous, and what the challenges are.
+
+Below you'll find a set of readings and tutorials to supplement the lessons outlined herein, and offer additonal ways of advancing your use beyond the basics outlined here. There are also additional challenges to test your skills, as well as discussion questions to test your conceptual understanding of these tools. 
+
+Enjoy and best regards!
+
 ## Suggested Further Readings
 
 ### Git & GitHub
@@ -26,8 +32,12 @@
 
 ## Projects or Challenges to Try
 
-- Fill in your syllabus repository further, adding not only to your syllabus.md file, but adding additional content such as assignments and create a website from it using GitHub Pages or Jekyll.
-- Use Markdown and plain text editors to write up an assignment for your students. Use Pandoc to convert the file to Word and PDF.
+- Fill in your syllabus repository further, adding not only to your syllabus.md file, but adding additional content such as assignments.
+- Create a website from your syllabus files using GitHub Pages or Jekyll.
+- Create an independent or collaborative reading group that tracks readings and notes using Git and GitHub. 
+- Use Git and GitHub to track, store, and share an independent or collaborative project folder. 
+- Use Git to track a project on your local machine. 
+- Find and/or modify an existing public project on GitHub.
 
 ## Discussion Questions
 
