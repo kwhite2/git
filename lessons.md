@@ -38,6 +38,48 @@ As we move forward its important to make sure we're firm on the distinctions bet
 
 **Markdown** is the language used to format the plain text files in your Git-enabled repository. GitHub reads this language so that the markups made to the file are rendered when you view your file on the platform (i.e. #headers appears as headers, links are inserted).
 
+## Evaluation
+Which best describes Version Control:
+- a software installed on my local machine
+- a language for formatting plain text files
+- the practice of tracking and organizing the state of a file over time, as it changes*
+- a web-based plaform for storing and sharing files
+- a language that can be read and rendered by some web-based platforms
+- a version control software
+- a cloud-based software
+- refers to project folders as "repositories"
+
+Which best describe Git:
+- a software installed on my local machine*
+- a language for formatting plain text files
+- the practice of tracking and organizing the state of a file over time, as it changes
+- a web-based plaform for storing and sharing files
+- a language that can be read and rendered by some web-based platforms
+- a version control software*
+- a cloud-based software
+- refers to project folders as "repositories"*
+
+Which best describes GitHub:
+- a software installed on my local machine
+- a language for formatting plain text files
+- the practice of tracking and organizing the state of a file over time, as it changes
+- a web-based plaform for storing and sharing files*
+- a language that can be read and rendered by some web-based platforms
+- a version control software
+- a cloud-based software*
+- refers to project folders as "repositories"*
+
+Which best describes Markdown:
+- a software installed on my local machine
+- a language for formatting plain text files*
+- the practice of tracking and organizing the state of a file over time, as it changes
+- a web-based plaform for storing and sharing files
+- a language that can be read and rendered by some web-based platforms*
+- a version control software
+- a cloud-based software
+- refers to project folders as "repositories"
+
+
 # What You Can Do with Git and GitHub
 
 A [study of how Digital Humanists use GitHub](https://digitalscholarship.files.wordpress.com/2016/07/spirosmithdh2016githubpresentationfinal.pdf), conducted by Lisa Spiro and Sean Morey Smith, found that a wide range of users, including professors, research staff, graduate students, IT staff, and librarians commonly used the site in their DH work. They used GitHub for a diverse range of activities, such as:
@@ -123,6 +165,17 @@ In a practical sense, you could search other syllabi on GitHub, and share yours 
 Even if you were only working with your own self-created syllabus, like we'll do later in this workshop, Git and GitHub can be useful for tracking your changes without the hassle of multiple files. From one file, you can use Git to compare your current version with older versions; you can also compare and share these different versions on GitHub if you wanted.
 
 **Cloning** and **pushing** are proper functionalities of GitHub that describe how you communicate and share files between your local machine and the Internet. These are covered more in-depth in a later lesson in this workshop.
+
+## Evaluation
+
+What tasks could Git and/or GitHub offer support to?:
+- Developing software*
+- Creating and sharing data sets*
+- Creating websites*
+- Writing articles and books*
+- Collating online resources*
+- Keeping research notes*
+- Hosting syllabi and course materials*
 
 # Review of the Command Line
 
@@ -218,6 +271,41 @@ At this point, when you type `pwd`, your folder structure should look like this:
 /home/<username>/Desktop/projects/git-practice
 ```
 
+##Evaluation
+
+Which best describes where you are working when you're writing Markdown in your plain text editor: 
+- on my local machine*
+- on the internet
+
+Which best describes where you are working when you're using your terminal to communicate with GitHub and share the files: 
+- on my local machine*
+- on the internet
+
+Which best describes where you are working when you are viewing your files in GitHub: 
+- on my local machine*
+- on the internet*
+
+Git-enabled repository it means 
+- none of the files on my local machine are being tracked
+- a specific file on my local machine is being tracked
+- a specific folder on my local machine is being tracked*
+- all the files on my local machine are being tracked
+
+Which command do you use to make a new folder?
+- pwd
+- cd
+- mkdir*
+
+Which command do you use to enter into a folder?
+- pwd
+- cd*
+- mkdir
+
+Which command do you use to check where you are?
+- pwd*
+- cd
+- mkdir
+
 # Setting Up Git
 
 Our first step in working with Git is letting the software know who we are so it can track our work and attribute our contributions. Through this section, you'll be checking your installation and configuring Git with your own name and information.
@@ -255,6 +343,14 @@ You should get something that looks like this except with whatever information y
 user.name=Superstar Git User
 user.email=gitsuperstar@gmail.com
 ```
+
+## Evaluation
+
+What are you doing when you set up git?
+- You are creating a new version of the software on your local machine.
+- You are sending files from your local machnine to GitHub?
+- You are introducing yourself to the software, so it knows who you are.*
+- You are creating a new version of a project folder on your local machine. 
 
 # Creating a Syllabus with Markdown
 
@@ -371,6 +467,16 @@ You'll get two side-by-side panels. Your markdown file will be on the left, and 
 ![Side by side markdown and preview in VS Code](../images/vscode4.png)
 
 **2)** Remember to save your work with `Control-s` on Windows or `⌘-s` on Mac OS.
+
+## Evaluaton
+
+Which best describes what you're doing when you initialize your project folder: 
+- You created a new version of your project folder
+- You told Git to pay attention to your project folder*
+- You told Git to set up its file structure within your project folder so it can track changes to your files.* 
+- You use the command `mkdir` in your terminal
+- You use the command `git init` in your terminal*
+
 
 # Staging and Committing Changes
 
@@ -509,6 +615,37 @@ q
 
 `Control-c` attempts to abort the current task and restore user control. `Control-d` escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is used to escape from specific utilities like `less`. `:q` first changes the mode in `vi`, allowing you to enter the `q` key to quit, so it's a command specific to `vi`.
 
+##Evaluation
+Which best describe the process of Staging:
+- you telling Git to take a snapshot of changes made to a file.
+- you telling Git which files with changes you want it to pay attention to.*
+- you telling git to pay attention to a folder storing files you want to make changes to.
+- the second part of a two-step process.
+
+Which best describes the process of Committing: 
+- you telling Git to take a snapshot of changes made to a file.*
+- you telling Git which files with changes you want it to pay attention to.
+- you telling git to pay attention to a folder storing files you want to make changes to.
+- the second part of a two-step process.*
+
+What happens if you Stage the files, but don't Commit them?
+- Git won't know what files you want to take a snapshot of
+- Git won't take a snapshot of the files.* 
+- Git will take the snapshot of the files
+- You will have told Git what files you would like it to take a snapshot of.*
+
+What happens if you Commit the files, but don't Stage them? 
+- Git won't know what files you want to take a snapshot of*
+- Git won't take a snapshot of the files.* 
+- You will have told Git what files you would like it to take a snapshot of.
+- Git will take the snapshot of the files*
+
+Which best describes the -m flag used when committing changes to a file?
+- a brief description of changes you made to your file*
+- Its just something Git needs so it doesn't break
+- future aids when you are trying to make sense of or recover changes you previously made to a file*
+- It's nonsense - who needs it?!
+
 # Pushing to GitHub
 
 Now, you may want to backup or share that file on the Internet. Let's connect the directory you made on your local machine to GitHub, on the web. 
@@ -600,6 +737,40 @@ In response to **Challenge 3**:
 - No, you don't need to initialize the folder after adding a new file for an assignment or otherwise. In this case, we've already initialized the process; Git is tracking the folder. After the file is added, we just need to notify Git to take a snapshot of the additions and changes using the `git add`, `git commit` sequence. We can also use `git push` to share those changes on GitHub. 
 - No, the -u fly does not need to be used again. This flag is only necessary when setting up the original connection between the folder on your local machine and the folder on GitHub. 
 
+## Evaluation
+
+How does the process of pushing differ from the processes of staging and committing discussed in the previous lesson?
+- There is no fundamental difference between these processes. 
+- Staging and Committing set up the files whereas pushing is the act of taking the snapshot.
+- Staging and committing the files is to communicate with GitHub on the Internet, pushing the changes happens on your local machine. 
+- Staging and committing the files happens on your local machine, pushing the changes is to communicate with GitHub on the Internet. 
+
+wihich best describes what you're doing when you use the command 'git push'
+- you telling Git to take a snapshot of changes made to a file.*
+- you telling Git which files with changes you want it to pay attention to.
+- you telling git to pay attention to a folder storing files you want to make changes to.
+- you are copying the updated files with the changes to the repository on GitHub*
+- the second part of a two-step process.*
+
+What happens if you use git push without staging and committing files?
+- Git won't know what files you want to take a snapshot of.*
+- Git won't take a snapshot of the files.*
+- Your computer won't know what changes to share with GitHub.*
+- Git will take the snapshot of the files*
+- You will have successfully created a new version of the file.*
+- You will have communicated with GitHub and shared a copy of the updated files.
+- You will have communicated with GitHub to copy a set of files from their servers to your local machine.
+
+
+what happens if you stage and commit files, but not git push?
+- Git won't know what files you want to take a snapshot of.
+- Git won't take a snapshot of the files.
+- Your computer won't know what changes to share with GitHub.
+- Git will take the snapshot of the files*
+- You will have successfully created a new version of the file.*
+- You will have communicated with GitHub and shared a copy of the updated files.
+- You will have communicated with GitHub to copy a set of files from their servers to your local machine.
+
 # Cloning & Forking
 
 GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things--such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
@@ -676,9 +847,25 @@ Your local machine would come into play when you want to **clone** that reposito
 
 You might use this method if you were going to teach your own Git & GitHub workshop. You could use our repository as a base for getting started, and add more examples or change some language, clarify something further, or create a connection to another workshop you are giving, etc. This allows us to continue to use the workshop as we have it as well. Also, maybe at a later time, we want to merge some of your changes with ours. We can do that too by revisiting your version history. 
 
-## Challenge
+##Evaluation
 
-You made it to the end of this workshop--congratulations! Now, practice your new skills:
+Which best describes cloning?
+- copying a repository from GitHub to your local machine.*
+- copying a repository from your local machince to GitHub
+- copying a repository from someone else's GitHub account to your own
+- copying a repository from your account to someone else's account
+
+Which best describes forking
+- copying a repository from GitHub to your local machine. 
+- copying a repository from your local machince to GitHub
+- copying a repository from someone else's GitHub account to your own*
+- copying a repository from your account to someone else's account
+
+# Final Challenge
+
+You made it to the end of this workshop--congratulations! You now know a little more about why using Git and GitHub in your scholarly practice might be advantageous, and what the challenges are. 
+
+It may be worth practicing more with these tools to get a concrete sense of whether they'd be useful. Here's some ways forward:
 
 1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you are working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
