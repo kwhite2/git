@@ -847,7 +847,21 @@ Your local machine would come into play when you want to **clone** that reposito
 
 You might use this method if you were going to teach your own Git & GitHub workshop. You could use our repository as a base for getting started, and add more examples or change some language, clarify something further, or create a connection to another workshop you are giving, etc. This allows us to continue to use the workshop as we have it as well. Also, maybe at a later time, we want to merge some of your changes with ours. We can do that too by revisiting your version history. 
 
-##Evaluation
+## Challenge
+
+1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you are working when completing these two different tasks.
+2. Make changes to the files on your local machine. Remember to save them!
+3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub. 
+
+## Solution
+
+Rather than write out the solution here, I want to encourage you to go back through the lessons as needed. 
+
+You'll know you've completed step one when the project folder shows up on your local machine. 
+
+After you've made and saved the changes, you'll know you've completed step three when your changes appear in the project folder on GitHub. 
+
+## Evaluation
 
 Which best describes cloning?
 - copying a repository from GitHub to your local machine.*
@@ -860,13 +874,3 @@ Which best describes forking
 - copying a repository from your local machince to GitHub
 - copying a repository from someone else's GitHub account to your own*
 - copying a repository from your account to someone else's account
-
-# Final Challenge
-
-You made it to the end of this workshop--congratulations! You now know a little more about why using Git and GitHub in your scholarly practice might be advantageous, and what the challenges are. 
-
-It may be worth practicing more with these tools to get a concrete sense of whether they'd be useful. Here's some ways forward:
-
-1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only *what* you are doing, but also *where* you are working when completing these two different tasks.
-2. Make changes to the files on your local machine. Remember to save them!
-3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub. 
