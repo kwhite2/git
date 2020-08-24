@@ -739,30 +739,30 @@ In response to **Challenge 3**:
 
 ## Evaluation
 
-How does the process of pushing differ from the processes of staging and committing discussed in the previous lesson?
-- There is no fundamental difference between these processes. 
-- Staging and Committing set up the files whereas pushing is the act of taking the snapshot.
-- Staging and committing the files is to communicate with GitHub on the Internet, pushing the changes happens on your local machine. 
-- Staging and committing the files happens on your local machine, pushing the changes is to communicate with GitHub on the Internet. 
-
-wihich best describes what you're doing when you use the command 'git push'
+Which best describes what you're doing when you use the command 'git push'
 - you telling Git to take a snapshot of changes made to a file.*
 - you telling Git which files with changes you want it to pay attention to.
 - you telling git to pay attention to a folder storing files you want to make changes to.
 - you are copying the updated files with the changes to the repository on GitHub*
 - the second part of a two-step process.*
 
+How does the process of pushing differ from the processes of staging and committing discussed in the previous lesson?
+- There is no fundamental difference between these processes. 
+- Staging and Committing set up the files whereas pushing is the act of taking the snapshot.
+- Staging and committing the files is to communicate with GitHub on the Internet, pushing the changes happens on your local machine. 
+- Staging and committing the files happens on your local machine, pushing the changes is to communicate with GitHub on the Internet. 
+
+
 What happens if you use git push without staging and committing files?
 - Git won't know what files you want to take a snapshot of.*
 - Git won't take a snapshot of the files.*
 - Your computer won't know what changes to share with GitHub.*
-- Git will take the snapshot of the files*
-- You will have successfully created a new version of the file.*
+- Git will take the snapshot of the files
+- You will have successfully created a new version of the file.
 - You will have communicated with GitHub and shared a copy of the updated files.
 - You will have communicated with GitHub to copy a set of files from their servers to your local machine.
 
-
-what happens if you stage and commit files, but not git push?
+What happens if you stage and commit files, but not push the changes?
 - Git won't know what files you want to take a snapshot of.
 - Git won't take a snapshot of the files.
 - Your computer won't know what changes to share with GitHub.
