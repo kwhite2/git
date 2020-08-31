@@ -55,11 +55,13 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Acknowledgements
 
-- Current author: Kristen Hackett
-- Reviewer: Param Ajmera
-- Reviewer: Rafael Davis Portela
-- Past Contributor: Patrick Sweeney
-- Past Contributor: Jojo Karlin
-- Past Contributor: Jennifer Tang
-- Past Contributor: Stephen Zweibel
-- Past Contributor: Mary Catherine McKinniburgh
+- Current author: [Kristen Hackett](https://github.com/hackettka)
+- Reviewer: [Param Ajmera](https://github.com/paramajmera)
+- Reviewer: [Rafael Davis Portela](https://github.com/rafadavis)
+- Past Contributor: [Patrick Sweeney](https://github.com/pswee001)
+- Past Contributor: [Jojo Karlin](https://github.com/jojokarlin/)
+- Past Contributor: [Jennifer Tang](https://github.com/jentang/)
+- Past Contributor: [Stephen Zweibel](https://github.com/szweibel)
+- Past Contributor: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
+- Editor: [Lisa Rhody](https://github.com/lmrhody)
+- Editor: [Kalle Westerling](https://github.com/kallewesterling)
