@@ -14,12 +14,12 @@ Markdown is a markup language for formatting text. Like HTML, you add markers to
 
 In HTML: 
 ```html
-<h1> Heading 1 </h1>
+<h1>Heading 1</h1>
 ```
 
 In Markdown:
 
-```md
+```markdown
 # Heading 1
 ```
 
@@ -409,19 +409,19 @@ We'll be using markdown to write a syllabus, and then using Git to track any cha
 
 In markdown, we insert headings with a single hash mark like this:
 
-```md
+```markdown
 # My Syllabus Heading
 ```
 
 A sub-heading (H2) heading uses two hash marks like this:
 
-```md
+```markdown
 ## Readings
 ```
 
 To provide emphasis, place asterisks around some text:
 
-```md
+```markdown
 *This text will appear italicized.*
 **This text will appear bold.**
 ```
@@ -430,7 +430,7 @@ For emphasis, you need to mark where it should start and where it should end, so
 
 To create a bulleted list, put a hyphen at the beginning of each list item:
 
-```md
+```markdown
 - Reading one
 - Reading two
 - Reading three
@@ -438,7 +438,7 @@ To create a bulleted list, put a hyphen at the beginning of each list item:
 
 To create a link, put the anchor text (the text you will see) in square brackets and the URL in parentheses. Don't put a space between them:
 
-```md
+```markdown
 I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
 ```
 
