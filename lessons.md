@@ -27,7 +27,7 @@ Whereas you use HTML and CSS with WordPress, you use Markdown with Git and GitHu
 
 This file you are reading is written in markdown—[here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/concept.md) is what it looks like in its raw, unrendered form.
 
-Compare that with this - the source code for the GitHub page, written in HTML [here](view-source:https://github.com/DHRI-Curriculum/git).
+Compare that with this—the source code for the GitHub page, written in HTML [here](view-source:https://github.com/DHRI-Curriculum/git).
 
 Markdown is also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use of Markdown is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an epub with one command entered into your terminal.
 
@@ -37,7 +37,7 @@ As we move forward its important to make sure we're firm on the distinctions bet
 
 **Git** is a software that you use on your laptop, or your local computer/machine. The repository with your project's files is stored on your hard drive. You also edit the text files on your local machine using a plain text editor, which is another software on your local machine like VS Code. 
 
-**GitHub** is a cloud-based platform that you access through your internet browser. Even though you physically are still in the same place, working on your laptop, you are no longer working on your local machine, you are on the Internet. This is a fundamentally different location than when you're working with your Git repository and editing and creating files in your plain text editor. With GitHub, you are uploading your repository - as described above - from your local machine to this platform on the Internet to be shared more broadly. You can also create private repositories if you want to use GitHub to backup a project.  
+**GitHub** is a cloud-based platform that you access through your internet browser. Even though you physically are still in the same place, working on your laptop, you are no longer working on your local machine, you are on the Internet. This is a fundamentally different location than when you're working with your Git repository and editing and creating files in your plain text editor. With GitHub, you are uploading your repository—as described above—from your local machine to this platform on the Internet to be shared more broadly. You can also create private repositories if you want to use GitHub to backup a project.  
 
 **Markdown** is the language used to format the plain text files in your Git-enabled repository. GitHub reads this language so that the markups made to the file are rendered when you view your file on the platform (i.e. #headers appears as headers, links are inserted).
 
@@ -125,7 +125,7 @@ Git is also used to track changes (_version control_ in Git parlance) in writing
 
 #### Case Two: Coauthored Publications
 
-Git and GitHub - together or independently - support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the master project. This entails the process of creating _branches_ and _merging_.
+Git and GitHub—together or independently—support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the master project. This entails the process of creating _branches_ and _merging_.
 
 Git and GitHub also help with attribution by tracking individual contributions throughout. Additional branches could be created by a singular author as well, allowing the writer to explore different ways forward. The version control feature also allows authors to easily return to and compare older drafts or retrieve sections previoulsy discarded. 
 
@@ -270,11 +270,12 @@ $ cd git-practice
 
 At this point, when you type `pwd`, your folder structure should look like this:
 
-```
+```console
+$ pwd
 /home/<username>/Desktop/projects/git-practice
 ```
 
-##Evaluation
+## Evaluation
 
 Which best describes where you are working when you're writing Markdown in your plain text editor: 
 - on my local machine*
@@ -374,7 +375,7 @@ $ git init
 You should see output like this:
 
 ```
-Initialized empty Git repository in /home/patrick/projects/git/.git/
+Initialized empty Git repository in /home/<your-username>/projects/git/.git/
 ```
 
 Now Git is tracking our directory. However, it has not done any versioning yet. This is because 1) we haven't told Git to take a snapshot yet, and 2) there are no files in the folder to take a snapshot of. For now, Git knows this folder exists and is prepared to take a snapshot of the files when you tell it to.
@@ -444,8 +445,8 @@ I teach at [The Graduate Center, CUNY](https://www.gc.cuny.edu).
 
 Paragraphs of text are denoted by putting a blank line between them:
 
-```
-This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the \<p> tag. That means that there is a little space before and after the paragraph when it is rendered.
+```markdown
+This is a paragraph in markdown. It's separated from the paragraph below with a blank line. If you know HTML, it's kind of like the <p> tag. That means that there is a little space before and after the paragraph when it is rendered.
 
 This is a second paragraph in markdown, which I'll use to tell you what I like about markdown. I like markdown because it looks pretty good, if minimal, whether you're looking at the rendered or unrendered version. It's like tidy HTML.
 ```
@@ -500,15 +501,10 @@ Making a commit is a lot like taking a photo. First, you have to decide who will
 
 First, let's see what state Git is currently in. It's a good idea to use this command before and after doing anything in Git so you can always be on the same page as the computer.
 
-Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter this command:
+Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter `git status` and you should see the following output:
 
 ```console
 $ git status
-```
-
-You should see output like this:
-
-```
 On branch master
 
 No commits yet
@@ -597,7 +593,7 @@ This is the log of commits, comprising a history of your repository. There's onl
 
 ## Why Do We Need to Use the -m Flag?
 
-The -m flag is useful for human purposes and technical purposes. For human purposes, the -m flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes - your notes to self are limited, so to make them clear you might make commits after specific tasks are completed, such as update readings for week 1 or added S.Noble reading. This can also make it easier to reverse a specific change in the future. 
+The -m flag is useful for human purposes and technical purposes. For human purposes, the -m flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes—your notes to self are limited, so to make them clear you might make commits after specific tasks are completed, such as update readings for week 1 or added S.Noble reading. This can also make it easier to reverse a specific change in the future. 
 
 Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message. Unfortunately, the default text editor, `vi`, requires some knowledge to use, and we don't teach it as part of our sessions.
 
@@ -641,7 +637,7 @@ Which best describes the `-m` flag used when committing changes to a file?
 - a brief description of changes you made to your file*
 - Its just something Git needs so it doesn't break
 - future aids when you are trying to make sense of or recover changes you previously made to a file*
-- It's nonsense - who needs it?!
+- It's nonsense—who needs it?!
 
 # Pushing to GitHub
 
@@ -708,7 +704,7 @@ To start, let's add something to our syllabus. Another week of materials or a ne
 
 Save that file. 
 
-Use `git add` via the command line to stage the file--tell Git what document you want it to pay attention to. 
+Use `git add` via the command line to stage the file—tell Git what document you want it to pay attention to. 
 
 Use `git commit` via the command line to save the changes you've just made as a snapshot or new version of you file. Remember to use the `-m` flag and include a message about the change you just made.
 
@@ -769,13 +765,13 @@ What happens if you stage and commit files, but not push the changes?
 
 # Cloning & Forking
 
-GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things--such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
+GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things—such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
 
 Cloning and forking are the basic functions of this capability. Each are first explained below, and followed by an example and activity to further explain. 
 
 ## Cloning
 
-**Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally--on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
+**Cloning** a repository means making a copy of a repository on GitHub, to download and work on locally—on your local machine. By entering the following code into your terminal, you can clone any public directory on GitHub: 
 
 ```console
 $ git clone <repository-url>
