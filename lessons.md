@@ -12,11 +12,14 @@
 
 Markdown is a markup language for formatting text. Like HTML, you add markers to plain text to style and organize the text of a document.
 
-```
 In HTML: 
+```html
 <h1> Heading 1 </h1>
+```
 
 In Markdown:
+
+```md
 # Heading 1
 ```
 
@@ -24,7 +27,7 @@ Whereas you use HTML and CSS with WordPress, you use Markdown with Git and GitHu
 
 This file you are reading is written in markdown—[here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/concept.md) is what it looks like in its raw, unrendered form.
 
-Compare that with this - the source code for the GitHub page, written in HTML: view-source:https://github.com/DHRI-Curriculum/git
+Compare that with this - the source code for the GitHub page, written in HTML [here](view-source:https://github.com/DHRI-Curriculum/git).
 
 Markdown is also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use of Markdown is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an epub with one command entered into your terminal.
 
