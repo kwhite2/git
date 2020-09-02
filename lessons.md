@@ -115,7 +115,7 @@ As you can see across these sessions, we use GitHub to host workshop curricula. 
 
 If you [go this to workshop on GitHub](https://github.com/DHRI-Curriculum/git/issues/45) and look at the top of the page just under the workshop title, `DHRI-Curriculum/git`, you can see it is `forked from pswee001/Git_DRI_Jan_2018` (next to the red star). That line shows that this particular repository is building on (*"forked from"*) the curriculum for a session I presented at our January 2018 Institute. If you then look at that repository, you will see that it is in turn forked from previous sessions that were developed by other GC Digital Fellows for workshops in past years. 
 
-![Image of what attribution looks like in GitHub](../images/attribution.png)
+![Image of what attribution looks like in GitHub](images/attribution.png)
 
 **Forking** is a proper function of the GitHub platform. It supports collaboration by allowing you to copy someone else's repository to your own account on GitHub while maintaining a trail of attribution and derivation. This function is described in further detail in the final lesson of this workshop.
 
@@ -395,7 +395,7 @@ $ code syllabus.md
 
 to open a `syllabus.md` file in VS Code. You should see a window appear that looks similar to this:
 
-![Image of what VS Code looks like when opening the syllabus.md file](../images/vscode1.png)
+![Image of what VS Code looks like when opening the syllabus.md file](images/vscode1.png)
 
 If VS Code does not open when you use the `code` command in your terminal, open it using the Start Menu on Windows or Spotlight Search on Mac OS as you would any other software. Then click `File > Open File` and use the dialog to navigate to the `/Users/<your-name>/Desktop/projects/git` folder and create a `syllabus.md` file there.
 
@@ -457,17 +457,17 @@ Use these five elements—headings, emphasis, lists, links, and paragraphs—to 
 
 You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md). When editing the markdown file in VS Code, it might look like this:
 
-![What your markdown might look like when typed into VS Code](../images/vscode2.png)
+![What your markdown might look like when typed into VS Code](images/vscode2.png)
 
 ## Tips:
 
 **1)** VS Code also has a preview feature for your markdown. Hit the preview button on the top right while editing your markdown file:
 
-![Button to hit to get a preview in VS Code](../images/vscode3.png)
+![Button to hit to get a preview in VS Code](images/vscode3.png)
 
 You'll get two side-by-side panels. Your markdown file will be on the left, and your rendered preview will be on the right:
 
-![Side by side markdown and preview in VS Code](../images/vscode4.png)
+![Side by side markdown and preview in VS Code](images/vscode4.png)
 
 **2)** Remember to save your work with `Control-s` on Windows or `⌘-s` on Mac OS.
 
@@ -657,15 +657,15 @@ Remember, GitHub is a service that allows you to host files, collaborate, and fi
 
 Go to GitHub in your browser and click the plus sign in the upper right hand corner.
 
-![You can find the plus sign button to add a repo on the top right of github](../images/addrepo.png)
+![You can find the plus sign button to add a repo on the top right of github](images/addrepo.png)
 
 After clicking the plus button, select `New repository` from the dropdown menu.
 
-![The dropdown menu where you select New Repository](../images/createrepo.png)
+![The dropdown menu where you select New Repository](images/createrepo.png)
 
 After clicking `New repository`, you'll have to enter some information, including a name and description for your repository.
 
-![Screen on GitHub where you enter your repository information](../images/createrepo2.png)
+![Screen on GitHub where you enter your repository information](images/createrepo2.png)
 
 - Choose a name, such as `git-practice`.
 - Enter a description, such as `Test syllabus for learning Git and GitHub`.
@@ -677,7 +677,7 @@ You should end up inside your newly created git-practice repo. It will look like
 
 The instructions we want consist of two lines underneath the heading `...or push an existing repository from the command line`. The hand in this screenshot points to where these directions are on the page:
 
-![The commands you need to copy from the new repo page on GitHub](../images/connect-repo.png)
+![The commands you need to copy from the new repo page on GitHub](images/connect-repo.png)
 
 Copy out the first command and paste it in your terminal. It should look something like this:
 
@@ -804,13 +804,13 @@ First, follow [this link to the main page of this lesson on Git and GitHub](http
 
 On the main page, there should be a green `Clone or download` button on the right side:
 
-![Image pointing out where the clone or download button is on GitHub](../images/clone.png)
+![Image pointing out where the clone or download button is on GitHub](images/clone.png)
 
 Click the green button and you will see a box with highlighted text under a heading that says `Clone with HTTPS`. If you instead see `Cloning with SSH`, click the small link that says `Use HTTPS`.
 
 Now copy out the text in the box:
 
-![Image showing where the text you need to copy is located](../images/copy-clone-text.png)
+![Image showing where the text you need to copy is located](images/copy-clone-text.png)
 
 Now that you have the text copied, go back to your terminal. Remember, you should be on the desktop.
 
@@ -840,11 +840,11 @@ Forking is the step you could take before cloning to do this.
 
 For example, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account. 
 
-![Image showing where the button to fork a repo is located](.../images/fork-button.jpeg)
+![Image showing where the button to fork a repo is located](images/fork-button.jpeg)
 
 Doing so would also adjust the attribution information in the upper left hand corner. Your username would replace `DHRI-Curriculum`, showing that you are looking at a copy of the repository on your account now. Additionally, it will reference the origin account, in this case, `DHRI-Curriculum` below after `forked from`.
 
-![Image showing the changes in attribution that happen when a repo is forked](.../images/forking-attrib-chng.jpeg)
+![Image showing the changes in attribution that happen when a repo is forked](images/forking-attrib-chng.jpeg)
 
 Your local machine would come into play when you want to **clone** that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account. 
 
