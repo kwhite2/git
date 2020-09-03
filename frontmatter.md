@@ -6,14 +6,14 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Learning Objectives
 
-- Learn what Git, GitHub and Markdown are, how do they differ, and how they can be integrated to support your scholarly work.
+- Learn what Git, GitHub and Markdown are, how do they differ, and how they can be integrated to support your scholarly work
 - Learn what version control is and why it can be useful
-- Review basic Command line functions 
-- Install and configure Git on your local machine - (`git--version`), (`git--config`)
-- Practice using basic Markdown by Creating a Syllabus using a plain text editor (including headers, lists, bold, and emphasize)
-- Stage and committ changes using Git - (`git status`), (`git add`), (`git commit -m`), and (`git log`)
-- Pushing repo with Git and files to GitHub (`git push origin master`)
-- Cloning an existing repo on GitHub to your local machine so you can work with it - (`git clone`)
+- Review basic Command line functions
+- Install and configure Git on your local machine (`git--version`, `git--config`)
+- Practice using basic markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
+- Stage and commit changes using Git (`git status`, `git add`, `git commit -m`, and `git log`)
+- Pushing a repository with Git and files to GitHub (`git push origin master`)
+- Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
 
 ## Estimated time
 
@@ -21,23 +21,23 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Prerequisites
 
-- Intro to Command Line
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line)
 
 ## Contexts
 
 ### Pre-reading suggestions
 
-- Bryan, J. (2017). _[Excuse me, do you have a moment to talk about version control?](https://doi.org/10.7287/peerj.preprints.3159v2)_ PeerJ Preprints.
-- Ovadia, S. (2014). _[Markdown for Librarians and Academics](https://academicworks.cuny.edu/lg_pubs/7/)._ Behavioral and Social Sciences Librarian, 33, 120-124. 
-- Shaffer, K. (June 4, 2013). [GitHub for Academics: the open-source way to host, create and curate knowledge](https://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/) LSE Blog.
-- Begemann, O. (2016). [Collaborative Writing on GitHub](https://oleb.net/blog/2016/02/collaborative-writing-on-github/).
-- [How Digital Humanists Use GitHub](https://digitalscholarship.wordpress.com/2016/07/20/presentation-on-how-digital-humanists-use-github/): A presentation from Lisa Spiro and Sean Morey-Smith on their study of how Digital Humanists use GitHub.
+- Bryan, J. (2017). [_Excuse me, do you have a moment to talk about version control?_](https://doi.org/10.7287/peerj.preprints.3159v2) PeerJ Preprints.
+- Ovadia, S. (2014). [_Markdown for Librarians and Academics_](https://academicworks.cuny.edu/lg_pubs/7/). Behavioral and Social Sciences Librarian, 33, 120-124.
+- Shaffer, K. (June 4, 2013). [_GitHub for Academics: The open-source way to host, create and curate knowledge_](https://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/) LSE Blog.
+- Begemann, O. (2016). [_Collaborative Writing on GitHub_](https://oleb.net/blog/2016/02/collaborative-writing-on-github/).
+- [_How Digital Humanists Use GitHub_](https://digitalscholarship.wordpress.com/2016/07/20/presentation-on-how-digital-humanists-use-github/): A presentation from Lisa Spiro and Sean Morey-Smith on their study of how Digital Humanists use GitHub.
 
 ### Projects that use these skills
 
-- [GCDI's digital research institute](https://github.com/DHRI-Curriculum) has been improved and built out over time using GitHub to store and track multiple projects that use the same base of repositories, and new versions.
-- F-ing Algorithm project uses Git and GitHub to create multiple versions of their project in different languages - ([Chinese](https://github.com/labuladong/fucking-algorithm) and [English](https://github.com/labuladong/fucking-algorithm/tree/english)), and to create a [GitBook](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming) for sharing their work. 
-- Here are two examples of using Git and GitHub for teaching - [a syllabus using a GitHub repo](https://github.com/quinnanya/dlcl204) and [a syllabus using a repo and GitPages](https://digitalhistory.github.io/).
+- [GCDI's Digital Research Institute](https://github.com/DHRI-Curriculum) has been improved and built out over time using GitHub to store and track multiple projects that use the same base of repositories, and new versions.
+- "F-ing Algorithm" project uses Git and GitHub to create multiple versions of their project in different languages—([Chinese](https://github.com/labuladong/fucking-algorithm) and [English](https://github.com/labuladong/fucking-algorithm/tree/english)), and to create a [GitBook](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming) for sharing their work.
+- Here are two examples of using Git and GitHub for teaching—[a syllabus using a GitHub repo](https://github.com/quinnanya/dlcl204) and [a syllabus using a repo and GitPages](https://digitalhistory.github.io/).
 - [Fake New Corpus](https://github.com/several27/FakeNewsCorpus), an open source dataset composed of millions of news articles mainly intended for use in training deep learning algorithms for purpose of fake news recognition. The dataset is still work in progress and for now, the public version includes only 9,408,908 articles.
 - [C+=](https://github.com/TheFeministSoftwareFoundation/C-plus-Equality), a feminist programming language, created by The Feminist Software Foundation to smash the toxic Patriarchy that is inherent in and that permeates all current computer programming languages.
 - [Leaflet](https://github.com/Leaflet/Leaflet), an open-source Javascript library for building mobile-friendly interactive maps.
@@ -48,20 +48,20 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Resources
 
-- Download a plain text editor: [We recommend VS Code](https://code.visualstudio.com/Download).
-- [Create a GitHub account](https://github.com/join). 
+- Install a text editor: [We recommend Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md).
+- [Create a GitHub account](https://github.com/join).
 - [Git/GitHub Cheatsheet](git-cheat-sheet.pdf)
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Acknowledgements
 
 - Current author: [Kristen Hackett](https://github.com/hackettka)
-- Reviewer: [Param Ajmera](https://github.com/paramajmera)
-- Reviewer: [Rafael Davis Portela](https://github.com/rafadavis)
 - Past Contributor: [Patrick Sweeney](https://github.com/pswee001)
 - Past Contributor: [Jojo Karlin](https://github.com/jojokarlin/)
 - Past Contributor: [Jennifer Tang](https://github.com/jentang/)
 - Past Contributor: [Stephen Zweibel](https://github.com/szweibel)
 - Past Contributor: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
+- Reviewer: [Param Ajmera](https://github.com/paramajmera)
+- Reviewer: [Rafael Davis Portela](https://github.com/rafadavis)
 - Editor: [Lisa Rhody](https://github.com/lmrhody)
 - Editor: [Kalle Westerling](https://github.com/kallewesterling)
