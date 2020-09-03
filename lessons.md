@@ -1,6 +1,6 @@
 # What are Git, GitHub and Markdown?
 
-**Git** is software used for version control—that is, tracking the state of files and changes you make to them over time. Git can be enabled in a folder, and then used to save the state of the contents in that folder at different points in the future, as designated by you. In the language of Git, a folder is called a _repository_. In the context of this workshop, it refers to a folder that is being tracked by Git. Using Git, you can view a log of the changes you've made to the files in a repository and compare changes over time. You can also revert back to previous versions, and create branches of a project to explore different futures. Git is also useful for collaboration, as a repository can be shared across computers, and its contents can be asynchonously developed and eventually merged with the main project.
+**Git** is software used for version control—that is, tracking the state of files and changes you make to them over time. Git can be enabled in a folder, and then used to save the state of the contents in that folder at different points in the future, as designated by you. In the language of Git, a folder is called a _repository_. In the context of this workshop, it refers to a folder that is being tracked by Git. Using Git, you can view a log of the changes you've made to the files in a repository and compare changes over time. You can also revert back to previous versions, and create "branches" of a project to explore different futures. Git is also useful for collaboration, as a repository can be shared across computers, and its contents can be asynchonously developed and eventually merged with the main project.
 
 **GitHub** is a online platform for hosting Git repositories. It functions for some, predominantly programmers, as a social network for sharing and collaborating on code-based projects. Users can share their own projects, as well as search for others, which they can then often work on and contribute to. Digital Humanists, librarians, and other academics are also finding ways Git and GitHub are useful in writing projects and teaching. GitHub also serves as a web-hosting platform, allowing users to create websites from their repositories.
 
@@ -38,7 +38,7 @@ As we move forward its important to make sure we're firm on the distinctions bet
 
 ## Evaluation
 
-Which of the following best describes Version Control:
+Which of the following best describes _version control_:
 - a software installed on my local machine
 - a language for formatting plain text files
 - the practice of tracking and organizing the state of a file over time, as it changes*
@@ -77,6 +77,15 @@ Which best describes Markdown:
 - a version control software
 - a cloud-based software
 - refers to project folders as "repositories"
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Git](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/git.md)
+- [GitHub](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/github.md)
+- [Markdown](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/markdown.md)
+- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
 
 # What You Can Do with Git and GitHub
 
@@ -178,6 +187,13 @@ What tasks could Git and/or GitHub offer support to?
 - Collating online resources*
 - Keeping research notes*
 - Hosting syllabi and course materials*
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
+- [Branch](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/branch.md)
 
 # Review of the Command Line
 
@@ -482,6 +498,12 @@ Which best describes what you're doing when you initialize your project folder:
 - You use the command `mkdir` in your terminal
 - You use the command `git init` in your terminal*
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Markdown](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/markdown.md)
+
 # Staging and Committing Changes
 
 Git's primary function is version control, or to track a project as it exists at particular points in time. Now that we have a file to track—our `syllabus.md`—let's use Git to save the current state of the repository as it exists now.
@@ -641,6 +663,12 @@ Which best describes the `-m` flag used when committing changes to a file?
 - future aids when you are trying to make sense of or recover changes you previously made to a file*
 - It's nonsense—who needs it?!
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Commit](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/commit.md)
+
 # Pushing to GitHub
 
 Now, you may want to backup or share and collaborate around a file on the Internet. Let's connect the directory you created on your local computer to GitHub's cloud service, which you can access through the web.
@@ -765,6 +793,13 @@ What happens if you _stage_ and _commit_ files, but not _push_ the changes?
 - You will have communicated with GitHub and shared a copy of the updated files.
 - You will have communicated with GitHub to copy a set of files from their servers to your local machine.
 
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Push](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/push.md)
+- [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
+
 # Cloning and Forking
 
 GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things—such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
@@ -870,3 +905,11 @@ Which best describes _forking_?
 - Copying a repository from your local machince to GitHub.
 - Copying a repository from someone else's GitHub account to your own.*
 - Copying a repository from your account to someone else's account.
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Cloning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/cloning.md)
+- [Forking](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/forking.md)
+- [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
