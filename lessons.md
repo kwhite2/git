@@ -339,7 +339,7 @@ First, let's make sure Git has been successfully installed. In your terminal, ty
 $ git --version
 ```
 
-If you see a version number, you're all set. If not, click [here](http://git-scm.com/downloads) and install as you would any other software on your system.
+If you see a version number, you're all set. If not, follow the installation instructions [here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md).
 
 ## Configuring Git on Your Computer
 
@@ -398,7 +398,7 @@ Before version control is useful, we'll have to create a text file for Git to tr
 
 To create a plain text file, we're going to switch to our text editor, Visual Studio Code, to create and edit a file named `syllabus.md` and save it to our `git-practice` folder.
 
-If you have not installed Visual Studio Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/master/sections/vscode.md).
+If you have not installed Visual Studio Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md).
 
 In terminal, check to make sure you are in your `git-practice` folder. (_Hint_: use `pwd` to see what directory you are currently in.)
 
