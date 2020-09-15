@@ -473,7 +473,7 @@ If you want an a more advanced challenge, you can review some additional markdow
 
 ## Example
 
-You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/master/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/master/sections/syllabus.md). When editing the markdown file in Visual Studio Code, it might look like this:
+You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/main/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/main/sections/syllabus.md). When editing the markdown file in Visual Studio Code, it might look like this:
 
 ![What your markdown might look like when typed into Visual Studio Code](images/vscode2.png)
 
@@ -527,7 +527,7 @@ Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` direc
 
 ```console
 $ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -553,7 +553,7 @@ You should see no output from the command line, which should be interpreted as a
 
 ```
 $ git status
-On branch master
+On branch main
 
 No commits yet
 
@@ -580,7 +580,7 @@ The `-m` flag provides that the message following the flag (in quotation marks) 
 After running the command, you should see output like this:
 
 ```
-[master (root-commit) 8bb8306] Initial commit of syllabus file
+[main (root-commit) 8bb8306] Initial commit of syllabus file
   1 file changed, 0 insertions(+), 0 deletions(-)
   create mode 100644 syllabus.md
 ```
@@ -591,7 +591,7 @@ Let's check the state of our repository after the commit by running `git status`
 
 ```
 $ git status
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
@@ -606,7 +606,7 @@ $ git log
 You should see output similar to this:
 
 ```
-commit 8bb8306c1392eed52d4407eb16867a49b49a46ac (HEAD -> master)
+commit 8bb8306c1392eed52d4407eb16867a49b49a46ac (HEAD -> main)
 Author: Patrick Smyth <patricksmyth01@gmail.com>
 Date:   Sun May 20 16:03:39 2018 -0400
 
@@ -710,7 +710,7 @@ You'll need the command copied from your new repository, since it will contain t
 Next, paste the second command. It will look exactly like this:
 
 ```console
-$ git push -u origin master
+$ git push -u origin main
 ```
 
 After running this command, you should see output that looks like this:
@@ -719,7 +719,7 @@ After running this command, you should see output that looks like this:
 Total 4 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:<repo-name>/git.git
-   916998f..9779fa7  master -> master
+   916998f..9779fa7  main -> main
 ```
 
 If you see output like this, go back to your new repository page in the browser and click the `Refresh` button. You should see your `syllabus.md` file on GitHub!
@@ -740,7 +740,7 @@ Use `git commit` via the command line to save the changes you've just made as a 
 
 So far, we have not done anything with GitHub or on the Internet. We have used Git, installed on our local machine, to save a version of file as it stands now. We could stop here if we only had an interest in using Git for version control. But if we also wanted to use GitHub to back up our files, or to share our project with a team or publicly, we want to upload, or push, that repository to GitHub on the Internet.
 
-Use `git push origin master` to _push_ that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.
+Use `git push origin main` to _push_ that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.
 
 ## Challenges
 
@@ -751,7 +751,7 @@ Use `git push origin master` to _push_ that file to your repository on GitHub. A
 3. Test your understanding by thinking through the following questions:
 - Do you need to push the file to GitHub each time you commit changes to the file, or can you make several commits to a file and push them all to GitHub at once?
 - Do you need to use `git init` after after adding a new assignment file to your folder?
-- What about the `-u` flag in the git push origin master? Does this flag need to be used to add the assignment to your repository on GitHub?
+- What about the `-u` flag in the `git push origin main` command? Does this flag need to be used to add the assignment to your repository on GitHub?
 
 ## Solution
 
@@ -814,7 +814,7 @@ Cloning and forking are the basic functions of this capability. Each are first e
 $ git clone <repository-url>
 ```
 
-When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin master` will work (no `-u` flag needed).
+When you clone a repository from GitHub, the folder that shows up on your local machine comes built-in with a few things. First, Git is already present, so you don't need to initialize the folder. Also, the connection between your local copy and the online repository is already made, so `git push origin main` will work (no `-u` flag needed).
 
 For practice, let's clone the repository for this workshop about Git and GitHub, which [lives on GitHub](https://github.com/DHRI-Curriculum/git).
 
