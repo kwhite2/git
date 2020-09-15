@@ -219,7 +219,7 @@ Press the <kbd>Windows</kbd> button on your keyboard. When the search menu pops 
 
 ## Practice Navigating the Command Line
 
-If you don't feel comfortable navigating your hard drive through the command line, here is a short section catching you up. _If you feel fairly comfortable using the command line, you can skip this section, and go straight to [the next one](#making-a-git-project-folder)._
+If you don't feel comfortable navigating your hard drive through the command line, here is a short section catching you up. _If you feel fairly comfortable using the command line, you can skip this section, and go straight to the next one._
 
 You can create the folder anywhere on your hard drive by typing the following into your terminal and hitting <kbd>enter</kbd>.
 
