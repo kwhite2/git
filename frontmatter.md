@@ -50,7 +50,7 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 - Install a text editor: [We recommend Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md).
 - [Create a GitHub account](https://github.com/join).
-- [Git/GitHub Cheatsheet](git-cheat-sheet.pdf)
+- [Git/GitHub Cheatsheet](https://github.com/DHRI-Curriculum/git/raw/v2.0/git-cheat-sheet.pdf)
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Acknowledgements
