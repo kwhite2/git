@@ -1,6 +1,6 @@
 workshop_title = 'Introduction to Git and GitHub'
 
-license = '''<small>[Digital Research Institute (DRI) Curriculum](http://purl.org/dc/terms/) by [Graduate Center Digital Initiatives](https://gcdi.commons.gc.cuny.edu/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). Based on a work at <https://github.com/DHRI-Curriculum>. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.</small>
+license = '''<font size="1">[Digital Research Institute (DRI) Curriculum](http://purl.org/dc/terms/) by [Graduate Center Digital Initiatives](https://gcdi.commons.gc.cuny.edu/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). Based on a work at <https://github.com/DHRI-Curriculum>. When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.</font>
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)'''
 
@@ -33,6 +33,9 @@ def insert_directory_before_images(string='', directory='../images/', replacemen
         })
     return output
 
+
+def insert_get_started_button(toc):
+    return f'<p align=center><a href="{toc[1].get("path")}">Get Started >>></a></p>\n\n'
 
 
 def slugify(text):
@@ -80,7 +83,7 @@ def split_into_sections(markdown:str, level_granularity=3, keep_levels=False, cl
                 in_code = True
             elif in_code == True:
                 in_code = False
-                
+
         if is_header(line) and in_code == False:
             header = ''.join([_ for _ in line.split('#') if _]).strip()
             if keep_levels:
@@ -106,31 +109,25 @@ def split_into_sections(markdown:str, level_granularity=3, keep_levels=False, cl
     return(sections)
 
 
-if Path('sections').exists():
-    [Path(x).unlink() for x in Path('sections').glob('*')]
-else:
-    Path('sections').mkdir(parents=True)
+def read(filename:str, required=True):
+    try:
+        with open(filename, 'r') as f:
+            return f.read()
+    except FileNotFoundError:
+        if required:
+            raise FileNotFoundError(f'Required file `{filename}` could not be found in repository. Make sure it exists before you run this script.') from None
+        else:
+            return None
 
 
-with open('lessons.md', 'r') as f:
-    lessons = f.read()
+def check_sections_directory():
+    if Path('sections').exists():
+        [Path(x).unlink() for x in Path('sections').glob('*')]
+    else:
+        Path('sections').mkdir(parents=True)
 
+    return True
 
-all_content = OrderedDict()
-
-counter = 1
-for lesson_title, lesson_content in split_into_sections(lessons, level_granularity=1, clear_empty_lines=False).items():
-    for section_title, section_content in split_into_sections(lesson_content, level_granularity=2, clear_empty_lines=False).items():
-        if section_content:
-            pass # print(section_content)
-
-    all_content[counter] = {
-        'title': lesson_title,
-        'slug': slugify(text=lesson_title.lower()),
-        'content': lesson_content
-    }
-
-    counter += 1
 
 def get_nav(counter, all_content):
     prev_counter = counter-1
@@ -152,7 +149,7 @@ def get_nav(counter, all_content):
 
     file_content += ' | '
 
-    file_content += '[Next >>]'
+    file_content += f'[{next_title} >>]'
     if next_title == 'Back to frontmatter':
         file_content += '(../README.md)'
     else:
@@ -160,87 +157,124 @@ def get_nav(counter, all_content):
 
     return file_content
 
-toc = OrderedDict()
 
-for counter, data in all_content.items():
+def write_lessons(all_content):
+    for counter, data in all_content.items():
 
-    # Make any corrections to content here
-    content = data.get('content')
+        # Make any corrections to content here
+        content = data.get('content')
 
-    for d in insert_directory_before_images(content):
-        content = content.replace(d['original_string'], d['replaced_string'])
+        for d in insert_directory_before_images(content):
+            content = content.replace(d['original_string'], d['replaced_string'])
 
-    file_content = get_nav(counter, all_content) + '\n\n'
-    file_content += '---\n\n'
-    file_content += f'# {counter}. {data.get("title")}\n\n'
-    file_content += content
-    file_content += '\n\n'
-    file_content += get_nav(counter, all_content)
+        file_content = get_nav(counter, all_content) + '\n\n'
+        file_content += '---\n\n'
+        file_content += f'# {counter}. {data.get("title")}\n\n'
+        file_content += content
+        file_content += '\n\n'
+        file_content += '---\n\n'
+        file_content += get_nav(counter, all_content)
 
-    file_path = Path(f'sections/{counter}-{data.get("slug")}.md')
-    file_path.write_text(file_content)
+        file_path = Path(f'sections/{counter}-{data.get("slug")}.md')
+        file_path.write_text(file_content)
 
-    toc[counter] = {
-        'path': file_path,
-        'title': data.get("title")
-    }
+    return True
 
-# Process Table of Contents
 
-toc_text = '## Table of Contents\n\n'
-for counter, data in toc.items():
-    toc_text += f'{counter}. [{data.get("title")}]({data.get("path")})\n'
-toc_text = toc_text.strip()
+def get_toc(all_content, as_dict=True):
+    toc = OrderedDict()
+    for counter, data in all_content.items():
+        toc[counter] = {
+            'path': f'sections/{counter}-{data.get("slug")}.md',
+            'title': data.get("title")
+        }
+    if as_dict: return toc
 
-# Start putting together README.md
+    toc_text = ''
+    for counter, data in toc.items():
+        toc_text += f'{counter}. [{data.get("title")}]({data.get("path")})\n'
+    toc_text = toc_text.strip()
 
-with open('frontmatter.md', 'r') as f:
-    frontmatter = f.read()
+    return toc_text
 
-frontmatter_sections = split_into_sections(frontmatter, level_granularity=2, clear_empty_lines=False)
 
-image = None
-try:
-    with open('image.md', 'r') as f:
-        image = f.read()
-except FileNotFoundError:
-    pass
 
-## Image / title
-if image:
-    README = f'{image}\n\n'
-else:
-    README = f'# {workshop_title}\n\n'
+if __name__ == "__main__":
+    # read necessary files
+    lessons = read('lessons.md')
+    frontmatter = read('frontmatter.md')
+    image = read('image.md', required=False)
 
-## Abstract
-README += f'{frontmatter_sections.get("Abstract")}\n\n'
+    # setup 'sections' directory
+    check_sections_directory()
 
-## Learning objectives
-README += 'In this workshop, you will:\n\n'
-README += frontmatter_sections.get('Learning Objectives') + '\n\n'
+    # preset variables
+    all_content = OrderedDict()
+    counter = 1
+    frontmatter_sections = split_into_sections(frontmatter, level_granularity=2, clear_empty_lines=False)
+    contexts = split_into_sections(frontmatter_sections.get("Contexts"))
 
-## Get started "button"
-README += f'[<kbd>Get Started >>></kbd>]({toc[1].get("path")})\n\n'
+    # parse lessons/create all_content
+    for lesson_title, lesson_content in split_into_sections(lessons, level_granularity=1, clear_empty_lines=False).items():
+        all_content[counter] = {
+            'title': lesson_title,
+            'slug': slugify(text=lesson_title.lower()),
+            'content': lesson_content
+        }
+        counter += 1
 
-## Table of Contents
-README += '---\n\n'
-README += toc_text + '\n\n'
-README += '---\n\n'
+    # write split-up lesson files
+    write_lessons(all_content)
 
-'''
-## Before you get started
-README += '## Before you get started\n\n'
-README += 'You may want to take a look at a :\n\n'
-README += frontmatter_sections.get("Acknowledgements") + '\n\n'
-'''
+    # generate table of contents
+    toc_text = get_toc(all_content, as_dict=False)
 
-## Acknowledgements
-README += '## Acknowledgements\n\n'
-README += 'This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center\'s Digital Initiatives:\n\n'
-README += frontmatter_sections.get("Acknowledgements") + '\n\n'
+    # Start putting together README.md
 
-## Licensing information
-README += '---\n\n'
-README += license + '\n'
+    ## 1. Image / title
+    if image:
+        README = f'{image}\n\n'
+    else:
+        README = f'# {workshop_title}\n\n'
 
-Path('README.md').write_text(README)
+    ## 2. Abstract
+    README += f'{frontmatter_sections.get("Abstract")}\n\n'
+
+    ## 3. Learning objectives
+    README += 'In this workshop, you will:\n\n'
+    README += frontmatter_sections.get('Learning Objectives') + '\n\n'
+
+    ## 4. Get started "button"
+    README += '---\n\n'
+    README += insert_get_started_button(get_toc(all_content))
+
+    ## 5. Lessons (fka Table of Contents)
+    README += '---\n\n'
+    README += '## Lessons\n\n'
+    README += toc_text + '\n\n'
+    README += '---\n\n'
+
+    ## 6. Contexts/Before you get started
+    README += '## Before you get started\n\n'
+    README += '### Pre-reading suggestions\n\n'
+    README += 'You may want to first read a couple of our pre-reading suggestions:\n\n'
+    README += contexts.get('Pre-reading suggestions') + '\n\n'
+    README += '### Projects that use these skills\n\n'
+    README += 'You may want to check out a couple of projects that use the skills discussed in this workshop:\n\n'
+    README += contexts.get('Projects that use these skills') + '\n\n'
+
+    # Get started button
+    README += '---\n\n'
+    README += insert_get_started_button(get_toc(all_content))
+    README += '---\n\n'
+
+    ## Acknowledgements
+    README += '## Acknowledgements\n\n'
+    README += 'This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center\'s Digital Initiatives:\n\n'
+    README += frontmatter_sections.get("Acknowledgements") + '\n\n'
+
+    ## Licensing information
+    README += '---\n\n'
+    README += license + '\n'
+
+    Path('README.md').write_text(README)
