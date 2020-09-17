@@ -35,7 +35,7 @@ def insert_directory_before_images(string='', directory='../images/', replacemen
 
 
 def insert_get_started_button(toc):
-    return f'<p align=center><a href="{toc[1].get("path")}">Get Started >>></a></p>\n\n'
+    return f'<p align=center><a href="{toc[1].get("path")}">Get Started</a> →</p>\n\n'
 
 
 def slugify(text):

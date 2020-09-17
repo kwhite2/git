@@ -16,7 +16,7 @@ In this workshop, you will:
 
 ---
 
-This workshop is estimated to take you 4 hours to complete.<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started >>></a></p>
+This workshop is estimated to take you 4 hours to complete.<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
 
 ---
 
@@ -69,7 +69,7 @@ You may also want to check out a couple of projects that use the skills discusse
 
 ---
 
-<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started >>></a></p>
+<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
 
 ---
 
