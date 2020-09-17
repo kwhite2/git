@@ -1,4 +1,4 @@
-← [Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md)  |  [Pushing to GitHub](8-pushing-to-github.md)
+[Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md)  |  [Pushing to GitHub](8-pushing-to-github.md) →
 
 ---
 
@@ -169,4 +169,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md)  |  [Pushing to GitHub](8-pushing-to-github.md)
+[Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md)  |  [Pushing to GitHub](8-pushing-to-github.md) →
