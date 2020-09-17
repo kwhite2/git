@@ -149,9 +149,9 @@ def get_nav(counter, all_content, separator='  |  ', back_to_start='Start'):
 
     file_content += separator
 
-    file_content += f'[{next_title}] →'
+    file_content += f'[{next_title}]'
     if next_title == back_to_start:
-        file_content += '(../README.md)'
+        file_content += '(../README.md) →'
     else:
         file_content += f'({next_counter}-{all_content[next_counter].get("slug")}.md)'
 

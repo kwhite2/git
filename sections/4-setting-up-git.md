@@ -1,4 +1,4 @@
-← [Review of the Command Line](3-review-of-the-command-line.md)  |  [Creating a Syllabus File] →(5-creating-a-syllabus-file.md)
+← [Review of the Command Line](3-review-of-the-command-line.md)  |  [Creating a Syllabus File](5-creating-a-syllabus-file.md)
 
 ---
 
@@ -50,4 +50,4 @@ What are you doing when you set up git?
 
 ---
 
-← [Review of the Command Line](3-review-of-the-command-line.md)  |  [Creating a Syllabus File] →(5-creating-a-syllabus-file.md)
+← [Review of the Command Line](3-review-of-the-command-line.md)  |  [Creating a Syllabus File](5-creating-a-syllabus-file.md)
