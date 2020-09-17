@@ -16,7 +16,7 @@ In this workshop, you will:
 
 ---
 
-<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started >>></a></p>
+This workshop is estimated to take you 4 hours to complete.<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started >>></a></p>
 
 ---
 
@@ -36,9 +36,13 @@ In this workshop, you will:
 
 ## Before you get started
 
+If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Introduction to Git and GitHub:
+
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line)
+
 ### Pre-reading suggestions
 
-You may want to first read a couple of our pre-reading suggestions:
+Before you start the Introduction to Git and GitHub workshop, you may want to read a couple of our pre-reading suggestions:
 
 - Bryan, J. (2017). [_Excuse me, do you have a moment to talk about version control?_](https://doi.org/10.7287/peerj.preprints.3159v2) PeerJ Preprints.
 - Ovadia, S. (2014). [_Markdown for Librarians and Academics_](https://academicworks.cuny.edu/lg_pubs/7/). Behavioral and Social Sciences Librarian, 33, 120-124.
@@ -48,7 +52,7 @@ You may want to first read a couple of our pre-reading suggestions:
 
 ### Projects that use these skills
 
-You may want to check out a couple of projects that use the skills discussed in this workshop:
+You may also want to check out a couple of projects that use the skills discussed in this workshop:
 
 - [GCDI's Digital Research Institute](https://github.com/DHRI-Curriculum) has been improved and built out over time using GitHub to store and track multiple projects that use the same base of repositories, and new versions.
 - "F-ing Algorithm" project uses Git and GitHub to create multiple versions of their project in different languages—([Chinese](https://github.com/labuladong/fucking-algorithm) and [English](https://github.com/labuladong/fucking-algorithm/tree/english)), and to create a [GitBook](https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/analysisofdynamicprogramming) for sharing their work.
