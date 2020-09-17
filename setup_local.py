@@ -129,7 +129,7 @@ def check_sections_directory():
     return True
 
 
-def get_nav(counter, all_content, separator='&nbsp;&nbsp;|&nbsp;&nbsp;', back_to_start='Start'):
+def get_nav(counter, all_content, separator='&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;', back_to_start='Start'):
     prev_counter = counter-1
     next_counter = counter+1
     try:
