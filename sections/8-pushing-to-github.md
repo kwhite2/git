@@ -1,4 +1,4 @@
-[Staging and Committing Changes](7-staging-and-committing-changes.md)  |  [Cloning and Forking](9-cloning-and-forking.md) →
+← [Staging and Committing Changes](7-staging-and-committing-changes.md)  |  [Cloning and Forking](9-cloning-and-forking.md) →
 
 ---
 
@@ -135,4 +135,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-[Staging and Committing Changes](7-staging-and-committing-changes.md)  |  [Cloning and Forking](9-cloning-and-forking.md) →
+← [Staging and Committing Changes](7-staging-and-committing-changes.md)  |  [Cloning and Forking](9-cloning-and-forking.md) →

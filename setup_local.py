@@ -142,17 +142,17 @@ def get_nav(counter, all_content, separator='  |  ', back_to_start='Start'):
         next_title = back_to_start
 
     if prev_title == back_to_start:
-        file_content = f'↩ [{prev_title}]'
+        file_content = f'↻ [{prev_title}]'
         file_content += '(../README.md)'
     else:
-        file_content = f'[{prev_title}]'
+        file_content = f'← [{prev_title}]'
         file_content += f'({prev_counter}-{all_content[prev_counter].get("slug")}.md)'
 
     file_content += separator
 
     file_content += f'[{next_title}]'
     if next_title == back_to_start:
-        file_content += '(../README.md) ↩'
+        file_content += '(../README.md) ↻'
     else:
         file_content += f'({next_counter}-{all_content[next_counter].get("slug")}.md) →'
 
