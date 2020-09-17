@@ -63,5 +63,5 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 - Past contributing author: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
 - Past reviewer: [Param Ajmera](https://github.com/paramajmera)
 - Past reviewer: [Rafael Davis Portela](https://github.com/rafadavis)
-- Past editor: [Lisa Rhody](https://github.com/lmrhody)
-- Past editor: [Kalle Westerling](https://github.com/kallewesterling)
+- Current editor: [Lisa Rhody](https://github.com/lmrhody)
+- Current editor: [Kalle Westerling](https://github.com/kallewesterling)
