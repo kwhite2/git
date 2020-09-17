@@ -1,4 +1,4 @@
-[<< Back to frontmatter](../README.md) | [What You Can Do with Git and GitHub >>](2-what-you-can-do-with-git-and-github.md)
+← [Start](../README.md)  |  [What You Can Do with Git and GitHub] →(2-what-you-can-do-with-git-and-github.md)
 
 ---
 
@@ -93,4 +93,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-[<< Back to frontmatter](../README.md) | [What You Can Do with Git and GitHub >>](2-what-you-can-do-with-git-and-github.md)
+← [Start](../README.md)  |  [What You Can Do with Git and GitHub] →(2-what-you-can-do-with-git-and-github.md)

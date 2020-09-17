@@ -129,28 +129,28 @@ def check_sections_directory():
     return True
 
 
-def get_nav(counter, all_content):
+def get_nav(counter, all_content, separator='  |  ', back_to_start='Start'):
     prev_counter = counter-1
     next_counter = counter+1
     try:
         prev_title = all_content[prev_counter].get('title')
     except KeyError:
-        prev_title = 'Back to frontmatter'
+        prev_title = back_to_start
     try:
         next_title = all_content[next_counter].get('title')
     except KeyError:
-        next_title = 'Back to frontmatter'
+        next_title = back_to_start
 
-    file_content = f'[<< {prev_title}]'
-    if prev_title == 'Back to frontmatter':
+    file_content = f'← [{prev_title}]'
+    if prev_title == back_to_start:
         file_content += '(../README.md)'
     else:
         file_content += f'({prev_counter}-{all_content[prev_counter].get("slug")}.md)'
 
-    file_content += ' | '
+    file_content += separator
 
-    file_content += f'[{next_title} >>]'
-    if next_title == 'Back to frontmatter':
+    file_content += f'[{next_title}] →'
+    if next_title == back_to_start:
         file_content += '(../README.md)'
     else:
         file_content += f'({next_counter}-{all_content[next_counter].get("slug")}.md)'
@@ -246,6 +246,7 @@ if __name__ == "__main__":
 
     ## 4. Get started "button"
     README += '---\n\n'
+    if frontmatter_sections.get('Estimated time'): README += 'This workshop is estimated to take you ' + frontmatter_sections.get('Estimated time') + ' to complete.'
     README += insert_get_started_button(get_toc(all_content))
 
     ## 5. Lessons (fka Table of Contents)
@@ -255,13 +256,30 @@ if __name__ == "__main__":
     README += '---\n\n'
 
     ## 6. Contexts/Before you get started
-    README += '## Before you get started\n\n'
-    README += '### Pre-reading suggestions\n\n'
-    README += 'You may want to first read a couple of our pre-reading suggestions:\n\n'
-    README += contexts.get('Pre-reading suggestions') + '\n\n'
-    README += '### Projects that use these skills\n\n'
-    README += 'You may want to check out a couple of projects that use the skills discussed in this workshop:\n\n'
-    README += contexts.get('Projects that use these skills') + '\n\n'
+    if frontmatter_sections.get('Prerequisites') or \
+        contexts.get('Ethical Considerations') or \
+        contexts.get('Pre-reading suggestions') or \
+        contexts.get('Projects that use these skills'):
+        README += '## Before you get started\n\n'
+
+    if frontmatter_sections.get('Prerequisites'):
+        README += f'If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with {workshop_title}:\n\n'
+        README += frontmatter_sections.get('Prerequisites') + '\n\n'
+
+    if contexts.get('Ethical Considerations'):
+        README += '### Ethical Considerations\n\n'
+        README += f'Before you start the {workshop_title}, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:\n\n'
+        README += contexts.get('Ethical Considerations') + '\n\n'
+
+    if contexts.get('Pre-reading suggestions'):
+        README += '### Pre-reading suggestions\n\n'
+        README += f'Before you start the {workshop_title} workshop, you may want to read a couple of our pre-reading suggestions:\n\n'
+        README += contexts.get('Pre-reading suggestions') + '\n\n'
+
+    if contexts.get('Projects that use these skills'):
+        README += '### Projects that use these skills\n\n'
+        README += 'You may also want to check out a couple of projects that use the skills discussed in this workshop:\n\n'
+        README += contexts.get('Projects that use these skills') + '\n\n'
 
     # Get started button
     README += '---\n\n'
