@@ -1,4 +1,4 @@
-[<< Staging and Committing Changes](7-staging-and-committing-changes.md) | [Next >>](9-cloning-and-forking.md)
+[<< Staging and Committing Changes](7-staging-and-committing-changes.md) | [Cloning and Forking >>](9-cloning-and-forking.md)
 
 ---
 
@@ -133,4 +133,6 @@ Do you remember the glossary terms from this section?
 - [Push](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/push.md)
 - [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
 
-[<< Staging and Committing Changes](7-staging-and-committing-changes.md) | [Next >>](9-cloning-and-forking.md)
+---
+
+[<< Staging and Committing Changes](7-staging-and-committing-changes.md) | [Cloning and Forking >>](9-cloning-and-forking.md)

@@ -1,4 +1,4 @@
-[<< Setting Up Git](4-setting-up-git.md) | [Next >>](6-creating-syllabus-content-using-markdown.md)
+[<< Setting Up Git](4-setting-up-git.md) | [Creating Syllabus Content Using Markdown >>](6-creating-syllabus-content-using-markdown.md)
 
 ---
 
@@ -47,4 +47,6 @@ We'll be typing our markdown into this file in the Visual Studio Code window. At
 
 Saving frequently is advised. When we get to the version contol functionality of Git, only changes that are saved will be preserved when a version is created.
 
-[<< Setting Up Git](4-setting-up-git.md) | [Next >>](6-creating-syllabus-content-using-markdown.md)
+---
+
+[<< Setting Up Git](4-setting-up-git.md) | [Creating Syllabus Content Using Markdown >>](6-creating-syllabus-content-using-markdown.md)

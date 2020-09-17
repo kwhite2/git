@@ -1,4 +1,4 @@
-[<< What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md) | [Next >>](4-setting-up-git.md)
+[<< What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md) | [Setting Up Git >>](4-setting-up-git.md)
 
 ---
 
@@ -134,4 +134,6 @@ Which command do you use to check where you are?
 - `cd`
 - `mkdir`
 
-[<< What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md) | [Next >>](4-setting-up-git.md)
+---
+
+[<< What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md) | [Setting Up Git >>](4-setting-up-git.md)

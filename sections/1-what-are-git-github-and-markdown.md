@@ -1,4 +1,4 @@
-[<< Back to frontmatter](../README.md) | [Next >>](2-what-you-can-do-with-git-and-github.md)
+[<< Back to frontmatter](../README.md) | [What You Can Do with Git and GitHub >>](2-what-you-can-do-with-git-and-github.md)
 
 ---
 
@@ -91,4 +91,6 @@ Do you remember the glossary terms from this section?
 - [Markdown](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/markdown.md)
 - [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
 
-[<< Back to frontmatter](../README.md) | [Next >>](2-what-you-can-do-with-git-and-github.md)
+---
+
+[<< Back to frontmatter](../README.md) | [What You Can Do with Git and GitHub >>](2-what-you-can-do-with-git-and-github.md)

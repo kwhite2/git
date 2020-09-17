@@ -1,4 +1,4 @@
-[<< What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md) | [Next >>](3-review-of-the-command-line.md)
+[<< What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md) | [Review of the Command Line >>](3-review-of-the-command-line.md)
 
 ---
 
@@ -110,4 +110,6 @@ Do you remember the glossary terms from this section?
 - [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
 - [Branch](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/branch.md)
 
-[<< What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md) | [Next >>](3-review-of-the-command-line.md)
+---
+
+[<< What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md) | [Review of the Command Line >>](3-review-of-the-command-line.md)

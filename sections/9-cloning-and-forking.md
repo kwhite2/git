@@ -1,4 +1,4 @@
-[<< Pushing to GitHub](8-pushing-to-github.md) | [Next >>](../README.md)
+[<< Pushing to GitHub](8-pushing-to-github.md) | [Back to frontmatter >>](../README.md)
 
 ---
 
@@ -116,4 +116,6 @@ Do you remember the glossary terms from this section?
 - [Forking](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/forking.md)
 - [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
 
-[<< Pushing to GitHub](8-pushing-to-github.md) | [Next >>](../README.md)
+---
+
+[<< Pushing to GitHub](8-pushing-to-github.md) | [Back to frontmatter >>](../README.md)

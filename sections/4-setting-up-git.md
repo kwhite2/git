@@ -1,4 +1,4 @@
-[<< Review of the Command Line](3-review-of-the-command-line.md) | [Next >>](5-creating-a-syllabus-file.md)
+[<< Review of the Command Line](3-review-of-the-command-line.md) | [Creating a Syllabus File >>](5-creating-a-syllabus-file.md)
 
 ---
 
@@ -48,4 +48,6 @@ What are you doing when you set up git?
 - You are introducing yourself to the software, so it knows who you are.*
 - You are creating a new version of a project folder on your local machine.
 
-[<< Review of the Command Line](3-review-of-the-command-line.md) | [Next >>](5-creating-a-syllabus-file.md)
+---
+
+[<< Review of the Command Line](3-review-of-the-command-line.md) | [Creating a Syllabus File >>](5-creating-a-syllabus-file.md)
