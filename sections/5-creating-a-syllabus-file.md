@@ -1,4 +1,4 @@
-← [Setting Up Git](4-setting-up-git.md)  |  [Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md) →
+← [Setting Up Git](4-setting-up-git.md)&nbsp;&nbsp;|&nbsp;&nbsp;[Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md) →
 
 ---
 
@@ -49,4 +49,4 @@ Saving frequently is advised. When we get to the version contol functionality of
 
 ---
 
-← [Setting Up Git](4-setting-up-git.md)  |  [Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md) →
+← [Setting Up Git](4-setting-up-git.md)&nbsp;&nbsp;|&nbsp;&nbsp;[Creating Syllabus Content Using Markdown](6-creating-syllabus-content-using-markdown.md) →

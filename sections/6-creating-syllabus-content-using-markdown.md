@@ -1,4 +1,4 @@
-← [Creating a Syllabus File](5-creating-a-syllabus-file.md)  |  [Staging and Committing Changes](7-staging-and-committing-changes.md) →
+← [Creating a Syllabus File](5-creating-a-syllabus-file.md)&nbsp;&nbsp;|&nbsp;&nbsp;[Staging and Committing Changes](7-staging-and-committing-changes.md) →
 
 ---
 
@@ -90,4 +90,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Creating a Syllabus File](5-creating-a-syllabus-file.md)  |  [Staging and Committing Changes](7-staging-and-committing-changes.md) →
+← [Creating a Syllabus File](5-creating-a-syllabus-file.md)&nbsp;&nbsp;|&nbsp;&nbsp;[Staging and Committing Changes](7-staging-and-committing-changes.md) →
