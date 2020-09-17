@@ -14,7 +14,7 @@ In this workshop, you will:
 - Pushing a repository with Git and files to GitHub (`git push origin master`)
 - Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
 
-[<kbd>Get Started >>></kbd>](sections/1-what-are-git-github-and-markdown.md)
+<p align=center>[<kbd>Get Started >>></kbd>](sections/1-what-are-git-github-and-markdown.md)</p>
 
 ---
 
