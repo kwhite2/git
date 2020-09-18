@@ -16,21 +16,21 @@ In this workshop, you will:
 
 ---
 
-<p align="center">This workshop is estimated to take you 4 hours to complete.</p><p align="center"><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 4 hours to complete.</p><p align="center"><a href="sections/01-what-are-git-github-and-markdown.md">Get Started</a> →</p>
 
 ---
 
 ## Lessons
 
-1. [What are Git, GitHub and Markdown?](sections/1-what-are-git-github-and-markdown.md)
-2. [What You Can Do with Git and GitHub](sections/2-what-you-can-do-with-git-and-github.md)
-3. [Review of the Command Line](sections/3-review-of-the-command-line.md)
-4. [Setting Up Git](sections/4-setting-up-git.md)
-5. [Creating a Syllabus File](sections/5-creating-a-syllabus-file.md)
-6. [Creating Syllabus Content Using Markdown](sections/6-creating-syllabus-content-using-markdown.md)
-7. [Staging and Committing Changes](sections/7-staging-and-committing-changes.md)
-8. [Pushing to GitHub](sections/8-pushing-to-github.md)
-9. [Cloning and Forking](sections/9-cloning-and-forking.md)
+1. [What are Git, GitHub and Markdown?](sections/01-what-are-git-github-and-markdown.md)
+2. [What You Can Do with Git and GitHub](sections/02-what-you-can-do-with-git-and-github.md)
+3. [Review of the Command Line](sections/03-review-of-the-command-line.md)
+4. [Setting Up Git](sections/04-setting-up-git.md)
+5. [Creating a Syllabus File](sections/05-creating-a-syllabus-file.md)
+6. [Creating Syllabus Content Using Markdown](sections/06-creating-syllabus-content-using-markdown.md)
+7. [Staging and Committing Changes](sections/07-staging-and-committing-changes.md)
+8. [Pushing to GitHub](sections/08-pushing-to-github.md)
+9. [Cloning and Forking](sections/09-cloning-and-forking.md)
 
 ---
 
@@ -42,7 +42,7 @@ If you do not have experience or basic knowledge of the following workshops, you
 
 ### Ethical Considerations
 
-Before you start the Introduction to Git and GitHub, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
+Before you start the Introduction to Git and GitHub workshop, we want to remind you of some ethical considerations to take into account when you read through the lessons of this workshop:
 
 - Within the nebulous open-source ecosystem, GitHub is an important place for storing and finding code. What if your open source code was used by an entity or for a purpose that did not agree with your ethics? For example, the platform received backlash from employees of GitHub and users of the platform when it was revealed that they held a contract with ICE. In this case, neither group wanted their code shared and used by ICE in detaining and deporting immigrants. [Read more here.](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/)
 
@@ -69,13 +69,13 @@ You may also want to check out a couple of projects that use the skills discusse
 
 ---
 
-<p align="center"><a href="OrderedDict([(1, {'path': 'sections/1-what-are-git-github-and-markdown.md', 'title': 'What are Git, GitHub and Markdown?'}), (2, {'path': 'sections/2-what-you-can-do-with-git-and-github.md', 'title': 'What You Can Do with Git and GitHub'}), (3, {'path': 'sections/3-review-of-the-command-line.md', 'title': 'Review of the Command Line'}), (4, {'path': 'sections/4-setting-up-git.md', 'title': 'Setting Up Git'}), (5, {'path': 'sections/5-creating-a-syllabus-file.md', 'title': 'Creating a Syllabus File'}), (6, {'path': 'sections/6-creating-syllabus-content-using-markdown.md', 'title': 'Creating Syllabus Content Using Markdown'}), (7, {'path': 'sections/7-staging-and-committing-changes.md', 'title': 'Staging and Committing Changes'}), (8, {'path': 'sections/8-pushing-to-github.md', 'title': 'Pushing to GitHub'}), (9, {'path': 'sections/9-cloning-and-forking.md', 'title': 'Cloning and Forking'})])">Get Started</a> →</p>
+<p align="center"><a href="sections/01-what-are-git-github-and-markdown.md">Get Started</a> →</p>
 
 ---
 
 ## Acknowledgements
 
-This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives:
+This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://github.com/DHRI-Curriculum/python/graphs/contributors). This is a list of all the contributors:
 
 - Current author: [Kristen Hackett](https://github.com/hackettka)
 - Past contributing author: [Patrick Sweeney](https://github.com/pswee001)

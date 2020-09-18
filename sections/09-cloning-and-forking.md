@@ -1,4 +1,4 @@
-← [Pushing to GitHub](8-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Pushing to GitHub](08-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
 
 ---
 
@@ -118,4 +118,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [Pushing to GitHub](8-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Pushing to GitHub](08-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺

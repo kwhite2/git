@@ -1,4 +1,4 @@
-← [What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](3-review-of-the-command-line.md) →
+← [What are Git, GitHub and Markdown?](01-what-are-git-github-and-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](03-review-of-the-command-line.md) →
 
 ---
 
@@ -98,4 +98,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [What are Git, GitHub and Markdown?](1-what-are-git-github-and-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](3-review-of-the-command-line.md) →
+← [What are Git, GitHub and Markdown?](01-what-are-git-github-and-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](03-review-of-the-command-line.md) →

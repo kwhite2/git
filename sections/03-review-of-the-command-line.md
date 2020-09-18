@@ -1,4 +1,4 @@
-← [What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Setting Up Git](4-setting-up-git.md) →
+← [What You Can Do with Git and GitHub](02-what-you-can-do-with-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Setting Up Git](04-setting-up-git.md) →
 
 ---
 
@@ -136,4 +136,4 @@ Which command do you use to check where you are?
 
 ---
 
-← [What You Can Do with Git and GitHub](2-what-you-can-do-with-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Setting Up Git](4-setting-up-git.md) →
+← [What You Can Do with Git and GitHub](02-what-you-can-do-with-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Setting Up Git](04-setting-up-git.md) →
