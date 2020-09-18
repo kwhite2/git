@@ -16,7 +16,7 @@ In this workshop, you will:
 
 ---
 
-This workshop is estimated to take you 4 hours to complete.<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 4 hours to complete.</p><p align="center"><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
 
 ---
 
@@ -69,7 +69,7 @@ You may also want to check out a couple of projects that use the skills discusse
 
 ---
 
-<p align=center><a href="sections/1-what-are-git-github-and-markdown.md">Get Started</a> →</p>
+<p align="center"><a href="OrderedDict([(1, {'path': 'sections/1-what-are-git-github-and-markdown.md', 'title': 'What are Git, GitHub and Markdown?'}), (2, {'path': 'sections/2-what-you-can-do-with-git-and-github.md', 'title': 'What You Can Do with Git and GitHub'}), (3, {'path': 'sections/3-review-of-the-command-line.md', 'title': 'Review of the Command Line'}), (4, {'path': 'sections/4-setting-up-git.md', 'title': 'Setting Up Git'}), (5, {'path': 'sections/5-creating-a-syllabus-file.md', 'title': 'Creating a Syllabus File'}), (6, {'path': 'sections/6-creating-syllabus-content-using-markdown.md', 'title': 'Creating Syllabus Content Using Markdown'}), (7, {'path': 'sections/7-staging-and-committing-changes.md', 'title': 'Staging and Committing Changes'}), (8, {'path': 'sections/8-pushing-to-github.md', 'title': 'Pushing to GitHub'}), (9, {'path': 'sections/9-cloning-and-forking.md', 'title': 'Cloning and Forking'})])">Get Started</a> →</p>
 
 ---
 
