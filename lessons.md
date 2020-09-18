@@ -109,7 +109,7 @@ Participants in the study said they found GitHub useful in their Digital Humanit
 - Using different branches for experiments and new directions
 - Sharing and managing files with others—seeing who added what content and when
 
-## How We Use GitHub:
+## How We Use GitHub
 
 ### Sharing and Attribution
 
@@ -317,7 +317,7 @@ Which command do you use to check where you are?
 
 Through this section, you'll be checking your installation and configuring Git with your own name and information.
 
-## Check Your Install
+## Check Your Installation
 
 First, let's make sure Git has been successfully installed. In your terminal, type the following command:
 
@@ -593,7 +593,7 @@ You should see output similar to this:
 
 ```
 commit 8bb8306c1392eed52d4407eb16867a49b49a46ac (HEAD -> main)
-Author: Patrick Smyth <patricksmyth01@gmail.com>
+Author: Your Name <your-email-here@gmail.com>
 Date:   Sun May 20 16:03:39 2018 -0400
 
     Initial commit of syllabus file
