@@ -1,4 +1,4 @@
-# Frontmatter
+# Introduction to Git and GitHub
 
 ## Abstract
 
