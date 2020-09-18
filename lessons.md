@@ -201,7 +201,7 @@ Hold the <kbd>command</kbd> key and press the <kbd>space</kbd> bar at the same t
 
 ### Windows
 
-Press the <kbd>Windows</kbd> button on your keyboard. When the search menu pops up, type `git bash` and press <kbd>enter</kbd>.
+Press the <kbd>windows</kbd> button on your keyboard. When the search menu pops up, type `git bash` and press <kbd>enter</kbd>.
 
 ## Practice Navigating the Command Line
 
@@ -400,7 +400,7 @@ You should see a window appear that looks similar to this:
 
 If Visual Studio Code does not open when you use the `code` command in your terminal, open it using the Start Menu on Windows or Spotlight Search on macOS as you would any other software. Then click `File > Open File` and use the dialog to navigate to the `/Users/<your-name>/Desktop/projects/git` folder and create a `syllabus.md` file there.
 
-We'll be typing our markdown into this file in the Visual Studio Code window. At any time, you can save your file by hitting <kbd>Control</kbd> + <kbd>s</kbd> on Windows or <kbd>⌘</kbd> + <kbd>s</kbd> on macOS. Alternatively, you can click the `File` menu on the top right, then select `Save` from the dropdown menu.
+We'll be typing our markdown into this file in the Visual Studio Code window. At any time, you can save your file by hitting <kbd>control</kbd> + <kbd>s</kbd> on Windows or <kbd>⌘</kbd> + <kbd>s</kbd> on macOS. Alternatively, you can click the `File` menu on the top right, then select `Save` from the dropdown menu.
 
 Saving frequently is advised. When we get to the version contol functionality of Git, only changes that are saved will be preserved when a version is created.
 
@@ -473,7 +473,7 @@ You can look at an example syllabus in raw text form [here](https://raw.githubus
 
     ![Side by side markdown and preview in Visual Studio Code](images/vscode4.png)
 
-2. Remember to save your work—regularly!—with <kbd>Control-s</kbd> on Windows or <kbd>⌘-s</kbd> on macOS.
+2. Remember to save your work—regularly!—with <kbd>control</kbd> + <kbd>s</kbd> on Windows or <kbd>⌘</kbd> + <kbd>s</kbd> on macOS.
 
 ## Evaluation
 
