@@ -56,21 +56,7 @@ How did you initially come by the syllabus you use for your class(es), and did y
 
 Through this process, many of us end up with a set of files that looks something like this:
 
-```
-Documents
-│
-└───syllabus.docx
-│
-└───syllabus2.docx
-│
-└───syllabusRevised.docx
-│
-└───syllabusFINAL.docx
-│
-└───syllabusFINALFINAL.docx
-│
-└───syllabus--WHICH_VERSION??.docx
-```
+![Example of a messy folder structure with many files named similarly](../images/messy-file-structure.png)
 
 While I probably can tell which version is the "final" one, I can not see what was changed along the way or how the different versions vary from each other.
 

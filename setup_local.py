@@ -45,7 +45,6 @@ def insert_get_started_button(url='', center=True):
 
 def slugify(text):
     non_url_safe = ['"', '#', '$', '%', '&', '+', ',', '/', ':', ';', '=', '?', '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~', "'"]
-    translate_table = {ord(char): u'' for char in non_url_safe}
     non_url_safe_regex = re.compile(
         r'[{}]'.format(''.join(re.escape(x) for x in non_url_safe)))
 
