@@ -34,8 +34,13 @@ def insert_directory_before_images(string='', directory='../images/', replacemen
     return output
 
 
-def insert_get_started_button(toc):
-    return f'<p align=center><a href="{toc[1].get("path")}">Get Started</a> →</p>\n\n'
+def insert_get_started_button(url='', center=True):
+    _ = ''
+    if center: _ += f'<p align="center">'
+    _ += f'<a href="{url}">Get Started</a> →'
+    if center: _ += f'</p>'
+    _ += '\n\n'
+    return _
 
 
 def slugify(text):
@@ -247,8 +252,9 @@ if __name__ == "__main__":
 
     ## 4. Get started "button"
     README += '---\n\n'
-    if frontmatter_sections.get('Estimated time'): README += 'This workshop is estimated to take you ' + frontmatter_sections.get('Estimated time') + ' to complete.'
-    README += insert_get_started_button(get_toc(all_content))
+    if frontmatter_sections.get('Estimated time'):
+        README += '<p align="center">This workshop is estimated to take you ' + frontmatter_sections.get('Estimated time') + ' to complete.</p>'
+    README += insert_get_started_button(url=get_toc(all_content)[1]['path'], center=True)
 
     ## 5. Lessons (fka Table of Contents)
     README += '---\n\n'
