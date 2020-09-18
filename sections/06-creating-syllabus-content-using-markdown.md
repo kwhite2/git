@@ -71,7 +71,7 @@ You can look at an example syllabus in raw text form [here](https://raw.githubus
 
     ![Side by side markdown and preview in Visual Studio Code](../images/vscode4.png)
 
-2. Remember to save your work—regularly!—with <kbd>Control-s</kbd> on Windows or <kbd>⌘-s</kbd> on macOS.
+2. Remember to save your work—regularly!—with <kbd>control</kbd> + <kbd>s</kbd> on Windows or <kbd>⌘</kbd> + <kbd>s</kbd> on macOS.
 
 ## Evaluation
 

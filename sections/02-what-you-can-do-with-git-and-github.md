@@ -24,7 +24,7 @@ Participants in the study said they found GitHub useful in their Digital Humanit
 - Using different branches for experiments and new directions
 - Sharing and managing files with others—seeing who added what content and when
 
-## How We Use GitHub:
+## How We Use GitHub
 
 ### Sharing and Attribution
 

@@ -6,7 +6,7 @@
 
 Through this section, you'll be checking your installation and configuring Git with your own name and information.
 
-## Check Your Install
+## Check Your Installation
 
 First, let's make sure Git has been successfully installed. In your terminal, type the following command:
 

@@ -22,7 +22,7 @@ Hold the <kbd>command</kbd> key and press the <kbd>space</kbd> bar at the same t
 
 ### Windows
 
-Press the <kbd>Windows</kbd> button on your keyboard. When the search menu pops up, type `git bash` and press <kbd>enter</kbd>.
+Press the <kbd>windows</kbd> button on your keyboard. When the search menu pops up, type `git bash` and press <kbd>enter</kbd>.
 
 ## Practice Navigating the Command Line
 

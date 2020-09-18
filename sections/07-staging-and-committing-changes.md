@@ -105,7 +105,7 @@ You should see output similar to this:
 
 ```
 commit 8bb8306c1392eed52d4407eb16867a49b49a46ac (HEAD -> main)
-Author: Patrick Smyth <patricksmyth01@gmail.com>
+Author: Your Name <your-email-here@gmail.com>
 Date:   Sun May 20 16:03:39 2018 -0400
 
     Initial commit of syllabus file
