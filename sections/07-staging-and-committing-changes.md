@@ -117,17 +117,30 @@ This is the log of commits, comprising a history of your repository. There's onl
 
 The `-m` flag is useful for human purposes and technical purposes. For human purposes, the `-m` flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes—your notes to self are limited, so to make them clear, you might make commits after specific tasks are completed. If you update readings for the first week of classes or if you add another reading, you will want to make a. This can also make it easier to reverse a specific change in the future.
 
-Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message. Unfortunately, the default text editor, `vi`, requires some knowledge to use, and we don't teach it as part of our sessions.
+Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message in a file-like environment. It looks something like this:
 
-If you find yourself stuck in an unfamiliar screen in the command line after running `git commit` and forgetting the `-m flag`, you're probably in `vi`. Type this to leave that environment and return to the `$` prompt: `:q` followed by <kbd>enter</kbd>.
+![Example of what the vi screen looks like](../images/vi.png)
+
+This unfamiliar screen is the default text editor, `vi`, and it requires some knowledge to use. We don't teach it as part of our sessions, but if you find yourself stuck in this screen, you can try this trick to leave that environment and return to your usual command prompt. Type `:q` and then press <kbd>enter</kbd>. You should be back to the command line with a message saying:
+
+```console
+Aborting commit due to empty commit message.
+```
+
+If you make a mistake where you include an opening quotation mark but forget a closing one, you might accidentally end up inside a "quote prompt." You will know you're there when your command prompt changes to `quote>`. If this happens, you can just keep writing as much of your commit message as you want, and then end it with the same quotation mark that you opened the commit message with.
+
+Another option is to press <kbd>control</kbd> + <kbd>c</kbd> on your keyboard, which will exit the quote prompt and cancel any commits you were trying to perform.
+
+## Pro-tip for the Command Line: How to exit unknown screens
 
 If you're ever stuck or "trapped" on the command line, try running through these common exit commands to return to the prompt:
-- <kbd>Control</kbd> + <kbd>c</kbd>
-- <kbd>Control</kbd> + <kbd>d</kbd>
+
+- <kbd>control</kbd> + <kbd>c</kbd>
+- <kbd>control</kbd> + <kbd>d</kbd>
 - `q` followed by <kbd>enter</kbd>
 - `:q` followed by <kbd>enter</kbd>
 
-<kbd>Control</kbd> + <kbd>c</kbd> attempts to abort the current task and restore user control. <kbd>Control</kbd> + <kbd>d</kbd> escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is often used as a command (followed by <kbd>enter</kbd>) to escape from specific programs like `less`. `:q` is the command used in `vi` that changes the mode of interaction (`:`), allowing you to enter the `q`, a one-letter command to quit, which must be followed by <kbd>enter</kbd>. Thus, it's a command specific to `vi`.
+<kbd>control</kbd> + <kbd>c</kbd> attempts to abort the current task and restore user control. <kbd>control</kbd> + <kbd>d</kbd> escapes the current shell environment—if you use it at the normal `$` prompt, it will end the current command line session. `q` is often used as a command (followed by <kbd>enter</kbd>) to escape from specific programs like `less`. `:q` is the command used in `vi` that changes the mode of interaction (`:`), allowing you to enter the `q`, a one-letter command to quit, which must be followed by <kbd>enter</kbd>. Thus, it's a command specific to `vi`.
 
 ## Evaluation
 
