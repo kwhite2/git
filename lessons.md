@@ -197,7 +197,7 @@ Because you'll be moving between these three spaces throughout the workshop, you
 
 ### macOS
 
-Hold the <kbd>command</kbd> key and press the <kbd>space</kbd> bar at the same time to bring up the "Spotlight Search" window. Type `terminal`, followed by <kbd>enter</kbd> to quickly open the Terminal.
+Hold the <kbd>command (⌘)</kbd> key and press the <kbd>space</kbd> bar at the same time to bring up the "Spotlight Search" window. Type `terminal`, followed by <kbd>enter</kbd> to quickly open the Terminal.
 
 ### Windows
 
