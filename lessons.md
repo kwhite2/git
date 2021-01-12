@@ -191,7 +191,7 @@ In addition to the command line, you'll be using your text editor and your brows
 - Your browser is where you'll be uploading your repository to GitHub, a cloud service.
 - Your terminal is where you'll be communicating with GitHub to send the repository and project files back and forth between the cloud (which you can view through the GitHub website) and your hard drive.
 
-Because you'll be moving between these three spaces throughout the workshop, you may want to use (<kbd>command</kbd> + <kbd>tab</kbd>) or (<kbd>ctrl</kbd> + <kbd>tab</kbd>) to move quickly between the three windows on your desktop.
+Because you'll be moving between these three spaces throughout the workshop, you may want to use (<kbd>command (⌘)</kbd> + <kbd>tab</kbd>) or (<kbd>ctrl</kbd> + <kbd>tab</kbd>) to move quickly between the three windows on your desktop.
 
 ## Accessing the Terminal
 
