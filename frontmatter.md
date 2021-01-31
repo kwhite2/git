@@ -22,6 +22,7 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 ## Prerequisites
 
 - [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
+- [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) (recommended) You can use any plain text editor but for our purposes, Visual Studio Code ("VS Code") will be used.
 
 ## Contexts
 
@@ -48,7 +49,6 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Resources
 
-- Install a text editor: [We recommend Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md).
 - [Create a GitHub account](https://github.com/join).
 - [Git/GitHub Cheatsheet](https://github.com/DHRI-Curriculum/git/raw/v2.0/files/git-cheat-sheet.pdf)
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet)
