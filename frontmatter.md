@@ -21,7 +21,7 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Prerequisites
 
-- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line)
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
 
 ## Contexts
 
