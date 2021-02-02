@@ -38,7 +38,9 @@ In this workshop, you will:
 
 If you do not have experience or basic knowledge of the following workshops, you may want to look into those before you start with Introduction to Git and GitHub:
 
-- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line)
+- [Introduction to the Command Line](https://www.github.com/DHRI-Curriculum/command-line) (required)
+- [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) (recommended) You can use any plain text editor but for our purposes, Visual Studio Code ("VS Code") will be used.
+- [Create a GitHub account](https://github.com/join) (required) You need to have a GitHub account for the purposes of this workshop. It is free to sign up via this link. If you are an educator or a student, you might also qualify for the GitHub Education Pack, which you can read more about here: https://education.github.com/pack
 
 ### Ethical Considerations
 
