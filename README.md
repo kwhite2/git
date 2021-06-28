@@ -8,7 +8,7 @@ In this workshop, you will:
 - Learn what Git, GitHub and Markdown are, how do they differ, and how they can be integrated to support your scholarly work
 - Learn what version control is and why it can be useful
 - Review basic Command line functions
-- Install and configure Git on your local machine (`git--version`, `git--config`)
+- Install and configure Git on your local machine (`git --version`, `git --config`)
 - Practice using basic markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
 - Stage and commit changes using Git (`git status`, `git add`, `git commit -m`, and `git log`)
 - Pushing a repository with Git and files to GitHub (`git push origin master`)
