@@ -11,7 +11,7 @@ In this workshop, you will:
 - Install and configure Git on your local machine (`git --version`, `git --config`)
 - Practice using basic markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
 - Stage and commit changes using Git (`git status`, `git add`, `git commit -m`, and `git log`)
-- Pushing a repository with Git and files to GitHub (`git push origin master`)
+- Pushing a repository with Git and files to GitHub (`git push origin main`)
 - Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
 
 ---
