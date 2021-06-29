@@ -22,7 +22,7 @@ In this workshop, you will:
 
 ## Lessons
 
-1. [What are Git, GitHub and Markdown?](sections/01-what-are-git-github-and-markdown.md)
+1. [What are Git and GitHub?](sections/01-what-are-git-github-and-markdown.md)
 2. [What You Can Do with Git and GitHub](sections/02-what-you-can-do-with-git-and-github.md)
 3. [Review of the Command Line](sections/03-review-of-the-command-line.md)
 4. [Setting Up Git](sections/04-setting-up-git.md)
@@ -79,7 +79,8 @@ You may also want to check out a couple of projects that use the skills discusse
 
 This workshop is the result of a collaborative effort of a team of people, mostly involved presently or in the past, with the Graduate Center's Digital Initiatives. If you want to see statistics for contributions to this workshop, you can do so [here](https://www.github.com/DHRI-Curriculum/git/graphs/contributors). This is a list of all the contributors:
 
-- Current author: [Kristen Hackett](https://github.com/hackettka)
+- Current author: [Connor French](https://github.com/connor-french)
+- Past contributing author: [Kristen Hackett](https://github.com/hackettka)
 - Past contributing author: [Patrick Sweeney](https://github.com/pswee001)
 - Past contributing author: [Jojo Karlin](https://github.com/jojokarlin/)
 - Past contributing author: [Jennifer Tang](https://github.com/jentang/)
