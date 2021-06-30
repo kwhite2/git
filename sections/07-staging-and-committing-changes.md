@@ -13,13 +13,15 @@ In Git, a _commit_ is a snapshot of a repository that is entered into its perman
 1. Adding files to a "staging area," meaning that we intend to commit them.
 2. Finalizing the commit.
 
-Staging a file or files is you telling Git, "Hey! Pay attention these files and the changes in them".
+Staging a file or files is you telling Git, "Hey! Pay attention these files and the changes in them". 
 
 Making a commit is a lot like taking a photo. First, you have to decide who will be in the photo and arrange your friends or family in front of the camera (the staging process). Once everyone is present and ready, you take the picture, entering that moment into the permanent record (the commit process).
 
+Why do you need both steps? Sometimes when you're working on a project you don't want to pay attention to all the files you changed. Perhaps you fixed a bug in some code, but also did some work on your manuscript document. You may want to only commit the changes you made to the code because you still haven't finished your thoughts on the manuscript. You can stage, or `add`, the code file so Git knows to only commit the changes made to that file. Later, you can stage and then commit the manuscript changes on their own once you've finished your thought. 
+
 ## Staging Changes with the `add` Command
 
-First, let's see what state Git is currently in. It's a good idea to use this command before and after doing anything in Git so you can always be on the same page as the computer.
+First, let's see what state Git is currently in. We do that with the `git status` command. It's a good idea to use this command before and after doing anything in a Git repository so you can always be on the same page as the computer.
 
 Make sure you're in your `/home/<your-name>/Desktop/projects/git-practice` directory using the `pwd` command in the terminal. Once you're there, enter `git status` and you should see the following output:
 
@@ -83,7 +85,7 @@ After running the command, you should see output like this:
   create mode 100644 syllabus.md
 ```
 
-This means you have successfully made your first commit in the repository—congratulations!
+This means you have successfully made your first commit in the repository—congratulations! There are a few things going on in this message. The relevant information for you for now is the second line, which tells you that one file was changed, and there were no insertions or deletions. You have a fresh new file! 
 
 Let's check the state of our repository after the commit by running `git status`:
 
@@ -115,7 +117,7 @@ This is the log of commits, comprising a history of your repository. There's onl
 
 ## Why Do We Need to Use the `-m` Flag?
 
-The `-m` flag is useful for human purposes and technical purposes. For human purposes, the `-m` flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes—your notes to self are limited, so to make them clear, you might make commits after specific tasks are completed. If you update readings for the first week of classes or if you add another reading, you will want to make a. This can also make it easier to reverse a specific change in the future.
+The `-m` flag is useful for human purposes and technical purposes. For human purposes, the `-m` flag helps you keep track of the changes you're making. Version control is most useful when you can confidently return to a specific version. It can also help you be more structured in your approach to making changes—your notes to self are limited, so to make them clear, you might make commits after specific tasks are completed. If you update readings for the first week of classes or if you add another reading, you will want to make a commit. This can also make it easier to reverse a specific change in the future.
 
 Also, if you type `git commit` by itself, git will open the command line's default text editor to allow you to enter the commit message in a file-like environment. It looks something like this:
 
