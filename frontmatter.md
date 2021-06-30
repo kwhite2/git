@@ -55,7 +55,8 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Acknowledgements
 
-- Current author: [Kristen Hackett](https://github.com/hackettka)
+- Current author: [Connor French](https://github.com/connor-french)
+- Past contributing author: [Kristen Hackett](https://github.com/hackettka)
 - Past contributing author: [Patrick Sweeney](https://github.com/pswee001)
 - Past contributing author: [Jojo Karlin](https://github.com/jojokarlin/)
 - Past contributing author: [Jennifer Tang](https://github.com/jentang/)
