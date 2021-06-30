@@ -25,9 +25,9 @@ Now Git is tracking our directory. However, it has not done any versioning yet. 
 
 Before version control is useful, we'll have to create a text file for Git to track. For this session, the file we will track will be a course syllabus—we'll create that next.
 
-### Creating a Syllabus in Markdown
+### Creating a Syllabus file
 
-To create a plain text file, we're going to switch to our text editor, Visual Studio Code, to create and edit a file named `syllabus.md` and save it to our `git-practice` folder.
+To create a plain text file, we're going to switch to our text editor, Visual Studio Code, to create and edit a file named `syllabus.md` and save it to our `git-practice` folder. The `.md` extension indicates that it is a Markdown file, which is a special file format we will dive into in the next section.  
 
 If you have not installed Visual Studio Code, review [the installation instructions here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md).
 
