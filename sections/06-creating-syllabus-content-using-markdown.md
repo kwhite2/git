@@ -6,6 +6,8 @@
 
 We'll be using **Markdown** to write a syllabus, and then using **Git** to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.  
 
+**Markdown** is a markup language for formatting text. Like HTML, you add markers to plain text to style and organize the text of a document.
+
 Whereas you use HTML and CSS with WordPress, you use Markdown to render legible documents on GitHub. Markdown has fewer options for marking text than HTML. It was designed to be easier to write and edit.  
 
 For comparison, you learned to create headers in HTML like this:
