@@ -9,28 +9,29 @@ In this workshop, you will:
 - Learn what version control is and why it can be useful
 - Review basic Command line functions
 - Install and configure Git on your local machine (`git --version`, `git --config`)
-- Practice using basic markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
+- Practice using basic Markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
 - Stage and commit changes using Git (`git status`, `git add`, `git commit -m`, and `git log`)
 - Pushing a repository with Git and files to GitHub (`git push origin main`)
 - Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
+- Forking an existing respository from another user's GitHub account to your GitHub account so you can work with it
 
 ---
 
-<p align="center">This workshop is estimated to take you 4 hours to complete.</p><p align="center"><a href="sections/01-what-are-git-github-and-markdown.md">Get Started</a> →</p>
+<p align="center">This workshop is estimated to take you 4 hours to complete.</p><p align="center"><a href="sections/01-1.-what-are-git-and-github.md">Get Started</a> →</p>
 
 ---
 
 ## Lessons
 
-1. [What are Git and GitHub?](sections/01-what-are-git-github-and-markdown.md)
-2. [What You Can Do with Git and GitHub](sections/02-what-you-can-do-with-git-and-github.md)
-3. [Review of the Command Line](sections/03-review-of-the-command-line.md)
-4. [Setting Up Git](sections/04-setting-up-git.md)
-5. [Creating a Syllabus File](sections/05-creating-a-syllabus-file.md)
-6. [Creating Syllabus Content Using Markdown](sections/06-creating-syllabus-content-using-markdown.md)
-7. [Staging and Committing Changes](sections/07-staging-and-committing-changes.md)
-8. [Pushing to GitHub](sections/08-pushing-to-github.md)
-9. [Cloning and Forking](sections/09-cloning-and-forking.md)
+1. [1. What are Git and GitHub?](sections/01-1.-what-are-git-and-github.md)
+2. [2. What You Can Do with Git and GitHub](sections/02-2.-what-you-can-do-with-git-and-github.md)
+3. [3. Review of the Command Line](sections/03-3.-review-of-the-command-line.md)
+4. [4. Setting Up Git](sections/04-4.-setting-up-git.md)
+5. [5. Creating a Syllabus File](sections/05-5.-creating-a-syllabus-file.md)
+6. [6. Creating Syllabus Content Using Markdown](sections/06-6.-creating-syllabus-content-using-markdown.md)
+7. [7. Staging and Committing Changes](sections/07-7.-staging-and-committing-changes.md)
+8. [8. Pushing to GitHub](sections/08-8.-pushing-to-github.md)
+9. [9. Cloning and Forking](sections/09-9.-cloning-and-forking.md)
 
 ---
 
@@ -71,7 +72,7 @@ You may also want to check out a couple of projects that use the skills discusse
 
 ---
 
-<p align="center"><a href="sections/01-what-are-git-github-and-markdown.md">Get Started</a> →</p>
+<p align="center"><a href="sections/01-1.-what-are-git-and-github.md">Get Started</a> →</p>
 
 ---
 
