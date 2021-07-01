@@ -1,8 +1,8 @@
-← [6. Creating Syllabus Content Using Markdown](06-6.-creating-syllabus-content-using-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[8. Pushing to GitHub](08-8.-pushing-to-github.md) →
+← [Creating Syllabus Content Using Markdown](06-creating-syllabus-content-using-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pushing to GitHub](08-pushing-to-github.md) →
 
 ---
 
-# 7. 7. Staging and Committing Changes
+# 7. Staging and Committing Changes
 
 Git's primary function is version control, or to track a project as it exists at particular points in time. Now that we have a file to track—our `syllabus.md`—let's use Git to save the current state of the repository as it exists now.
 
@@ -184,4 +184,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [6. Creating Syllabus Content Using Markdown](06-6.-creating-syllabus-content-using-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[8. Pushing to GitHub](08-8.-pushing-to-github.md) →
+← [Creating Syllabus Content Using Markdown](06-creating-syllabus-content-using-markdown.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Pushing to GitHub](08-pushing-to-github.md) →

@@ -1,8 +1,8 @@
-← [7. Staging and Committing Changes](07-7.-staging-and-committing-changes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[9. Cloning and Forking](09-9.-cloning-and-forking.md) →
+← [Staging and Committing Changes](07-staging-and-committing-changes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Cloning and Forking](09-cloning-and-forking.md) →
 
 ---
 
-# 8. 8. Pushing to GitHub
+# 8. Pushing to GitHub
 
 Now, you may want to backup or share and collaborate around a file on the Internet. Let's connect the directory you created on your local computer to GitHub's cloud service, which you can access through the web.
 
@@ -128,4 +128,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [7. Staging and Committing Changes](07-7.-staging-and-committing-changes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[9. Cloning and Forking](09-9.-cloning-and-forking.md) →
+← [Staging and Committing Changes](07-staging-and-committing-changes.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Cloning and Forking](09-cloning-and-forking.md) →

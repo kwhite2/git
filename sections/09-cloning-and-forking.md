@@ -1,8 +1,8 @@
-← [8. Pushing to GitHub](08-8.-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Pushing to GitHub](08-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
 
 ---
 
-# 9. 9. Cloning and Forking
+# 9. Cloning and Forking
 
 GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things—such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
 
@@ -118,4 +118,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [8. Pushing to GitHub](08-8.-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺
+← [Pushing to GitHub](08-pushing-to-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Start](../README.md) ↺

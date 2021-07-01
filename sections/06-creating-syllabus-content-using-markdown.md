@@ -1,8 +1,8 @@
-← [5. Creating a Syllabus File](05-5.-creating-a-syllabus-file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[7. Staging and Committing Changes](07-7.-staging-and-committing-changes.md) →
+← [Creating a Syllabus File](05-creating-a-syllabus-file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Staging and Committing Changes](07-staging-and-committing-changes.md) →
 
 ---
 
-# 6. 6. Creating Syllabus Content Using Markdown
+# 6. Creating Syllabus Content Using Markdown
 
 We'll be using **Markdown** to write a syllabus, and then using **Git** to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.  
 
@@ -116,4 +116,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [5. Creating a Syllabus File](05-5.-creating-a-syllabus-file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[7. Staging and Committing Changes](07-7.-staging-and-committing-changes.md) →
+← [Creating a Syllabus File](05-creating-a-syllabus-file.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Staging and Committing Changes](07-staging-and-committing-changes.md) →

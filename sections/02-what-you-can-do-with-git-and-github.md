@@ -1,8 +1,8 @@
-← [1. What are Git and GitHub?](01-1.-what-are-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[3. Review of the Command Line](03-3.-review-of-the-command-line.md) →
+← [What are Git and GitHub?](01-what-are-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](03-review-of-the-command-line.md) →
 
 ---
 
-# 2. 2. What You Can Do with Git and GitHub
+# 2. What You Can Do with Git and GitHub
 
 A [study of how Digital Humanists use GitHub](https://digitalscholarship.files.wordpress.com/2016/07/spirosmithdh2016githubpresentationfinal.pdf), conducted by Lisa Spiro and Sean Morey Smith, found that a wide range of users, including professors, research staff, graduate students, IT staff, and librarians commonly used the site in their DH work. They used GitHub for a diverse range of activities, such as:
 
@@ -94,4 +94,4 @@ Do you remember the glossary terms from this section?
 
 ---
 
-← [1. What are Git and GitHub?](01-1.-what-are-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[3. Review of the Command Line](03-3.-review-of-the-command-line.md) →
+← [What are Git and GitHub?](01-what-are-git-and-github.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Review of the Command Line](03-review-of-the-command-line.md) →
