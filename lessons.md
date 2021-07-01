@@ -268,7 +268,7 @@ Which command do you use to check where you are?
 - `cd`
 - `mkdir`
 
-# Setting Up Git
+# 4. Setting Up Git
 
 Through this section, you'll be checking your installation and configuring Git with your own name and information.
 
