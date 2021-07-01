@@ -775,7 +775,7 @@ Do you remember the glossary terms from this section?
 - [Push](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/push.md)
 - [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
 
-# Cloning and Forking
+# 9. Cloning and Forking
 
 GitHub was built for sharing and collaborating on projects. A key advantage of the platform is that you can find lots of bits of software that do many different things—such as code for plugins for WordPress or Leaflet. Increasingly, you might find syllabi or open writing projects. If a project is public, you can save a copy of it to your local machine, work on it, save your admendations and share it on your own GitHub account. Like we've already mentioned, GitHub usefully helps track attribution along the way.
 
@@ -803,15 +803,15 @@ Remember that the `~` refers to your home directory. Now let's find the URL we n
 
 First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
 
-On the main page, there should be a green `Clone or download` button on the right side:
+On the main page, there should be a green `Code` button on the right side:
 
-![Image pointing out where the clone or download button is on GitHub](images/clone.png)
+![Image pointing out where the clone or download button is on GitHub](../images/clone.png)
 
 Click the green button and you will see a box with highlighted text under a heading that says `Clone with HTTPS`. If you instead see `Cloning with SSH`, click the small link that says `Use HTTPS`.
 
 Now copy out the text in the box:
 
-![Image showing where the text you need to copy is located](images/copy-clone-text.png)
+![Image showing where the text you need to copy is located](../images/copy-clone-text.png)
 
 Now that you have the text copied, go back to your terminal. Remember, you should be on the `Desktop`. (Hint: Use `pwd` to find out what your current working directory is.)
 
@@ -843,11 +843,11 @@ In order to "fork" the `git` repository into your own GitHub account, follow the
 
 First, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account.
 
-![Image showing where the button to fork a repo is located](images/fork-button.jpeg)
+![Image showing where the button to fork a repo is located](../images/fork-button.png)
 
 Doing so would also adjust the attribution information in the upper left hand corner. Your username would replace `DHRI-Curriculum`, showing that you are looking at a copy of the repository on your account now. Additionally, it will reference the origin account, in this case, `DHRI-Curriculum` below after `forked from`, since this was the origin point of _your_ fork.
 
-![Image showing the changes in attribution that happen when a repo is forked](images/forking-attrib-chng.jpeg)
+![Image showing the changes in attribution that happen when a repo is forked](../images/forking-attrib-chng.png)
 
 Your local machine would come into play when you want to _clone_ that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account.
 
@@ -888,3 +888,5 @@ Do you remember the glossary terms from this section?
 - [Cloning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/cloning.md)
 - [Forking](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/forking.md)
 - [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
+
+
