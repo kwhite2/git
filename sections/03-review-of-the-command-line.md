@@ -7,8 +7,8 @@
 During this workshop, you'll be communicating with GitHub from your local computer via the command line (the Terminal or the Git Bash on Windows). This section reviews some of the basic commands that will also be used in this workshop.
 
 In addition to the command line, you'll be using your text editor and your browser. Before continuing, its important that we clearly distinguish between these three different spaces or environments:
-- Your plain text editor where you'll be writing your syllabus in Markdown is on your local computer.
-- That syllabus is intiailly saved in a git-enabled repository on your local computer.
+- Your plain text editor where you'll be writing your syllabus is on your local computer.
+- That syllabus is initiailly saved in a git-enabled repository on your local computer.
 - Your browser is where you'll be uploading your repository to GitHub, a cloud service.
 - Your terminal is where you'll be communicating with GitHub to send the repository and project files back and forth between the cloud (which you can view through the GitHub website) and your hard drive.
 
@@ -101,7 +101,7 @@ $ pwd
 
 ## Evaluation
 
-Which best describes where you are working when you're writing Markdown in your plain text editor:
+Which best describes where you are working when you're writing in your plain text editor:
 - on my local machine*
 - on the internet
 
@@ -109,11 +109,11 @@ Which best describes where you are working when you're using your terminal to co
 - on my local machine*
 - on the internet
 
-Which best describes where you are working when you are viewing your files in GitHub:
-- on my local machine*
+Which best describes where your files are when you are viewing them in GitHub:
+- on my local machine
 - on the internet*
 
-Git-enabled repository it means
+Git-enabled repository means
 - none of the files on my local machine are being tracked
 - a specific file on my local machine is being tracked
 - a specific folder on my local machine is being tracked*

@@ -4,9 +4,19 @@
 
 # 6. Creating Syllabus Content Using Markdown
 
-We'll be using **markdown** to write a syllabus, and then using **Git** to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.
+We'll be using **Markdown** to write a syllabus, and then using **Git** to track any changes we make to it. Markdown allows us to format textual features like headings, emphasis, links, and lists in a plain text file using a streamlined set of notations that humans can interpret without much training. Markdown files usually have a `.md` extension.  
 
-In markdown, we insert headings with a single hash mark like this:
+**Markdown** is a markup language for formatting text. Like HTML, you add markers to plain text to style and organize the text of a document.
+
+Whereas you use HTML and CSS with WordPress, you use Markdown to render legible documents on GitHub. Markdown has fewer options for marking text than HTML. It was designed to be easier to write and edit.  
+
+For comparison, you learned to create headers in HTML like this:
+
+```html
+<h1>My Syllabus Heading</h1>
+```
+
+In Markdown, we insert headings with a single hash mark like this:
 
 ```markdown
 # My Syllabus Heading
@@ -17,6 +27,14 @@ A sub-heading (H2) heading uses two hash marks like this:
 ```markdown
 ## Readings
 ```
+
+The lessons of this workshop were originally written in markdown. You can see [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/v2.0/lessons.md) what they look like in their raw, unrendered form.
+
+Compare that with this—the source code for this lesson's web page, written in HTML [here](view-source:http://curriculum.dhinstitutes.org/workshops/git/lessons/).
+
+Markdown is also arguably more sustainable and accessible than formats like `.docx` because of its simplicity and related ability to be read across multiple platforms. Use of Markdown is also supported by document-conversion tools like [Pandoc](https://pandoc.org/) that can change a markdown file to an `.epub` with one command entered into your terminal.
+
+Here are a few more key elements to get you ready to make your own syllabus in Markdown. 
 
 To provide emphasis, place asterisks around some text:
 
@@ -81,6 +99,14 @@ Which best describes what you're doing when you initialize your project folder:
 - You told Git to set up its file structure within your project folder so it can track changes to your files.*
 - You use the command `mkdir` in your terminal
 - You use the command `git init` in your terminal*
+
+Which best describes Markdown:
+- a software installed on my local machine
+- a language for formatting plain text files*
+- a language that can be read and rendered by some web-based platforms*
+- a version control software
+- a cloud-based software
+- refers to project folders as "repositories"
 
 ## Keywords
 

@@ -30,7 +30,7 @@ Remember that the `~` refers to your home directory. Now let's find the URL we n
 
 First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
 
-On the main page, there should be a green `Clone or download` button on the right side:
+On the main page, there should be a green `Code` button on the right side:
 
 ![Image pointing out where the clone or download button is on GitHub](../images/clone.png)
 
@@ -70,11 +70,11 @@ In order to "fork" the `git` repository into your own GitHub account, follow the
 
 First, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account.
 
-![Image showing where the button to fork a repo is located](../images/fork-button.jpeg)
+![Image showing where the button to fork a repo is located](../images/fork-button.png)
 
 Doing so would also adjust the attribution information in the upper left hand corner. Your username would replace `DHRI-Curriculum`, showing that you are looking at a copy of the repository on your account now. Additionally, it will reference the origin account, in this case, `DHRI-Curriculum` below after `forked from`, since this was the origin point of _your_ fork.
 
-![Image showing the changes in attribution that happen when a repo is forked](../images/forking-attrib-chng.jpeg)
+![Image showing the changes in attribution that happen when a repo is forked](../images/forking-attrib-chng.png)
 
 Your local machine would come into play when you want to _clone_ that repository so you can work on it locally. This also means that when you push those changes to GitHub, you would be pushing them to a forked repository associated with your own account.
 

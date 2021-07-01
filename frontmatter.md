@@ -10,10 +10,11 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 - Learn what version control is and why it can be useful
 - Review basic Command line functions
 - Install and configure Git on your local machine (`git --version`, `git --config`)
-- Practice using basic markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
+- Practice using basic Markdown by creating a syllabus using a plain text editor (including headers, lists, bold, and emphasis)
 - Stage and commit changes using Git (`git status`, `git add`, `git commit -m`, and `git log`)
-- Pushing a repository with Git and files to GitHub (`git push origin master`)
+- Pushing a repository with Git and files to GitHub (`git push origin main`)
 - Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
+- Forking an existing respository from another user's GitHub account to your GitHub account so you can work with it
 
 ## Estimated time
 
@@ -55,7 +56,8 @@ Git and GitHub are powerful tools for collaborative and individual projects. Git
 
 ## Acknowledgements
 
-- Current author: [Kristen Hackett](https://github.com/hackettka)
+- Current author: [Connor French](https://github.com/connor-french)
+- Past contributing author: [Kristen Hackett](https://github.com/hackettka)
 - Past contributing author: [Patrick Sweeney](https://github.com/pswee001)
 - Past contributing author: [Jojo Karlin](https://github.com/jojokarlin/)
 - Past contributing author: [Jennifer Tang](https://github.com/jentang/)
