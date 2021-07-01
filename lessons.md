@@ -685,8 +685,8 @@ Use the copy button in the top right corner of the code box to copy all three li
 
 ```console
 $ git remote add origin https://github.com/<username>/<repository-name>.git
-git branch -M main
-git push -u origin main
+$ git branch -M main
+$ git push -u origin main
 ```
 
 You'll need the command copied from your new repository, since it will contain the correct URL.
