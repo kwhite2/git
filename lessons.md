@@ -651,7 +651,7 @@ Do you remember the glossary terms from this section?
 
 - [Commit](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/commit.md)
 
-# Pushing to GitHub
+# 8. Pushing to GitHub
 
 Now, you may want to backup or share and collaborate around a file on the Internet. Let's connect the directory you created on your local computer to GitHub's cloud service, which you can access through the web.
 
@@ -659,15 +659,15 @@ Remember, GitHub is a service that allows you to host files, collaborate, and fi
 
 Go to GitHub in your browser and click the plus sign in the upper right hand corner.
 
-![You can find the plus sign button to add a repo on the top right of github](images/addrepo.png)
+![You can find the plus sign button to add a repo on the top right of github](../images/addrepo.png)
 
 After clicking the plus button, select `New repository` from the dropdown menu.
 
-![The dropdown menu where you select New Repository](images/createrepo.png)
+![The dropdown menu where you select New Repository](../images/createrepo.png)
 
 After clicking `New repository`, you'll have to enter some information, including a name and description for your repository.
 
-![Screen on GitHub where you enter your repository information](images/createrepo2.png)
+![Screen on GitHub where you enter your repository information](../images/createrepo2.png)
 
 - Choose a name, such as `git-practice`. (This does _not_ need to match your folder name although it may be less confusing if you choose the same name here.)
 - Enter a description, such as `Test syllabus for learning Git and GitHub`.
@@ -679,29 +679,25 @@ You should end up inside your newly created repository. It will look like a set 
 
 The instructions we want consist of two lines underneath the heading `...or push an existing repository from the command line`. The hand in this screenshot points to where these directions are on the page:
 
-![The commands you need to copy from the new repo page on GitHub](images/connect-repo.png)
+![The commands you need to copy from the new repo page on GitHub](../images/connect-repo.png)
 
-Copy out the first command and paste it in your terminal. It should look something like this:
+Use the copy button in the top right corner of the code box to copy all three lines of code. They will look something like this:
 
 ```console
-$ git remote add origin git@github.com:<username>/<repository-name>.git
+$ git remote add origin https://github.com/<username>/<repository-name>.git
+git branch -M main
+git push -u origin main
 ```
 
 You'll need the command copied from your new repository, since it will contain the correct URL.
 
-Next, paste the second command. It will look exactly like this:
-
-```console
-$ git push -u origin main
-```
-
-After running this command, you should see output that looks like this:
+Paste them into your command line and press enter. You may need to press enter multiple times to run all three lines of code.
 
 ```
-Total 4 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To github.com:<repo-name>/git.git
-   916998f..9779fa7  main -> main
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/<username>/<repository-name>.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
 If you see output like this, go back to your new repository page in the browser and click the `Refresh` button. You should see your `syllabus.md` file on GitHub!
@@ -722,7 +718,7 @@ Use `git commit` via the command line to save the changes you've just made as a 
 
 So far, we have not done anything with GitHub or on the Internet. We have used Git, installed on our local machine, to save a version of file as it stands now. We could stop here if we only had an interest in using Git for version control. But if we also wanted to use GitHub to back up our files, or to share our project with a team or publicly, we want to upload, or push, that repository to GitHub on the Internet.
 
-Use `git push origin main` to _push_ that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.
+Use `git push origin main` to upload, or _push_, that file to your repository on GitHub. After refreshing the webpage, your file should appear online. **The difference I noted above appears here.** Note the absense of the `-u` flag from the command. That flag was used the first time to establish the connection between the repository on your local machine and on GitHub. Now that that connection has been established, that flag is not needed.
 
 ## Challenges
 
@@ -745,17 +741,16 @@ In response to _Challenge 3_:
 ## Evaluation
 
 Which best describes what you're doing when you use the command `git push`?
-- you telling Git to take a snapshot of changes made to a file.*
+- you telling Git to take a snapshot of changes made to a file.
 - you telling Git which files with changes you want it to pay attention to.
 - you telling git to pay attention to a folder storing files you want to make changes to.
 - you are copying the updated files with the changes to the repository on GitHub*
-- the second part of a two-step process.*
 
 How does the process of _pushing_ differ from the processes of _staging_ and _committing_ discussed in the previous lesson?
 - There is no fundamental difference between these processes.
 - Staging and Committing set up the files whereas pushing is the act of taking the snapshot.
 - Staging and committing the files is to communicate with GitHub on the Internet, pushing the changes happens on your local machine.
-- Staging and committing the files happens on your local machine, pushing the changes is to communicate with GitHub on the Internet.
+- Staging and committing the files happens on your local machine, pushing the changes is to communicate with GitHub on the Internet.*
 
 What happens if you use `git push` without staging and committing files?
 - Git won't know what files you want to take a snapshot of.*
@@ -764,7 +759,6 @@ What happens if you use `git push` without staging and committing files?
 - Git will take the snapshot of the files
 - You will have successfully created a new version of the file.
 - You will have communicated with GitHub and shared a copy of the updated files.
-- You will have communicated with GitHub to copy a set of files from their servers to your local machine.
 
 What happens if you _stage_ and _commit_ files, but not _push_ the changes?
 - Git won't know what files you want to take a snapshot of.
@@ -773,7 +767,6 @@ What happens if you _stage_ and _commit_ files, but not _push_ the changes?
 - Git will take the snapshot of the files*
 - You will have successfully created a new version of the file.*
 - You will have communicated with GitHub and shared a copy of the updated files.
-- You will have communicated with GitHub to copy a set of files from their servers to your local machine.
 
 ## Keywords
 
