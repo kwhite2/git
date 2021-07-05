@@ -434,7 +434,7 @@ If you want an a more advanced challenge, you can review some additional markdow
 
 ## Example
 
-You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/main/sections/syllabus.md). When it's rendered by GitHub, it looks like [this](https://github.com/DHRI-Curriculum/git/blob/main/sections/syllabus.md). When editing the markdown file in Visual Studio Code, it might look like this:
+You can look at an example syllabus in raw text form [here](https://raw.githubusercontent.com/DHRI-Curriculum/git/main/sections/syllabus.md). You can see what it looks like when it's rendered by GitHub [on GitHub](https://github.com/DHRI-Curriculum/git/blob/main/sections/syllabus.md). When editing the markdown file in Visual Studio Code, it might look like this:
 
 ![What your markdown might look like when typed into Visual Studio Code](images/vscode2.png)
 
@@ -843,7 +843,7 @@ _Forking_ a repository means making a copy of someone else's repository on GitHu
 
 In order to "fork" the `git` repository into your own GitHub account, follow these steps.
 
-First, go to [the repository for this workshop](https://github.com/DHRI-Curriculum/git) on GitHub. Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account.
+First, go to [the repository for this workshop on GitHub](https://github.com/DHRI-Curriculum/git). Note the `Fork` button in the upper right hand corner. By clicking that button, you can copy, or fork, this repository to your account.
 
 ![Image showing where the button to fork a repo is located](images/fork-button.png)
 
@@ -857,7 +857,7 @@ You might use this method if you were going to teach your own Git & GitHub works
 
 ## Challenge
 
-1. Fork and clone [the repository for this workshop](https://github.com/DHRI-Curriculum/git). Note not only _what_ you are doing, but also _where_ you are working when completing these two different tasks.
+1. Fork and clone [the repository for this workshop on GitHub](https://github.com/DHRI-Curriculum/git). Note not only _what_ you are doing, but also _where_ you are working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
 3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub.
 
