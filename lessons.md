@@ -89,7 +89,7 @@ Git is also used in writing projects! _Version control_ makes tracking changes t
 
 Git and GitHub—together or independently—support multi-author publishing. Like we have done with the DHRI curriculum, you can have a shared project folder that multiple people are working from asynchronously, even on the same parts if they wanted, and then those different offshoots can be carefully folded back into the main project. A singular author can also create different offshoots on their own, allowing the writer to explore different ways forward. This, combined with version control, allows authors to easily return to and compare older drafts or retrieve sections previously discarded.
 
-We encourage you to explore these features after you gain a grasp on the fundamentals in the current workshop. You can find resources to do this on the [Theory to Practice](theory-to-practice.md) page!
+We encourage you to explore these features after you gain a grasp on the fundamentals in the current workshop. You can find resources to do this on the [Theory to Practice](https://github.com/DHRI-Curriculum/git/blob/v2.0/theory-to-practice.md) page!
 
 ### Versions Across Time
 
