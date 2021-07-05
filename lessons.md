@@ -803,7 +803,7 @@ $ cd ~/Desktop
 
 Remember that the `~` refers to your home directory. Now let's find the URL we need to clone the lesson.
 
-First, follow [this link to the main page of this lesson on Git and GitHub](https://github.com/DHRI-Curriculum/git).
+First, visit [this workshop's page on GitHub](https://github.com/DHRI-Curriculum/git).
 
 On the main page, there should be a green `Code` button on the right side:
 
@@ -890,5 +890,3 @@ Do you remember the glossary terms from this section?
 - [Cloning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/cloning.md)
 - [Forking](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/forking.md)
 - [Repository](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/repository.md)
-
-
