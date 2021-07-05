@@ -43,7 +43,7 @@ Do you remember the glossary terms from this section?
 
 - [Git](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/git.md)
 - [GitHub](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/github.md)
-- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
+- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/version-control.md)
 
 
 # What You Can Do with Git and GitHub
@@ -134,7 +134,7 @@ What tasks could Git and/or GitHub offer support to?
 
 Do you remember the glossary terms from this section?
 
-- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/versioncontrol.md)
+- [Version Control](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/version-control.md)
 
 # Review of the Command Line
 
