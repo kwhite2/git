@@ -7,7 +7,6 @@ In this workshop, you will:
 
 - Learn what Git, GitHub and Markdown are, how do they differ, and how they can be integrated to support your scholarly work
 - Learn what version control is and why it can be useful
-- Review basic Command line functions
 - Practice using basic Markdown by creating a syllabus using the online GitHub editing function (including headers, lists, bold, and emphasis)
 - Stage and commit changes using GitHub online interface
 - Cloning an existing repository from GitHub to your local machine so you can work with it (`git clone`)
